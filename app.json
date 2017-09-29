@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/map/index",
+    "pages/map/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#079df2",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
