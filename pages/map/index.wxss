@@ -43,7 +43,7 @@ button{
 }
 .itemName{
   margin: auto 20rpx;
-  font-size: 35rpx;
+  font-size: 32rpx;
 }
 .text{
   margin:auto 15px; 
