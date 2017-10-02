@@ -58,7 +58,7 @@ Page({
     this.setData({ 
       isSelectedBuildType: event.currentTarget.id,
       isSelectedBuild: 0
-    });  
+    });
     
   },
   onLoad: function () {

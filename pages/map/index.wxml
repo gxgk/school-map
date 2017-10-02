@@ -1,14 +1,14 @@
 <!--pages/map/map.wxml-->
 <view style="width: 100%;">
   <scroll-view scroll-x="true">
-    <view class="top-swich" wx:if="{{!fullscreen}}">
+    <view class="top-swich" style="width:{{buildlData.length * 100 < windowWidth ? windowWidth: buildlData.length * 105}}px;" wx:if="{{!fullscreen}}">
       <label wx:for="{{buildlData}}" wx:key="id" id="{{index}}" bindtap="changePage"
       class="top-swich-btn {{isSelectedBuildType == index ? 'active' : ''}}" >
         <text>{{item.name}}</text>
       </label>
     </view>
   </scroll-view>
-  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location controls="{{controls}}" style="width: auto; height:{{fullscreen ? 95 : 50}}vh;">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location controls="{{controls}}" style="width: auto; height:{{fullscreen ? 95 : 49}}vh;">
   </map>
   <button style="font-size: 24rpx; height:5vh;" bindtap="clickButton">
     共有{{buildlData.length}}个景观 ◕‿◕
