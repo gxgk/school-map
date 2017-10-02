@@ -1,10 +1,19 @@
 <!--pages/map/map.wxml-->
 <view style="width: 100%;">
-  <view class="top-swich" wx:if="{{!fullscreen}}">
-    <label class="top-swich-btn">
-      <text style="margin: auto 20rpx">校门</text>
-    </label>
-  </view>
+  <scroll-view scroll-x="true">
+    <view class="top-swich" wx:if="{{!fullscreen}}" bindtap="changePage">  
+      <navigator class="top-swich-btn active" url=""><text>景观</text></navigator>
+      <navigator class="top-swich-btn" url=""><text>图书馆</text></navigator>
+      <navigator class="top-swich-btn" url=""><text>食堂</text></navigator>
+      <navigator class="top-swich-btn" url=""><text>体育馆</text></navigator>
+      <navigator class="top-swich-btn" url=""><text>操场</text></navigator>
+      <navigator class="top-swich-btn" url=""><text>卫生间</text></navigator>
+      <navigator class="top-swich-btn" url=""><text>服务</text></navigator>
+      <navigator class="top-swich-btn" url=""><text>行政楼</text></navigator>
+      <navigator class="top-swich-btn" url=""><text>校门</text></navigator>
+      <navigator class="top-swich-btn" url=""><text>停车场</text></navigator>
+    </view>
+  </scroll-view>
   <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" 
   bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" 
   bindregionchange="regionchange" show-location controls="{{controls}}"

@@ -1,18 +1,30 @@
 /* pages/map/map.wxss */
 .building-item{
-  height: 130rpx;
+  height: 50px;
   border-bottom:1px solid #e0e0e0;
+  padding: 10px;
 }
 .top-swich {
+  width:600px;
   background-color: #079df2;
-  height:5vh;
+  height:6vh;
   color: white;
   display: flex;
-  flex-direction:column;
+  justify-content: space-around;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
 }
 .top-swich-btn{
   background-color: none;
-  height: 50rpx;
+  height: 65rpx;
   color: #fff;
   font-size:30rpx;
+}
+.active{
+  border-bottom: solid white;
+  height: 60rpx;
+  display: inline-block;
 }

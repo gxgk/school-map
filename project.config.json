@@ -9,7 +9,7 @@
 	"compileType": "weapp",
 	"libVersion": "1.5.4",
 	"appid": "wx8afedfde046e5916",
-	"projectname": "dt",
+	"projectname": "map2",
 	"condition": {
 		"weapp": {
 			"current": -1,
