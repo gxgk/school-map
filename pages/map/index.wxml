@@ -1,29 +1,21 @@
 <!--pages/map/map.wxml-->
-<view>
-  <view style="width: 100%; height:{{fullscreen == true ? 100 : 55}}vh;">
-    <map id="map" longitude="{{longitude}}" 
-    latitude="{{latitude}}" scale="14" 
-    bindcontroltap="controltap" markers="{{markers}}"
-    bindmarkertap="markertap" bindregionchange="regionchange" 
-    show-location style="width: auto; height:{{fullscreen == true ? 95 : 90}}%;">
-    </map>
-    <button style="font-size: 24rpx; height:{{fullscreen == true ? 5 : 10}}%; width: 100%; " bindtap="clickButton">
+<view style="width: 100%;">
+  <view style="height:5vh;" wx:if="{{!fullscreen}}"></view>
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: auto; height:{{fullscreen ? 95 : 45}}vh;">
+  </map>
+  <button style="font-size: 24rpx; height:{{fullscreen ? 5 : 10}}%;" bindtap="clickButton">
     共有{{markers.length}}个景观 ◕‿◕
-    </button>
-  </view>
-
-  <scroll-view scroll-y="true" style="height:{{fullscreen == true ? 0 : 45}}vh">
-    <navigator wx:for="{{markers}}" wx:key="id" class="building_item" url='details?bid={{item.id}}'>
-
+  </button>
+  <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 45}}vh">
+    <navigator wx:for="{{markers}}" wx:key="id" class="building-item" url='details?bid={{item.id}}'>
       <view style="height:100%; display:block;">
-          <view style="height:100%; float:left; margin:0 10px 0 10px;">
-            <image style="width:60px; height:80%; margin-top:10%;" src="{{item.img}}" mode="aspectFill"> </image>
-          </view>
-          <view style="float:left; height:100%; line-height: 50px;">
+        <view style="height:100%; float:left; margin:0 10px 0 10px;">
+          <image style="width:60px; height:80%; margin-top:10%;" src="{{item.img}}" mode="aspectFill"> </image>
+        </view>
+        <view style="float:left; height:100%; line-height: 50px;">
           {{item.name}}
-          </view>
+        </view>
       </view>
-
     </navigator>
   </scroll-view>
 </view>

@@ -1,5 +1,5 @@
 /* pages/map/map.wxss */
-.building_item{
+.building-item{
   height: 50px;
   border-bottom:1px solid #e0e0e0;
 }
