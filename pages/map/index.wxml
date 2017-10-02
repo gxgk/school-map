@@ -13,16 +13,16 @@
   <button style="font-size: 24rpx; height:5vh;" bindtap="clickButton">
     共有{{markers.length}}个景观 ◕‿◕
   </button>
-  <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 40}}vh">
+  <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 40}}vh" scroll-top="{{(isSelected -1 ) * 70}}">
     <view wx:for="{{markers}}" wx:key="id" class="building-item">
-      <view style="height:100%; display: flex;">
+      <view style="height:100%; display: flex; {{isSelected == item.id ? 'background-color: #e0e0e0;' : ''}}"><!--background-color: #e0e0e0;-->
         <navigator style='width:80%;display: flex;' url='details?bid={{item.id}}'>
           <image style="width:60px; height:70%; margin: auto 10rpx;" src="{{item.img}}" mode="aspectFill"> </image>
           <view style="margin: auto 20rpx; font-size: 35rpx;">
             {{item.name}}
           </view>
         </navigator>
-        <navigator style="margin:auto 15px; width:13%" url='polyline?latitude={{item.latitude}}&longitude={{item.longitude}}'>
+        <navigator style="margin:auto 15px; width:13% " url='polyline?latitude={{item.latitude}}&longitude={{item.longitude}}'>
           <image style='width:70rpx; height:70rpx;' src="/img/location.svg"> </image>
         </navigator>
       </view>
