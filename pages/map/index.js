@@ -51,19 +51,19 @@ Page({
         iconPath: '/img/search.svg',
         position: {
           left: width - 50,
-          top: height  - 85,
-          width: 30,
-          height: 30
+          top: height  - 90,
+          width: 40,
+          height: 40
         },
         clickable: true
       }, {
         id: 2,
-        iconPath: '/img/location.svg',
+        iconPath: '/img/location1.svg',
         position: {
           left: width - 50,
           top: height - 50,
-          width: 30,
-          height: 30
+          width: 40,
+          height: 40
         },
         clickable: true
       }]
