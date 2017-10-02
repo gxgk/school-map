@@ -7,12 +7,18 @@ Page({
     markers: buildlData,
     windowHeight:"",
     windowWidth:"",
+    isSelected: 0,
     controls: []
   },
   regionchange(e) {
     console.log(e.type)
   },
   markertap(e) {
+    // 选中 其对应的框
+    this.setData({
+      isSelected: e.markerId
+    })
+
     console.log("e.markerId", e.markerId)
   },
   controltap(e) {
@@ -32,8 +38,10 @@ Page({
           })
         }
       　})
+    }else{
+      console.log("e.controlId", e.controlId)
     }
-    console.log("e.controlId", e.controlId)
+    
   },
   clickButton: function (e) {
     console.log(this.data.fullscreen)
