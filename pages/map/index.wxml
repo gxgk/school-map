@@ -5,7 +5,10 @@
       <text style="margin: auto 20rpx">校门</text>
     </label>
   </view>
-  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: auto; height:{{fullscreen ? 95 : 50}}vh;">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" 
+  bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" 
+  bindregionchange="regionchange" show-location controls="{{controls}}"
+  style="width: auto; height:{{fullscreen ? 95 : 50}}vh;">
   </map>
   <button style="font-size: 24rpx; height:5vh;" bindtap="clickButton">
     共有{{markers.length}}个景观 ◕‿◕
