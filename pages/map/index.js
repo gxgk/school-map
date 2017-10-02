@@ -4,10 +4,11 @@ Page({
     fullscreen: false,
     latitude: 22.97,
     longitude: 113.75,
-    markers: buildlData,
+    buildlData: buildlData,
     windowHeight:"",
     windowWidth:"",
-    isSelected: 0,
+    isSelectedBuild: 0,
+    isSelectedBuildType: 0,
     controls: []
   },
   regionchange(e) {
@@ -16,7 +17,7 @@ Page({
   markertap(e) {
     // 选中 其对应的框
     this.setData({
-      isSelected: e.markerId
+      isSelectedBuild: e.markerId
     })
 
     console.log("e.markerId", e.markerId)
@@ -53,7 +54,13 @@ Page({
       this.setControls(this.data.windowWidth, this.data.windowHeight /2)
     }
   },
-
+  changePage: function(event){
+    this.setData({ 
+      isSelectedBuildType: event.currentTarget.id,
+      isSelectedBuild: 0
+    });  
+    
+  },
   onLoad: function () {
     var _this = this;
     wx.getSystemInfo({

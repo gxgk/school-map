@@ -1,30 +1,22 @@
 <!--pages/map/map.wxml-->
 <view style="width: 100%;">
   <scroll-view scroll-x="true">
-    <view class="top-swich" wx:if="{{!fullscreen}}" bindtap="changePage">  
-      <navigator class="top-swich-btn active" url=""><text>景观</text></navigator>
-      <navigator class="top-swich-btn" url=""><text>图书馆</text></navigator>
-      <navigator class="top-swich-btn" url=""><text>食堂</text></navigator>
-      <navigator class="top-swich-btn" url=""><text>体育馆</text></navigator>
-      <navigator class="top-swich-btn" url=""><text>操场</text></navigator>
-      <navigator class="top-swich-btn" url=""><text>卫生间</text></navigator>
-      <navigator class="top-swich-btn" url=""><text>服务</text></navigator>
-      <navigator class="top-swich-btn" url=""><text>行政楼</text></navigator>
-      <navigator class="top-swich-btn" url=""><text>校门</text></navigator>
-      <navigator class="top-swich-btn" url=""><text>停车场</text></navigator>
+    <view class="top-swich" wx:if="{{!fullscreen}}">
+      <label wx:for="{{buildlData}}" wx:key="id" id="{{index}}" bindtap="changePage"
+      class="top-swich-btn {{isSelectedBuildType == index ? 'active' : ''}}" >
+        <text>{{item.name}}</text>
+      </label>
     </view>
   </scroll-view>
-  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" 
-  bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" 
-  bindregionchange="regionchange" show-location controls="{{controls}}"
-  style="width: auto; height:{{fullscreen ? 95 : 50}}vh;">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location controls="{{controls}}" style="width: auto; height:{{fullscreen ? 95 : 50}}vh;">
   </map>
   <button style="font-size: 24rpx; height:5vh;" bindtap="clickButton">
-    共有{{markers.length}}个景观 ◕‿◕
+    共有{{buildlData.length}}个景观 ◕‿◕
   </button>
-  <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 40}}vh" scroll-top="{{(isSelected -1 ) * 70}}">
-    <view wx:for="{{markers}}" wx:key="id" class="building-item">
-      <view style="height:100%; display: flex; {{isSelected == item.id ? 'background-color: #e0e0e0;' : ''}}"><!--background-color: #e0e0e0;-->
+  <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 40}}vh" scroll-top="{{(isSelectedBuild -1 ) * 70}}">
+    <view wx:for="{{buildlData[isSelectedBuildType].data}}" wx:key="id" class="building-item">
+      <view style="height:100%; display: flex; {{isSelectedBuild == item.id ? 'background-color: #e0e0e0;' : ''}}">
+        <!--background-color: #e0e0e0;-->
         <navigator style='width:80%;display: flex;' url='details?bid={{index}}'>
           <image style="width:60px; height:70%; margin: auto 10rpx;" src="{{item.img}}" mode="aspectFill"> </image>
           <view style="margin: auto 20rpx; font-size: 35rpx;">
