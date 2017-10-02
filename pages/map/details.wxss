@@ -1,8 +1,7 @@
 /* pages/map/details.wxss */
 
 .description {
-  margin: 0 40rpx;
-  padding: 40rpx 0;
+  padding: 40rpx 40rpx;
   line-height: 30px;
   font-size: 30rpx;
 }
