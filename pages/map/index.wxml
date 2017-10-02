@@ -14,8 +14,8 @@
     <view wx:for="{{markers}}" wx:key="id" class="building-item">
       <view style="height:100%; display: flex;">
         <navigator style='width:80%;display: flex;' url='details?bid={{item.id}}'>
-          <image style="width:60px; height:80%; margin: auto 10rpx;" src="{{item.img}}" mode="aspectFill"> </image>
-          <view style="margin: auto 15rpx; font-size: 35rpx;">
+          <image style="width:60px; height:70%; margin: auto 10rpx;" src="{{item.img}}" mode="aspectFill"> </image>
+          <view style="margin: auto 20rpx; font-size: 35rpx;">
             {{item.name}}
           </view>
         </navigator>
