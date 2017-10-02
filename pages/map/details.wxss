@@ -5,3 +5,27 @@
   line-height: 30px;
   font-size: 30rpx;
 }
+image{
+	width:100%; 
+	height:40vh
+}
+.building{
+	height:10vh; 
+	display: flex;
+}
+.buildingName{
+	margin:auto 30px;
+	width:80%;
+}
+.nav_map{
+	margin:auto 15px;
+}
+.nav_map image{
+	width:80rpx; 
+	height:80rpx;
+}
+.descript{
+	background:#f8f8f8; 
+	width:100%; 
+	min-height:50vh;
+}

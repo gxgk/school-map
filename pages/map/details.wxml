@@ -1,14 +1,14 @@
 <!--pages/map/details.wxml-->
 <view>
-  <image style="width:100%; height:40vh" src="{{building.img}}"> </image>
-  <view style="height:10vh; display: flex;">
-    <view style="margin:auto 30px;width:80%;">{{building.name}}</view>
-    <navigator style="margin:auto 15px;" url='polyline?latitude={{building.latitude}}&longitude={{building.longitude}}'>
-      <image style='width:80rpx; height:80rpx;' src="/img/location.svg"> </image>
+  <image src="{{building.img}}"> </image>
+  <view class="building">
+    <view class="buildingName">{{building.name}}</view>
+    <navigator class="nav_map" url='polyline?latitude={{building.latitude}}&longitude={{building.longitude}}'>
+      <image src="/img/location.svg"> </image>
     </navigator>
   </view>
 
-  <view style="background:#f8f8f8; width:100%; min-height:50vh;">
+  <view class="descript">
     <view class='description'>
       {{ building.description }}
     </view>

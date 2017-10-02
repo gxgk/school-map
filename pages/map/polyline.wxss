@@ -1,0 +1,13 @@
+.navi_map{
+	width: auto; 
+	height:100vh
+}
+.distance{
+	position:absolute;  
+	bottom: 30px;  
+	right: 10px;  
+	padding: 3px 5px;  
+	color: #fff;  
+	background: #0091ff; 
+	border-radius:5px;
+}

@@ -27,3 +27,28 @@
   height: 60rpx;
   display: inline-block;
 }
+button{
+  font-size: 26rpx;
+  height:6vh;
+}
+.img{
+  width:80%;
+  display: flex;
+}
+.img image{
+  width:60px; 
+  height:70%;
+  margin: auto 10rpx;
+}
+.itemName{
+  margin: auto 20rpx;
+  font-size: 35rpx;
+}
+.text{
+  margin:auto 15px; 
+  width:13%;
+}
+.text image{
+  width:70rpx; 
+  height:70rpx;
+}

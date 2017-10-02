@@ -1,7 +1,7 @@
 <map id="navi_map" longitude="{{longitude}}" latitude="{{latitude}}" 
 scale="12" markers="{{markers}}" polyline="{{polyline}}" 
-style="width: auto; height:100vh"></map>
+class="navi_map"></map>
 
 
 
-<view style="position:absolute;  bottom: 30px;  right: 10px;  padding: 3px 5px;  color: #fff;  background: #0091ff; border-radius:5px;">{{distance}}</view>
+<view class="distance">{{distance}}</view>
