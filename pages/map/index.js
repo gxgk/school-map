@@ -62,6 +62,9 @@ Page({
     
   },
   onLoad: function () {
+    wx.showShareMenu({
+      withShareTicket: true
+    })
     var _this = this;
     wx.getSystemInfo({
       success: function (res) {
@@ -83,7 +86,7 @@ Page({
         iconPath: '/img/search.png',
         position: {
           left: width - 50,
-          top: height  - 95,
+          top: height  - 100,
           width: 40,
           height: 40
         },
@@ -93,7 +96,7 @@ Page({
         iconPath: '/img/location.png',
         position: {
           left: width - 50,
-          top: height - 50,
+          top: height - 55,
           width: 40,
           height: 40
         },
