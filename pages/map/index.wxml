@@ -7,9 +7,9 @@
       </label>
     </view>
   </scroll-view>
-  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location controls="{{controls}}" style="width: auto; height:{{fullscreen ? 95 : 49}}vh;">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location controls="{{controls}}" style="width: auto; height:{{fullscreen ? 95 : 48}}vh;">
   </map>
-  <button style="font-size: 24rpx; height:5vh;" bindtap="clickButton">
+  <button style="font-size: 26rpx; height:6vh;" bindtap="clickButton">
     共有{{buildlData[isSelectedBuildType].data.length}}个景观 ◕‿◕
   </button>
   <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 40}}vh" scroll-top="{{(isSelectedBuild -1 ) * 70}}">

@@ -49,7 +49,7 @@ Page({
     //打印所有关于点击对象的信息
     this.setData({ fullscreen: !this.data.fullscreen })  
     if (this.data.fullscreen){
-      this.setControls(this.data.windowWidth, this.data.windowHeight -35)
+      this.setControls(this.data.windowWidth, this.data.windowHeight -25)
     }else{
       this.setControls(this.data.windowWidth, this.data.windowHeight /2)
     }
@@ -86,7 +86,7 @@ Page({
         iconPath: '/img/search.png',
         position: {
           left: width - 50,
-          top: height  - 100,
+          top: height  - 110,
           width: 40,
           height: 40
         },
@@ -96,7 +96,7 @@ Page({
         iconPath: '/img/location.png',
         position: {
           left: width - 50,
-          top: height - 55,
+          top: height - 65,
           width: 40,
           height: 40
         },
