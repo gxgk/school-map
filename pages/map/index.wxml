@@ -20,7 +20,7 @@
           </view>
         </navigator>
         <navigator style="margin:auto 15px; width:13%" url='polyline?latitude={{item.latitude}}&longitude={{item.longitude}}'>
-          <image style='width:70rpx; height:70rpx;' src="../../img/location.png"> </image>
+          <image style='width:70rpx; height:70rpx;' src="/img/location.svg"> </image>
         </navigator>
       </view>
     </view>
