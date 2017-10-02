@@ -1,12 +1,12 @@
 <!--pages/map/map.wxml-->
 <view style="width: 100%;">
   <view style="height:5vh;" wx:if="{{!fullscreen}}"></view>
-  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: auto; height:{{fullscreen ? 95 : 45}}vh;">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: auto; height:{{fullscreen ? 95 : 50}}vh;">
   </map>
-  <button style="font-size: 24rpx; height:{{fullscreen ? 5 : 10}}%;" bindtap="clickButton">
+  <button style="font-size: 24rpx; height:5vh;" bindtap="clickButton">
     共有{{markers.length}}个景观 ◕‿◕
   </button>
-  <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 45}}vh">
+  <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 40}}vh">
     <navigator wx:for="{{markers}}" wx:key="id" class="building-item" url='details?bid={{item.id}}'>
       <view style="height:100%; display:block;">
         <view style="height:100%; float:left; margin:0 10px 0 10px;">
