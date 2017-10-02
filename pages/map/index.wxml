@@ -1,7 +1,7 @@
 <!--pages/map/map.wxml-->
 <view style="width: 100%;">
   <scroll-view scroll-x="true">
-    <view class="top-swich" style="width:{{buildlData.length * 100 < windowWidth ? windowWidth: buildlData.length * 105}}px;" wx:if="{{!fullscreen}}">
+    <view class="top-swich" style="width:{{buildlData.length * 75 < windowWidth ? windowWidth: buildlData.length * 75}}px;" wx:if="{{!fullscreen}}">
       <label wx:for="{{buildlData}}" wx:key="id" id="{{index}}" bindtap="changePage"
       class="top-swich-btn {{isSelectedBuildType == index ? 'active' : ''}}" >{{item.name}}
       </label>
