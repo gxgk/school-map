@@ -1,7 +1,7 @@
 {
 	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true
@@ -12,7 +12,7 @@
 	"projectname": "dt",
 	"condition": {
 		"weapp": {
-			"current": -1,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
@@ -25,6 +25,12 @@
 					"name": "details",
 					"pathName": "pages/map/details",
 					"query": "bid=1"
+				},
+				{
+					"id": 2,
+					"name": "polyline",
+					"pathName": "pages/map/polyline",
+					"query": "latitude=22.97&longitude=113.75"
 				}
 			]
 		},

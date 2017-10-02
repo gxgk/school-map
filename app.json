@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/map/index",
-    "pages/map/details"
+    "pages/map/details",
+    "pages/map/polyline"
   ],
   "window": {
     "backgroundTextStyle": "light",
