@@ -58,7 +58,7 @@ Page({
     var _this = this;
     wx.getSystemInfo({
       success: function (res) {
-        //设置map高度，根据当前设备宽高满屏显示
+        //获取当前设备宽度与高度，用于定位控键的位置
         _this.setData({
           windowHeight: res.windowHeight,
           windowWidth: res.windowWidth,
@@ -73,17 +73,17 @@ Page({
     this.setData({
       controls: [{
         id: -1,
-        iconPath: '/img/search.svg',
+        iconPath: '/img/search.png',
         position: {
           left: width - 50,
-          top: height  - 90,
+          top: height  - 95,
           width: 40,
           height: 40
         },
         clickable: true
       }, {
         id: -2,
-        iconPath: '/img/location1.svg',
+        iconPath: '/img/location.png',
         position: {
           left: width - 50,
           top: height - 50,
