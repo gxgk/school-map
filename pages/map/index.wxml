@@ -1,7 +1,9 @@
 <!--pages/map/map.wxml-->
 <view style="width: 100%;">
   <view class="top-swich" wx:if="{{!fullscreen}}">
-    <label class="top-swich-btn"><text style="margin: auto 20rpx">校门</text></label>
+    <label class="top-swich-btn">
+      <text style="margin: auto 20rpx">校门</text>
+    </label>
   </view>
   <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: auto; height:{{fullscreen ? 95 : 50}}vh;">
   </map>
@@ -9,15 +11,18 @@
     共有{{markers.length}}个景观 ◕‿◕
   </button>
   <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 40}}vh">
-    <navigator wx:for="{{markers}}" wx:key="id" class="building-item" url='details?bid={{item.id}}'>
-      <view style="height:100%; display:block;">
-        <view style="height:100%; float:left; margin:0 10px 0 10px;">
-          <image style="width:60px; height:80%; margin-top:10%;" src="{{item.img}}" mode="aspectFill"> </image>
-        </view>
-        <view style="float:left; height:100%; line-height: 50px;">
-          {{item.name}}
-        </view>
+    <view wx:for="{{markers}}" wx:key="id" class="building-item">
+      <view style="height:100%; display: flex;">
+        <navigator style='width:80%;display: flex;' url='details?bid={{item.id}}'>
+          <image style="width:60px; height:80%; margin: auto 10rpx;" src="{{item.img}}" mode="aspectFill"> </image>
+          <view style="margin: auto 15rpx; font-size: 35rpx;">
+            {{item.name}}
+          </view>
+        </navigator>
+        <navigator style="margin:auto 15px; width:13%" url='polyline?latitude={{item.latitude}}&longitude={{item.longitude}}'>
+          <image style='width:70rpx; height:70rpx;' src="../../img/location.png"> </image>
+        </navigator>
       </view>
-    </navigator>
+    </view>
   </scroll-view>
 </view>
