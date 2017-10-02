@@ -1,6 +1,8 @@
 <!--pages/map/map.wxml-->
 <view style="width: 100%;">
-  <view class="top-swich" wx:if="{{!fullscreen}}"></view>
+  <view class="top-swich" wx:if="{{!fullscreen}}">
+    <label class="top-swich-btn"><text style="margin: auto 20rpx">校门</text></label>
+  </view>
   <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: auto; height:{{fullscreen ? 95 : 50}}vh;">
   </map>
   <button style="font-size: 24rpx; height:5vh;" bindtap="clickButton">

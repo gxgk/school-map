@@ -6,4 +6,13 @@
 .top-swich {
   background-color: #079df2;
   height:5vh;
+  color: white;
+  display: flex;
+  flex-direction:column;
+}
+.top-swich-btn{
+  background-color: none;
+  height: 50rpx;
+  color: #fff;
+  font-size:30rpx;
 }

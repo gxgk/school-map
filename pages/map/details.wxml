@@ -1,7 +1,7 @@
 <!--pages/map/details.wxml-->
 
 <image style="width:100%; height:250px;" src="{{building.img}}"> </image>
-<view style="height:60px; display: flex; flex-directio:column;">
+<view style="height:60px; display: flex;">
   <view style="margin:auto 30px;width:80%;">{{building.name}}</view>
   <navigator style="margin:auto 15px;" url='polyline?latitude={{building.latitude}}&longitude={{building.longitude}}'>
     <image style='width:50px; height:50px;' src="../../img/location.png"> </image>
