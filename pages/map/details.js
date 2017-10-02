@@ -15,8 +15,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var id = parseInt(options.bid);
-    var data = buildlData[id];
+    var bid = parseInt(options.bid);
+    var tid = parseInt(options.tid);
+    var data = buildlData[tid].data[bid];
     this.setData({ 'building': data });
     wx.setNavigationBarTitle({
       title: data.name
