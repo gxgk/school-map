@@ -27,5 +27,5 @@ image{
 .descript{
 	background:#f8f8f8; 
 	width:100%; 
-	min-height:50vh;
+	min-height:49vh;
 }
