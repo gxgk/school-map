@@ -6,14 +6,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    building: {}
+    building: {
+      img:'/img/loading.svg'//加载中图片地址
+    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var id = parseInt(options.bid) + 1;
+    var id = parseInt(options.bid);
     var data = buildlData[id];
     this.setData({ 'building': data });
     wx.setNavigationBarTitle({

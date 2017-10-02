@@ -16,7 +16,7 @@
   <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 40}}vh">
     <view wx:for="{{markers}}" wx:key="id" class="building-item">
       <view style="height:100%; display: flex;">
-        <navigator style='width:80%;display: flex;' url='details?bid={{item.id}}'>
+        <navigator style='width:80%;display: flex;' url='details?bid={{index}}'>
           <image style="width:60px; height:70%; margin: auto 10rpx;" src="{{item.img}}" mode="aspectFill"> </image>
           <view style="margin: auto 20rpx; font-size: 35rpx;">
             {{item.name}}
