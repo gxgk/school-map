@@ -16,6 +16,23 @@ Page({
     console.log("e.markerId", e.markerId)
   },
   controltap(e) {
+    if (e.controlId == -1){
+      wx.navigateTo({
+        url: 'search'
+      })
+    } else if (e.controlId == -2) {
+      var _this = this
+      wx.getLocation({
+        type: 'wgs84', // 默认为 wgs84 返回 gps 坐标，gcj02 返回可用于 wx.openLocation 的坐标  
+        success: function (res) {
+          console.log(res)
+          _this.setData({
+            longitude: res.longitude,
+            latitude: res.latitude
+          })
+        }
+      　})
+    }
     console.log("e.controlId", e.controlId)
   },
   clickButton: function (e) {
@@ -27,7 +44,6 @@ Page({
     }else{
       this.setControls(this.data.windowWidth, this.data.windowHeight /2)
     }
-    
   },
 
   onLoad: function () {
@@ -44,10 +60,11 @@ Page({
       }
     })
   },
+  // 修改控键位置
   setControls: function (width, height) {
     this.setData({
       controls: [{
-        id: 1,
+        id: -1,
         iconPath: '/img/search.svg',
         position: {
           left: width - 50,
@@ -57,7 +74,7 @@ Page({
         },
         clickable: true
       }, {
-        id: 2,
+        id: -2,
         iconPath: '/img/location1.svg',
         position: {
           left: width - 50,

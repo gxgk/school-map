@@ -10,17 +10,17 @@ Page({
   onLoad: function (options) {
     console.log(options.latitude);
     console.log(options.longitude);
-    var that = this;
+    var _this = this;
     // wx.getLocation({
     //   type: 'gcj02',
     //   success: function (res) {
-    //     that.setData({
+    //     _this.setData({
     //       latitude: 23.05,
     //       longitude: 113.76
     //     });
     //   },
     //   fail: function () {
-    //     that.setData({
+    //     _this.setData({
     //       latitude: 23.05,
     //       longitude: 113.76
     //     });
@@ -31,7 +31,7 @@ Page({
     console.log(this.data.longitude);
     myAmapFun.getDrivingRoute({
       origin: options.longitude + ',' + options.latitude,
-      destination: that.data.longitude+','+that.data.latitude,
+      destination: _this.data.longitude + ',' + _this.data.latitude,
       success: function (data) {
         var points = [];
         if (data.paths && data.paths[0] && data.paths[0].steps) {
@@ -46,13 +46,13 @@ Page({
             }
           }
         }
-        that.setData({
+        _this.setData({
           markers: [{
             latitude: options.latitude,
             longitude: options.longitude
           }, {
-            latitude: that.data.latitude,
-            longitude: that.data.longitude
+            latitude: _this.data.latitude,
+            longitude: _this.data.longitude
           }],
           polyline: [{
             points: points,
@@ -61,7 +61,7 @@ Page({
           }]
         });
         if (data.paths[0] && data.paths[0].distance) {
-          that.setData({
+          _this.setData({
             distance: data.paths[0].distance + '米'
           });
         }
