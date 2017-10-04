@@ -1,4 +1,4 @@
-<view style="background: url('../img/school/tsg.jpg');" class="page">
+<view style="background: url('http://img1.gtimg.com/ninja/1/2017/09/ninja150668100964231.jpg');" class="page">
 	<view class="button_container">
 		<navigator class="button" url=""><text>广科简介</text></navigator>
 		<navigator class="button" url="./map/index"><text>浪浪广科</text></navigator>

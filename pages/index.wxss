@@ -12,8 +12,8 @@
 	margin-top: 20px;
 }
 .button{
-	width:135rpx;
-	height:135rpx;
+	width:145rpx;
+	height:145rpx;
 	margin:20px;
 	background-color: rgba(7,157,242,0.7);
 	border-radius: 80rpx;
