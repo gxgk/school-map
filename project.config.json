@@ -8,11 +8,15 @@
 	},
 	"compileType": "weapp",
 	"libVersion": "1.5.4",
-	"appid": "wx8afedfde046e5916",
-	"projectname": "map",
+	"appid": "wx1e8bfa04dd35a057",
+	"projectname": "校园导览",
 	"condition": {
 		"weapp": {
+<<<<<<< HEAD
 			"current": 3,
+=======
+			"current": 1,
+>>>>>>> e1a33269be1df1a3e24efaaca79d1e284a13bcf4
 			"list": [
 				{
 					"id": -1,

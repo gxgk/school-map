@@ -32,7 +32,7 @@ function loadMap() {
         "iconPath": "/img/ico/jd.png",
         "width": "30",
         "height": "30",
-        "img": ["/img/school/tsg.jpg"],
+        "img": ["/img/school/xhly.jpg"],
         "description": "西湖乐园"
       }, {
         "id": 5,
@@ -91,8 +91,8 @@ function loadMap() {
       }, {
         "id": 4,
         "name": "4号教学楼",
-        "latitude": "22.97291",
-        "longitude": "113.75543",
+        "latitude": "22.972841",
+        "longitude": "113.755145",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -101,8 +101,8 @@ function loadMap() {
       }, {
         "id": 5,
         "name": "5号教学楼",
-        "latitude": "22.97315",
-        "longitude": "113.75646",
+        "latitude": "22.973043",
+        "longitude": "113.755928",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -205,7 +205,7 @@ function loadMap() {
         "width": "30",
         "height": "30",
         "img": ["/img/school/tsg.jpg"],
-        "description": "一饭"
+        "description": "一号饭堂：位于博苑，学校唯一设有2层的饭堂，是从雅苑宿舍到教学楼的必经之路。\n    是校内人流量最多的一个饭堂，饭菜味道大众化，适合多种人的口味，肉类丰富，种类繁多。有4毛钱和6毛钱的米饭窗口，如果打包需要加1块钱的外卖费，蔬菜跟肉类种类都是很多的，口味也大众化，而且也有炖汤提供，价格不一，最靠左边还有鸡扒饭可选择，一饭正门入口外卖摊位那里还有快餐，基本是客家人，也别有一番风味。\n  第二层特色是自助餐，菜跟肉自己挑选，然后称重算钱，15块钱一斤，饭是免费的，可以吃多少打多少，另外还有煮面食的摊位。"
       }, {
         "id": 2,
         "name": "二饭",
@@ -215,7 +215,7 @@ function loadMap() {
         "width": "30",
         "height": "30",
         "img": ["/img/school/tsg.jpg"],
-        "description": "二饭"
+        "description": "二号饭堂：位于南苑4号宿舍的一楼，接近图书馆，环境明亮，早餐有肠粉，菜色丰富，口感鲜美，特色是现煮粥，材料可自己选择。"
       }, {
         "id": 3,
         "name": "三饭",
@@ -225,7 +225,7 @@ function loadMap() {
         "width": "30",
         "height": "30",
         "img": ["/img/school/tsg.jpg"],
-        "description": "三饭"
+        "description": "三号饭堂：三饭与二饭相邻，在南苑1.2号宿舍的一楼，有自助餐和汤粉蒸粉肠粉，三饭的特色是煲仔饭，材料可自己选择（田鸡、鸡肉等）菜色丰富，不过早餐是4个饭堂中种类最多的，味道也都挺不错的。"
       }, {
         "id": 4,
         "name": "四饭",
@@ -235,7 +235,7 @@ function loadMap() {
         "width": "30",
         "height": "30",
         "img": ["/img/school/tsg.jpg"],
-        "description": "四饭"
+        "description": "四号饭堂：在雅苑宿舍区，临近宿舍，方便学生就餐。目前已经改造升级完毕，环境优美，且菜式种类繁多，经过改造升级以后，目前是学校里面环境较好的饭堂。"
       }]
     }, {
       "scale": 16,
@@ -299,7 +299,27 @@ function loadMap() {
         "width": "30",
         "height": "30",
         "img": ["/img/school/tsg.jpg"],
-        "description": "博苑1栋"
+        "description": "博苑2栋"
+      }, {
+        "id": 6,
+        "name": "博苑3栋",
+        "latitude": "22.974278",
+        "longitude": "113.757591",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "博苑3栋"
+      }, {
+        "id": 7,
+        "name": "博苑4栋",
+        "latitude": "22.973567",
+        "longitude": "113.757570",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "博苑4栋"
       }]
     }, {
       "scale": 13,
