@@ -29,7 +29,7 @@ Page({
 
     var myAmapFun = new amapFile.AMapWX({ key: '2b9a90d2d9ac9ab1902ec83603b144a4' });
     console.log(this.data.longitude);
-    myAmapFun.getDrivingRoute({
+    myAmapFun.getWalkingRoute({
       origin: options.longitude + ',' + options.latitude,
       destination: _this.data.longitude + ',' + _this.data.latitude,
       success: function (data) {

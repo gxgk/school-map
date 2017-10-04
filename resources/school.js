@@ -3,6 +3,7 @@ function loadMap() {
   var buildlData = [
     {
       "name": "景点",
+      "scale":15,
       "data": [{
         "id": 2,
         "name": "图书馆",
@@ -36,6 +37,7 @@ function loadMap() {
       }]
     }, {
       "name": "教学楼",
+      "scale": 15,
       "data": [{
         "id": 1,
         "name": "1号教学楼",
@@ -133,6 +135,7 @@ function loadMap() {
       }]
     }, {
       "name": "食堂",
+      "scale": 14,
       "data": [{
         "id": 1,
         "name": "一饭",
@@ -163,6 +166,7 @@ function loadMap() {
         "description": "四饭"
       }]
     }, {
+      "scale": 13,
       "name": "到处浪",
       "data": [{
         "id": 1,
