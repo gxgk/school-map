@@ -17,7 +17,7 @@ Page({
   onLoad: function (options) {
     var bid = parseInt(options.bid);
     var tid = parseInt(options.tid);
-    var data = buildlData[tid].data[bid];
+    var data = buildlData.loadMap()[tid].data[bid];
     this.setData({ 'building': data });
     wx.setNavigationBarTitle({
       title: data.name

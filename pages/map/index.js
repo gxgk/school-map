@@ -4,7 +4,7 @@ Page({
     fullscreen: false,
     latitude: 22.971770,
     longitude: 113.754530,
-    buildlData: buildlData,
+    buildlData: buildlData.loadMap(),
     windowHeight:"",
     windowWidth:"",
     isSelectedBuild: 0,
@@ -77,6 +77,11 @@ Page({
         console.log(res.windowWidth)
       }
     })
+    buildlData.updateMap(function (data) {
+      _this.setData({
+        buildlData: data
+      })
+    });
   },
   // 修改控键位置
   setControls: function (width, height) {

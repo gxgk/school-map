@@ -33,13 +33,13 @@ button{
   height:6vh;
 }
 .img{
-  width:80%;
+  width:85%;
   display: flex;
 }
 .img image{
   width:60px; 
-  height:85%;
-  margin: auto 10rpx;
+  height:90%;
+  margin: auto 7rpx;
 }
 .itemName{
   margin: auto 20rpx;
