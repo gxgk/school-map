@@ -2,9 +2,9 @@ let buildlData = require('../../resources/school')
 Page({
   data: {
     fullscreen: false,
-    latitude: 22.971770,
-    longitude: 113.754530,
-    buildlData: "",
+    latitude: 22.97177,
+    longitude: 113.75453,
+    buildlData: buildlData.loadMap(),
     windowHeight:"",
     windowWidth:"",
     isSelectedBuild: 0,
@@ -27,7 +27,7 @@ Page({
         console.log(res.windowWidth)
       }
     })
-    //载入数据
+    //载入更新后的数据
     this.setData({
       buildlData: buildlData.loadMap()
     })

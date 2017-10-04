@@ -406,8 +406,8 @@ function loadIntroduce() {
   var data = {
     "id": 6,
     "name": "广东科技学院",
-    "latitude": "22.971770",
-    "longitude": "113.754530",
+    "latitude": "22.97177",
+    "longitude": "113.75453",
     "iconPath": "/img/ico/dcl.png",
     "width": "30",
     "height": "30",
