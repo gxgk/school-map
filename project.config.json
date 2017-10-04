@@ -12,12 +12,12 @@
 	"projectname": "校园导览",
 	"condition": {
 		"weapp": {
-			"current": -1,
+			"current": 2,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "map",
-					"pathName": "pages/map/map",
+					"pathName": "pages/map/index",
 					"query": ""
 				},
 				{
