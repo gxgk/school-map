@@ -5,6 +5,16 @@ function loadMap() {
       "name": "景点",
       "scale": 15,
       "data": [{
+        "id": 1,
+        "name": "东莞植物园",
+        "latitude": "22.96642",
+        "longitude": "113.74962",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "东莞植物园"
+      },{
         "id": 2,
         "name": "图书馆",
         "latitude": "22.97128",
@@ -44,16 +54,6 @@ function loadMap() {
         "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "雅园综合市场"
-      }, {
-        "id": 6,
-        "name": "东莞植物园",
-        "latitude": "22.96642",
-        "longitude": "113.74962",
-        "iconPath": "/img/ico/jd.png",
-        "width": "30",
-        "height": "30",
-        "img": ["/img/school/tsg.jpg"],
-        "description": "东莞植物园"
       }]
     }, {
       "name": "教学楼",
@@ -322,13 +322,13 @@ function loadMap() {
         "description": "博苑4栋"
       }]
     }, {
-      "scale": 13,
+      "scale": 12,
       "name": "到处浪",
       "data": [{
         "id": 1,
         "name": "汇一城",
         "latitude": "22.97",
-        "longitude": "113.6",
+        "longitude": "113.7",
         "iconPath": "/img/ico/dcl.png",
         "width": "30",
         "height": "30",
@@ -357,28 +357,8 @@ function loadMap() {
       }, {
         "id": 4,
         "name": "咸阳师范学院",
-        "latitude": "22.97122",
+        "latitude": "22.92122",
         "longitude": "113.75122",
-        "iconPath": "/img/ico/dcl.png",
-        "width": "30",
-        "height": "30",
-        "img": ["/img/school/tsg.jpg"],
-        "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
-      }, {
-        "id": 5,
-        "name": "咸阳师范学院",
-        "latitude": "23.07122",
-        "longitude": "113.75122",
-        "iconPath": "/img/ico/dcl.png",
-        "width": "30",
-        "height": "30",
-        "img": ["/img/school/tsg.jpg"],
-        "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
-      }, {
-        "id": 6,
-        "name": "咸阳师范学院",
-        "latitude": "22.97122",
-        "longitude": "114.05122",
         "iconPath": "/img/ico/dcl.png",
         "width": "30",
         "height": "30",
