@@ -19,7 +19,11 @@ Page({
   onLoad: function (options) {
     var bid = parseInt(options.bid);
     var tid = parseInt(options.tid);
-    var data = buildlData.loadMap()[tid].data[bid];
+    if (!bid || ! tid){
+      var data = buildlData.loadIntroduce();
+    } else {
+      var data = buildlData.loadMap()[tid].data[bid];
+    }
     this.setData({
       bid: bid,
       tid: tid,
