@@ -411,14 +411,14 @@ function loadIntroduce() {
 }
 function updateMap(cb) {
   wx.request({
-    url: 'http://qn.gxgk.cc/school.js?@22', //仅为示例，并非真实的资源
+    url: 'http://qn.gxgk.cc/school.js?@21111', //仅为示例，并非真实的资源
     data: {
     },
     header: {
       'content-type': 'application/json' // 默认值
     },
     success: function (res) {
-      if (typeof res.data.map == 'Array'){
+      if (res.data.map && res.data.map.length > 0){
         wx.setStorage({
           key: "map",
           data: res.data.map

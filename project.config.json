@@ -12,7 +12,11 @@
 	"projectname": "校园导览",
 	"condition": {
 		"weapp": {
+<<<<<<< HEAD
 			"current": 3,
+=======
+			"current": -1,
+>>>>>>> fe2d5f3bd279fab8c6cdf82914faa1f9f6d27cbd
 			"list": [
 				{
 					"id": 0,
