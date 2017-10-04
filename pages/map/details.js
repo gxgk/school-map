@@ -1,5 +1,4 @@
 // pages/map/details.js
-let buildlData = require('../../resources/school')
 Page({
 
   /**
@@ -17,6 +16,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    let buildlData = require('../../resources/school')
     var bid = parseInt(options.bid);
     var tid = parseInt(options.tid);
     if (!options.bid || !options.tid){

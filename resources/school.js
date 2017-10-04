@@ -417,7 +417,7 @@ function loadIntroduce() {
   //本地调试
   return data;
   try {
-    var value = wx.getStorageSync('Introduce')
+    var value = wx.getStorageSync('introduce')
     if (value) {
       //校验格式用
       value.name;
