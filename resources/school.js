@@ -29,6 +29,8 @@ function loadMap() {
         "name": "东莞植物园",
         "latitude": "22.96642",
         "longitude": "113.74962",
+        "iconPath": "/img/ico/jd.png",
+        "width": "5rpx",
         "img": ["/img/school/tsg.jpg"],
         "description": "东莞植物园"
       }]
@@ -161,24 +163,24 @@ function loadMap() {
         "description": "四饭"
       }]
     }, {
-      "name": "篮球场",
+      "name": "到处浪",
       "data": [{
         "id": 1,
-        "name": "北京大学",
+        "name": "汇一城",
         "latitude": "22.97",
         "longitude": "113.75",
         "img": ["/img/school/tsg.jpg"],
         "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
       }, {
         "id": 2,
-        "name": "西安科技大学",
+        "name": "新光明市场",
         "latitude": "22.972",
         "longitude": "113.753",
         "img": ["/img/school/tsg.jpg"],
         "description": "西安科技大学"
       }, {
         "id": 3,
-        "name": "西北农林科技大学",
+        "name": "厚街万达",
         "latitude": "22.9761",
         "longitude": "113.7491",
         "img": ["/img/school/tsg.jpg"],
@@ -207,6 +209,8 @@ function loadMap() {
       }]
     }
   ]
+  //调试
+  return buildlData;
   try {
     var value = wx.getStorageSync('map')
     if (value) {
