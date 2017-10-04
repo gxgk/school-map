@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/index",
     "pages/map/index",
     "pages/map/details",
     "pages/map/polyline",

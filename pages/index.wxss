@@ -1,0 +1,28 @@
+.page{
+	widows: 100%;
+	height: 100vh;
+	background-size: auto;
+	display: flex;
+}
+.button_container{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column; 
+	margin-top: 20px;
+}
+.button{
+	width:135rpx;
+	height:135rpx;
+	margin:20px;
+	background-color: rgba(7,157,242,0.7);
+	border-radius: 80rpx;
+	display: flex;
+	justify-content: center;
+}
+text{
+	width:80%;
+	align-self: center;
+	text-align: center;
+	color:white;
+}

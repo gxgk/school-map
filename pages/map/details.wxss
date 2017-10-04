@@ -18,6 +18,8 @@
 .buildingName{
 	margin:auto 30px;
 	width:80%;
+	color: #079df2;
+	font-size: 50rpx;
 }
 .nav_map{
 	margin:auto 15px;
