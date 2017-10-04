@@ -8,7 +8,7 @@ function loadMap() {
         "name": "图书馆",
         "latitude": "22.97128",
         "longitude": "113.75467",
-        "img": ["/img/school/tsg.jpg"],
+        "img": ["/img/school/tsg2.jpg", "/img/school/tsg.jpg"],
         "description": "广东科技学院图书馆"
       }, {
         "id": 3,
@@ -209,7 +209,7 @@ function loadMap() {
       }]
     }
   ]
-  //调试
+  //本地调试
   return buildlData;
   try {
     var value = wx.getStorageSync('map')
@@ -237,7 +237,8 @@ function updateMap(cb) {
         key: "map",
         data: res.data
       })
-      typeof cb == "function" && cb(res.data);
+      //本地调试
+      //typeof cb == "function" && cb(res.data);
     }
   })
 }
