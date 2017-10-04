@@ -281,7 +281,7 @@ function loadMap() {
         "img": ["/img/school/tsg.jpg"],
         "description": "南苑4栋"
       }, {
-        "id": 4,
+        "id": 5,
         "name": "博苑1栋",
         "latitude": "22.974001",
         "longitude": "113.757033",
@@ -291,7 +291,7 @@ function loadMap() {
         "img": ["/img/school/tsg.jpg"],
         "description": "博苑1栋"
       }, {
-        "id": 5,
+        "id": 6,
         "name": "博苑2栋",
         "latitude": "22.974683",
         "longitude": "113.757607",
@@ -308,7 +308,7 @@ function loadMap() {
         "id": 1,
         "name": "汇一城",
         "latitude": "22.97",
-        "longitude": "113.75",
+        "longitude": "113.6",
         "iconPath": "/img/ico/dcl.png",
         "width": "30",
         "height": "30",
@@ -328,7 +328,7 @@ function loadMap() {
         "id": 3,
         "name": "厚街万达",
         "latitude": "22.9761",
-        "longitude": "113.7491",
+        "longitude": "113.8",
         "iconPath": "/img/ico/dcl.png",
         "width": "30",
         "height": "30",

@@ -1,0 +1,16 @@
+@import 'index.wxss'
+
+.search {
+  width: 96%;
+  height: 80rpx;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  margin: 20rpx 2%;
+  display: flex;
+}
+.search-icon{
+  margin:auto 20rpx;
+}
+.search-form{
+  margin:auto 15rpx; width: 100%;
+}

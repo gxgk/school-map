@@ -1,0 +1,34 @@
+<!--index.wxml-->
+
+<view class="search">
+    <view class="search-icon">
+      <icon type="search" size="16" color="red"/>
+    </view>
+    <view class="search-form">
+      <form>
+        <input  bindinput="bindSearchInput" type="text"
+        name="search" placeholder="请输入景点名称关键词"  
+        style="font-size: 30rpx;"/>
+      </form>
+    </view>
+    <view class="search-icon">
+      <icon type="cancel" size="16" color="purple"/>
+    </view>
+</view>
+
+<view wx:for="{{buildlData}}" wx:key="id"  wx:for-index="isSelectedBuildType">
+  <view wx:for="{{item.data}}" wx:key="id" class="building-item">
+      <view style="height:100%; display: flex;">
+        <navigator class="img" url='details?tid={{isSelectedBuildType}}&bid={{index}}'>
+          <image src="{{item.img[0]}}" mode="aspectFill"> </image>
+          <view class="itemName">
+            {{item.name}}
+          </view>
+        </navigator>
+        <navigator class="text" url='polyline?latitude={{item.latitude}}&longitude={{item.longitude}}'>
+          <image src="/img/location.svg"> </image>
+        </navigator>
+      </view>
+  </view>
+</view>
+
