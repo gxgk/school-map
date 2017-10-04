@@ -9,7 +9,7 @@ Page({
     tid: 0,
     bid: 0,
     building: {
-      img: '/img/loading.svg'//加载中图片地址
+      img: ['/img/loading.svg']//加载中图片地址
     }
   },
 
@@ -83,6 +83,7 @@ Page({
     return {
       title: this.data.building.name + ' - 广东科技学院校园导览',
       path: "/pages/map/details?tid=" + this.data.tid + "&bid=" + this.data.bid,
+      imageUrl: this.data.building.img[0],
       success: function (res) {
         // 转发成功
       },

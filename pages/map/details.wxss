@@ -5,9 +5,11 @@
   line-height: 30px;
   font-size: 30rpx;
 }
-image{
-	width:100%; 
+.swiper{
 	height:40vh
+}
+.swiper-image{
+	width:100%;
 }
 .building{
 	height:10vh; 

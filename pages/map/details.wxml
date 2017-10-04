@@ -1,6 +1,12 @@
 <!--pages/map/details.wxml-->
 <view>
-  <image src="{{building.img}}"> </image>
+  <swiper class="swiper" indicator-dots="{{building.img.lenght == 1 ? true : false}}" indicator-active-color="#fff" autoplay="1" interval="5000" duration="500">
+    <block wx:for="{{building.img}}" wx:key="*this">
+      <swiper-item>
+        <image class="swiper-image" src="{{item}}"> </image>
+      </swiper-item>
+    </block>
+  </swiper>
   <view class="building">
     <view class="buildingName">{{building.name}}</view>
     <navigator class="nav_map" url='polyline?latitude={{building.latitude}}&longitude={{building.longitude}}'>

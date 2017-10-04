@@ -24,7 +24,7 @@
 					"id": 1,
 					"name": "details",
 					"pathName": "pages/map/details",
-					"query": "bid=1"
+					"query": "tid=0&bid=1"
 				},
 				{
 					"id": 2,
