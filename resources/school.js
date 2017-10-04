@@ -438,14 +438,17 @@ function updateMap(cb) {
       'content-type': 'application/json' // 默认值
     },
     success: function (res) {
-      wx.setStorage({
-        key: "map",
-        data: res.data.map
-      })
-      wx.setStorage({
-        key: "Introduce",
-        data: res.data.introduce
-      })
+      if (typeof res.data.map == 'Array'){
+        wx.setStorage({
+          key: "map",
+          data: res.data.map
+        })
+        wx.setStorage({
+          key: "Introduce",
+          data: res.data.introduce
+        })
+        typeof cb == "function" && cb(res.data);
+      }
     }
   })
 }

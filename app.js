@@ -1,4 +1,5 @@
 //app.js
+let buildlData = require('/resources/school')
 App({
   onLaunch: function () {
     // 登录
@@ -27,8 +28,15 @@ App({
         }
       }
     })
+    var _this = this;
+    buildlData.updateMap(function (data){
+      _this.globalData.map = data.map;
+      _this.globalData.introduce = data.introduce;
+    })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    map: buildlData.loadMap(),
+    introduce: buildlData.loadIntroduce()
   }
 })

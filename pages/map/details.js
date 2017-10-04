@@ -1,6 +1,7 @@
 // pages/map/details.js
+//获取应用实例
+var app = getApp();
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -16,13 +17,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    let buildlData = require('../../resources/school')
     var bid = parseInt(options.bid);
     var tid = parseInt(options.tid);
     if (!options.bid || !options.tid){
-      var data = buildlData.loadIntroduce();
+      var data = app.globalData.introduce;
     } else {
-      var data = buildlData.loadMap()[tid].data[bid];
+      var data = app.globalData.map[tid].data[bid];
     }
     this.setData({
       bid: bid,

@@ -1,10 +1,11 @@
-let buildlData = require('../../resources/school')
+//获取应用实例
+var app = getApp();
 Page({
   data: {
     fullscreen: false,
     latitude: 22.97177,
     longitude: 113.75453,
-    buildlData: buildlData.loadMap(),
+    buildlData: app.globalData.map,
     windowHeight:"",
     windowWidth:"",
     isSelectedBuild: 0,
@@ -29,7 +30,7 @@ Page({
     })
     //载入更新后的数据
     this.setData({
-      buildlData: buildlData.loadMap()
+      buildlData: app.globalData.map
     })
   },
   onShareAppMessage: function (res) {

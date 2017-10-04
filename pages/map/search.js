@@ -1,18 +1,18 @@
 // pages/map/search.js
-let buildlData = require('../../resources/school')
+//获取应用实例
+var app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    buildlData: {}
   },
 
   bindSearchInput: function (e) {
     let inputData = e.detail.value.replace(/(^\s*)|(\s*$)/g, "")
     if (inputData){
-      let searchdata = buildlData.loadMap()
+      let searchdata = app.globalData.map
       for (var b in searchdata) {
         for (var i in searchdata[b].data) {
           searchdata[b].data[i].show = searchdata[b].data[i].name.indexOf(inputData) + searchdata[b].name.indexOf(inputData) + 1
@@ -25,9 +25,6 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      buildlData: buildlData.loadMap()
-    });
   },
 
   /**
