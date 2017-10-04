@@ -3,7 +3,7 @@ function loadMap() {
   var buildlData = [
     {
       "name": "景点",
-      "scale": 16,
+      "scale": 15,
       "data": [{
         "id": 2,
         "name": "图书馆",
@@ -57,7 +57,7 @@ function loadMap() {
       }]
     }, {
       "name": "教学楼",
-      "scale": 16,
+      "scale": 15,
       "data": [{
         "id": 1,
         "name": "1号教学楼",
@@ -151,7 +151,7 @@ function loadMap() {
       }]
     }, {
       "name": "校门",
-      "scale": 16,
+      "scale": 15,
       "data": [{
         "id": 1,
         "name": "北门",
@@ -195,7 +195,7 @@ function loadMap() {
       }]
     }, {
       "name": "食堂",
-      "scale": 16,
+      "scale": 15,
       "data": [{
         "id": 1,
         "name": "一饭",
@@ -238,7 +238,7 @@ function loadMap() {
         "description": "四号饭堂：在雅苑宿舍区，临近宿舍，方便学生就餐。目前已经改造升级完毕，环境优美，且菜式种类繁多，经过改造升级以后，目前是学校里面环境较好的饭堂。"
       }]
     }, {
-      "scale": 16,
+      "scale": 15,
       "name": "宿舍",
       "data": [{
         "id": 1,
