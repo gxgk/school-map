@@ -2,8 +2,8 @@ let buildlData = require('../../resources/school')
 Page({
   data: {
     fullscreen: false,
-    latitude: 22.97,
-    longitude: 113.75,
+    latitude: 22.971770,
+    longitude: 113.754530,
     buildlData: buildlData,
     windowHeight:"",
     windowWidth:"",
