@@ -27,11 +27,6 @@ Page({
         console.log(res.windowWidth)
       }
     })
-    buildlData.updateMap(function (data) {
-      _this.setData({
-        buildlData: data
-      })
-    });
   },
   onShareAppMessage: function (res) {
     if (res.from === 'button') {

@@ -446,12 +446,10 @@ function updateMap(cb) {
         key: "Introduce",
         data: res.data.introduce
       })
-      //本地调试
-      //typeof cb == "function" && cb(res.data);
     }
   })
 }
 
 module.exports.loadIntroduce = loadIntroduce
-module.exports.loadMap = updateMap
+module.exports.loadMap = loadMap
 module.exports.updateMap = updateMap
