@@ -57,12 +57,15 @@ function loadMap() {
       }]
     }, {
       "name": "教学楼",
-      "scale": 15,
+      "scale": 16,
       "data": [{
         "id": 1,
         "name": "1号教学楼",
         "latitude": "22.97338",
         "longitude": "113.7554",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "1号教学楼"
       }, {
@@ -70,6 +73,9 @@ function loadMap() {
         "name": "2号教学楼",
         "latitude": "22.97331",
         "longitude": "113.75464",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "2号教学楼"
       }, {
@@ -77,6 +83,9 @@ function loadMap() {
         "name": "3号教学楼",
         "latitude": "22.97379",
         "longitude": "113.75627",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "3号教学楼"
       }, {
@@ -84,6 +93,9 @@ function loadMap() {
         "name": "4号教学楼",
         "latitude": "22.97291",
         "longitude": "113.75543",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "4号教学楼"
       }, {
@@ -91,6 +103,9 @@ function loadMap() {
         "name": "5号教学楼",
         "latitude": "22.97315",
         "longitude": "113.75646",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "5号教学楼"
       }, {
@@ -98,6 +113,9 @@ function loadMap() {
         "name": "6号教学楼",
         "latitude": "22.97253",
         "longitude": "113.75524",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "6号教学楼"
       }, {
@@ -105,6 +123,9 @@ function loadMap() {
         "name": "7号教学楼",
         "latitude": "22.97265",
         "longitude": "113.7558",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "7号教学楼"
       }, {
@@ -112,6 +133,9 @@ function loadMap() {
         "name": "8号教学楼",
         "latitude": "22.96993",
         "longitude": "113.75418",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "8号教学楼"
       }, {
@@ -119,11 +143,15 @@ function loadMap() {
         "name": "9号教学楼",
         "latitude": "22.96945",
         "longitude": "113.75461",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "9号教学楼"
       }]
     }, {
       "name": "校门",
+      "scale": 16,
       "data": [{
         "id": 1,
         "name": "北门",
@@ -215,8 +243,8 @@ function loadMap() {
       "data": [{
         "id": 1,
         "name": "南苑1栋",
-        "latitude": "22.97",
-        "longitude": "113.75",
+        "latitude": "22.970203",
+        "longitude": "113.754367",
         "iconPath": "/img/ico/boy_ss.png",
         "width": "30",
         "height": "30",
@@ -225,8 +253,8 @@ function loadMap() {
       }, {
         "id": 2,
         "name": "南苑2栋",
-        "latitude": "22.972",
-        "longitude": "113.753",
+        "latitude": "22.970356",
+        "longitude": "113.753884",
         "iconPath": "/img/ico/boy_ss.png",
         "width": "30",
         "height": "30",
@@ -235,8 +263,8 @@ function loadMap() {
       }, {
         "id": 3,
         "name": "南苑3栋",
-        "latitude": "22.9761",
-        "longitude": "113.7491",
+        "latitude": "22.971003",
+        "longitude": "113.754002",
         "iconPath": "/img/ico/boy_ss.png",
         "width": "30",
         "height": "30",
@@ -245,8 +273,8 @@ function loadMap() {
       }, {
         "id": 4,
         "name": "南苑4栋",
-        "latitude": "22.97122",
-        "longitude": "113.75122",
+        "latitude": "22.970885",
+        "longitude": "113.754544",
         "iconPath": "/img/ico/boy_ss.png",
         "width": "30",
         "height": "30",
@@ -255,9 +283,19 @@ function loadMap() {
       }, {
         "id": 4,
         "name": "博苑1栋",
-        "latitude": "22.97122",
-        "longitude": "113.75122",
+        "latitude": "22.974001",
+        "longitude": "113.757033",
         "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "博苑1栋"
+      }, {
+        "id": 5,
+        "name": "博苑2栋",
+        "latitude": "22.974683",
+        "longitude": "113.757607",
+        "iconPath": "/img/ico/boy_ss.png",
         "width": "30",
         "height": "30",
         "img": ["/img/school/tsg.jpg"],
