@@ -15,7 +15,7 @@ Page({
       let searchdata = buildlData.loadMap()
       for (var b in searchdata) {
         for (var i in searchdata[b].data) {
-          searchdata[b].data[i].show = searchdata[b].data[i].name.indexOf(inputData)
+          searchdata[b].data[i].show = searchdata[b].data[i].name.indexOf(inputData) + searchdata[b].name.indexOf(inputData) + 1
         }
       }
       this.setData({buildlData: searchdata});
