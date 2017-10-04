@@ -3,7 +3,7 @@ function loadMap() {
   var buildlData = [
     {
       "name": "景点",
-      "scale":15,
+      "scale":16,
       "data": [{
         "id": 2,
         "name": "图书馆",
@@ -34,6 +34,16 @@ function loadMap() {
         "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "西湖乐园"
+      }, {
+        "id": 5,
+        "name": "雅园综合市场",
+        "latitude": "22.972680",
+        "longitude": "113.758130",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "雅园综合市场"
       }, {
         "id": 6,
         "name": "东莞植物园",
@@ -119,6 +129,9 @@ function loadMap() {
         "name": "北门",
         "latitude": "22.97427",
         "longitude": "113.75511",
+        "iconPath": "/img/ico/xm.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "北门"
       }, {
@@ -126,6 +139,9 @@ function loadMap() {
         "name": "东门",
         "latitude": "22.9732",
         "longitude": "113.75779",
+        "iconPath": "/img/ico/xm.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "东门"
       }, {
@@ -133,6 +149,9 @@ function loadMap() {
         "name": "南门",
         "latitude": "22.96919",
         "longitude": "113.75486",
+        "iconPath": "/img/ico/xm.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "南门"
       }, {
@@ -140,17 +159,23 @@ function loadMap() {
         "name": "雅苑门",
         "latitude": "22.97718",
         "longitude": "113.75838",
+        "iconPath": "/img/ico/xm.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "雅苑门"
       }]
     }, {
       "name": "食堂",
-      "scale": 14,
+      "scale": 16,
       "data": [{
         "id": 1,
         "name": "一饭",
         "latitude": "22.974238",
         "longitude": "113.756990",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "一饭"
       }, {
@@ -158,6 +183,9 @@ function loadMap() {
         "name": "二饭",
         "latitude": "22.970702",
         "longitude": "113.754673",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "二饭"
       }, {
@@ -165,6 +193,9 @@ function loadMap() {
         "name": "三饭",
         "latitude": "22.970260",
         "longitude": "113.754510",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "三饭"
       }, {
@@ -172,8 +203,65 @@ function loadMap() {
         "name": "四饭",
         "latitude": "22.976881",
         "longitude": "113.756191",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "四饭"
+      }]
+    }, {
+      "scale": 16,
+      "name": "宿舍",
+      "data": [{
+        "id": 1,
+        "name": "南苑1栋",
+        "latitude": "22.97",
+        "longitude": "113.75",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "南苑1栋"
+      }, {
+        "id": 2,
+        "name": "南苑2栋",
+        "latitude": "22.972",
+        "longitude": "113.753",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "南苑2栋"
+      }, {
+        "id": 3,
+        "name": "南苑3栋",
+        "latitude": "22.9761",
+        "longitude": "113.7491",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "南苑3栋"
+      }, {
+        "id": 4,
+        "name": "南苑4栋",
+        "latitude": "22.97122",
+        "longitude": "113.75122",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "南苑4栋"
+      }, {
+        "id": 4,
+        "name": "博苑1栋",
+        "latitude": "22.97122",
+        "longitude": "113.75122",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tsg.jpg"],
+        "description": "博苑1栋"
       }]
     }, {
       "scale": 13,
@@ -183,6 +271,9 @@ function loadMap() {
         "name": "汇一城",
         "latitude": "22.97",
         "longitude": "113.75",
+        "iconPath": "/img/ico/dcl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
       }, {
@@ -190,6 +281,9 @@ function loadMap() {
         "name": "新光明市场",
         "latitude": "22.972",
         "longitude": "113.753",
+        "iconPath": "/img/ico/dcl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "西安科技大学"
       }, {
@@ -197,6 +291,9 @@ function loadMap() {
         "name": "厚街万达",
         "latitude": "22.9761",
         "longitude": "113.7491",
+        "iconPath": "/img/ico/dcl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
       }, {
@@ -204,6 +301,9 @@ function loadMap() {
         "name": "咸阳师范学院",
         "latitude": "22.97122",
         "longitude": "113.75122",
+        "iconPath": "/img/ico/dcl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
       }, {
@@ -211,6 +311,9 @@ function loadMap() {
         "name": "咸阳师范学院",
         "latitude": "23.07122",
         "longitude": "113.75122",
+        "iconPath": "/img/ico/dcl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
       }, {
@@ -218,6 +321,9 @@ function loadMap() {
         "name": "咸阳师范学院",
         "latitude": "22.97122",
         "longitude": "114.05122",
+        "iconPath": "/img/ico/dcl.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
       }]
