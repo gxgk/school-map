@@ -6,8 +6,10 @@ Page({
    * 页面的初始数据
    */
   data: {
+    tid: 0,
+    bid: 0,
     building: {
-      img:'/img/loading.svg'//加载中图片地址
+      img: '/img/loading.svg'//加载中图片地址
     }
   },
 
@@ -18,7 +20,11 @@ Page({
     var bid = parseInt(options.bid);
     var tid = parseInt(options.tid);
     var data = buildlData.loadMap()[tid].data[bid];
-    this.setData({ 'building': data });
+    this.setData({
+      bid: bid,
+      tid: tid,
+      building: data
+    });
     wx.setNavigationBarTitle({
       title: data.name
     })
@@ -69,7 +75,20 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-
-  }
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: this.data.building.name + ' - 广东科技学院校园导览',
+      path: "/pages/map/details?tid=" + this.data.tid + "&bid=" + this.data.bid,
+      success: function (res) {
+        // 转发成功
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
+  },
 })

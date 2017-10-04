@@ -11,6 +11,44 @@ Page({
     isSelectedBuildType: 0,
     controls: []
   },
+  onLoad: function () {
+    wx.showShareMenu({
+      withShareTicket: true
+    })
+    var _this = this;
+    wx.getSystemInfo({
+      success: function (res) {
+        //获取当前设备宽度与高度，用于定位控键的位置
+        _this.setData({
+          windowHeight: res.windowHeight,
+          windowWidth: res.windowWidth,
+        })
+        _this.setControls(res.windowWidth, res.windowHeight / 2)
+        console.log(res.windowWidth)
+      }
+    })
+    buildlData.updateMap(function (data) {
+      _this.setData({
+        buildlData: data
+      })
+    });
+  },
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: '广东科技学院 - 校园导览',
+      path: '/pages/map/index',
+      success: function (res) {
+        // 转发成功
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
+  },
   regionchange(e) {
     console.log(e.type)
   },
@@ -60,28 +98,6 @@ Page({
       isSelectedBuild: 0
     });
     
-  },
-  onLoad: function () {
-    wx.showShareMenu({
-      withShareTicket: true
-    })
-    var _this = this;
-    wx.getSystemInfo({
-      success: function (res) {
-        //获取当前设备宽度与高度，用于定位控键的位置
-        _this.setData({
-          windowHeight: res.windowHeight,
-          windowWidth: res.windowWidth,
-        })
-        _this.setControls(res.windowWidth, res.windowHeight / 2)
-        console.log(res.windowWidth)
-      }
-    })
-    buildlData.updateMap(function (data) {
-      _this.setData({
-        buildlData: data
-      })
-    });
   },
   // 修改控键位置
   setControls: function (width, height) {
