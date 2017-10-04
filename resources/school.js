@@ -8,6 +8,9 @@ function loadMap() {
         "name": "图书馆",
         "latitude": "22.97128",
         "longitude": "113.75467",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg2.jpg", "/img/school/tsg.jpg"],
         "description": "广东科技学院图书馆"
       }, {
@@ -15,13 +18,19 @@ function loadMap() {
         "name": "体育馆",
         "latitude": "22.97243",
         "longitude": "113.75629",
-        "img": ["/img/school/tsg.jpg"],
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
+        "img": ["/img/school/tyg.jpg"],
         "description": "广东科技学院体育馆"
       }, {
         "id": 4,
         "name": "西湖乐园",
         "latitude": "22.96726",
         "longitude": "113.75763",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "西湖乐园"
       }, {
@@ -30,7 +39,8 @@ function loadMap() {
         "latitude": "22.96642",
         "longitude": "113.74962",
         "iconPath": "/img/ico/jd.png",
-        "width": "5rpx",
+        "width": "30",
+        "height": "30",
         "img": ["/img/school/tsg.jpg"],
         "description": "东莞植物园"
       }]

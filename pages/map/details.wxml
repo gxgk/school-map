@@ -1,6 +1,6 @@
 <!--pages/map/details.wxml-->
 <view>
-  <swiper class="swiper" indicator-dots="{{building.img.lenght == 1 ? 'true' : 'false'}}" indicator-active-color="#fff" autoplay="1" interval="3000" duration="500">
+  <swiper class="swiper" indicator-dots="{{building.img.length == 1 ? false : true}}" indicator-active-color="#fff" autoplay="1" interval="3000" duration="500">
     <block wx:for="{{building.img}}" wx:key="*this">
       <swiper-item>
         <image class="swiper-image" src="{{item}}"> </image>
