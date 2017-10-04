@@ -10,7 +10,16 @@ Page({
   },
 
   bindSearchInput: function (e) {
-    console.log(e.detail.value);
+    let inputData = e.detail.value.replace(/(^\s*)|(\s*$)/g, "")
+    if (inputData){
+      let searchdata = buildlData.loadMap()
+      for (var b in searchdata) {
+        for (var i in searchdata[b].data) {
+          searchdata[b].data[i].show = searchdata[b].data[i].name.indexOf(inputData)
+        }
+      }
+      this.setData({buildlData: searchdata});
+    }
   },
   /**
    * 生命周期函数--监听页面加载

@@ -17,7 +17,8 @@
 </view>
 
 <view wx:for="{{buildlData}}" wx:key="id"  wx:for-index="isSelectedBuildType">
-  <view wx:for="{{item.data}}" wx:key="id" class="building-item">
+  <view wx:for="{{item.data}}" wx:key="id" class="building-item" wx:if="{{ item.show > -1 }}">
+    
       <view style="height:100%; display: flex;">
         <navigator class="img" url='details?tid={{isSelectedBuildType}}&bid={{index}}'>
           <image src="{{item.img[0]}}" mode="aspectFill"> </image>
