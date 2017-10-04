@@ -4,7 +4,7 @@ Page({
     fullscreen: false,
     latitude: 22.971770,
     longitude: 113.754530,
-    buildlData: buildlData.loadMap(),
+    buildlData: "",
     windowHeight:"",
     windowWidth:"",
     isSelectedBuild: 0,
@@ -26,6 +26,10 @@ Page({
         _this.setControls(res.windowWidth, res.windowHeight / 2)
         console.log(res.windowWidth)
       }
+    })
+    //载入数据
+    this.setData({
+      buildlData: buildlData.loadMap()
     })
   },
   onShareAppMessage: function (res) {
