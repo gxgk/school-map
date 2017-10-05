@@ -31,7 +31,8 @@ module.exports = {
   debug: true,
   //学校数据配置名称，学校英文缩写
   school: "gdst",
-  //高德路线规划秘钥，必须加入https://restapi.amap.com为request合法域名
+  //高德路线规划密钥，必须加入https://restapi.amap.com为request合法域名
+  //密钥申请地址http://lbs.amap.com/api/javascript-api/summary/
   key: "", 
   //地图更新地址，用于热修补，无需每次都提交审核
   updateUrl: "http://qn.gxgk.cc/school.js?123"
