@@ -2,7 +2,7 @@
 module.exports.introduce = {
   "shortName": "广科", //学校名字两个字缩写
   "name": "广东科技学院", //学校名称
-  "images": "http://img1.gtimg.com/ninja/1/2017/09/ninja150668100964231.jpg", // 首页图片地址
+  "images": "https://qn.gxgk.cc/gdst.jpg", // 首页图片地址
   "latitude": "22.97177",
   "longitude": "113.75453",
   "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],  //简介图片
@@ -180,7 +180,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "东门"
+      "description": "东门有“东莞小香港”之称。从一楼到三楼琳琅满目，一楼设有早餐店，糖水店，小吃店，粥粉店等二楼是快餐为主，各式各类，总有一家店适合你。三楼比较安静，有饺子店，寿司店，咖啡厅，洗发店等"
     }, {
       "id": 3,
       "name": "南门",

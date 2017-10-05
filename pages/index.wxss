@@ -1,5 +1,4 @@
 page{
-	background: url('http://img1.gtimg.com/ninja/1/2017/09/ninja150668100964231.jpg');
 	background-size: cover;
 }
 .page{
