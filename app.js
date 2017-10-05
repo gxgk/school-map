@@ -1,4 +1,5 @@
 //app.js
+let config = require('config.js')
 App({
   onLaunch: function () {
     // 登录
@@ -75,7 +76,7 @@ App({
   },
   updateMap: function (cb) {
     wx.request({
-      url: 'http://qn.gxgk.cc/school.js?@21111', //仅为示例，并非真实的资源
+      url: config.updateUrl, //仅为示例，并非真实的资源
       data: {
       },
       header: {
@@ -96,8 +97,8 @@ App({
       }
     })
   },
-  debug: true,
-  school: require('/resources/gdst.js'),
+  debug: config.debug, //开启后只调用本地数据
+  school: require('/resources/' + config.school + '.js'),
   globalData: {
     userInfo: null,
     map: null,

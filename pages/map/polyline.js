@@ -26,7 +26,7 @@ Page({
       complete: function(){
         let distance = Math.abs(_this.data.longitude - options.longitude) + Math.abs(_this.data.latitude - options.latitude)
         console.log(distance);
-        var myAmapFun = new amapFile.AMapWX({ key: '2b9a90d2d9ac9ab1902ec83603b144a4' });
+        var myAmapFun = new amapFile.AMapWX({ key: require('../../config.js').key });
         let routeData = {
           origin: options.longitude + ',' + options.latitude,
           destination: _this.data.longitude + ',' + _this.data.latitude,
