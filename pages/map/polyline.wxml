@@ -1,7 +1,5 @@
 <map id="navi_map" longitude="{{longitude}}" latitude="{{latitude}}" 
-scale="12" markers="{{markers}}" polyline="{{polyline}}" include-points="{{markers}}"
+scale="14" markers="{{markers}}" polyline="{{polyline}}" include-points="{{markers}}"
 class="navi_map"></map>
-
-
 
 <view class="distance">{{distance}}</view>

@@ -1,8 +1,8 @@
 var amapFile = require('../../utils/amap-wx.js');
 Page({
   data: {
-    latitude: 23.05,
-    longitude: 113.76,
+    latitude: null,
+    longitude: null,
     markers: [],
     distance: '',
     polyline: []
@@ -19,8 +19,8 @@ Page({
       },
       fail: function () {
         _this.setData({
-          latitude: 23.05,
-          longitude: 113.76
+          latitude: 22.97177,
+          longitude: 113.75453
         });
       },
       complete: function(){

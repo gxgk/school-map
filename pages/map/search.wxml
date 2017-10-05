@@ -7,11 +7,11 @@
     <view class="search-form">
       <form>
         <input  bindinput="bindSearchInput" type="text"
-        name="search" placeholder="请输入景点名称关键词"  
+        name="search" placeholder="请输入景点名称关键词"  value="{{keyword}}"
         style="font-size: 30rpx;"/>
       </form>
     </view>
-    <view class="search-icon">
+    <view class="search-icon" bindtap="reset">
       <icon type="cancel" size="16" color="purple"/>
     </view>
 </view>
