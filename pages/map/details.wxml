@@ -16,7 +16,7 @@
 
   <view class="descript">
     <view class='description'>
-      <rich-text>{{ building.description }}</rich-text>
+      <rich-text nodes="{{ building.description }}"></rich-text>
     </view>
   </view>
 </view>
