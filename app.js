@@ -96,7 +96,7 @@ App({
       }
     })
   },
-  debug: true,
+  debug: true, //开启后只调用本地数据
   school: require('/resources/gdst.js'),
   globalData: {
     userInfo: null,
