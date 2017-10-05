@@ -29,8 +29,10 @@ App({
       }
     })
     var _this = this;
+    //载入本地数据
     _this.globalData.map = _this.loadMap();
     _this.globalData.introduce = _this.loadIntroduce();
+    //载入网络数据
     if (!this.debug) {
       _this.updateMap(function (data) {
         _this.globalData.map = data.map;
@@ -76,14 +78,15 @@ App({
   },
   updateMap: function (cb) {
     wx.request({
-      url: config.updateUrl, //仅为示例，并非真实的资源
+      url: config.updateUrl,
       data: {
       },
       header: {
-        'content-type': 'application/json' // 默认值
+        'content-type': 'application/json'
       },
       success: function (res) {
         if (res.data.map && res.data.map.length > 0) {
+          //存储数据，用于下次打开使用
           wx.setStorage({
             key: "map",
             data: res.data.map
@@ -92,6 +95,7 @@ App({
             key: "introduce",
             data: res.data.introduce
           })
+          //回调，刷新数据
           typeof cb == "function" && cb(res.data);
         }
       }
