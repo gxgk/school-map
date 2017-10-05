@@ -21,7 +21,7 @@
 	justify-content: center;
 }
 text{
-	width:70%;
+	width:60%;
 	align-self: center;
 	text-align: center;
 	color:white;

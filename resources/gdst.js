@@ -1,6 +1,17 @@
-
-function loadMap() {
-  var buildlData = [
+//学校简介
+module.exports.introduce = {
+  "shortName": "广科",
+  "name": "广东科技学院",
+  "images": "http://img1.gtimg.com/ninja/1/2017/09/ninja150668100964231.jpg", // 首页图片地址
+  "latitude": "22.97177",
+  "longitude": "113.75453",
+  "iconPath": "/img/ico/dcl.png",
+  "width": "30",
+  "height": "30",
+  "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
+}
+//学校地图数据
+module.exports.map = [
     {
       "name": "景点",
       "scale": 16,
@@ -387,72 +398,3 @@ function loadMap() {
       }]
     }
   ]
-  //本地调试
-  return buildlData;
-  try {
-    var value = wx.getStorageSync('map')
-    if (value) {
-      //校验格式用
-      value[0].name;
-      return value;
-    }
-  } catch (e) {
-    console.log(e);
-    // Do something when catch error
-  }
-  return buildlData;
-}
-function loadIntroduce() {
-  var data = {
-    "id": 6,
-    "name": "广东科技学院",
-    "latitude": "22.97177",
-    "longitude": "113.75453",
-    "iconPath": "/img/ico/dcl.png",
-    "width": "30",
-    "height": "30",
-    "img": ["/img/school/tsg.jpg"],
-    "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
-  }
-  //本地调试
-  return data;
-  try {
-    var value = wx.getStorageSync('introduce')
-    if (value) {
-      //校验格式用
-      value.name;
-      return value;
-    }
-  } catch (e) {
-    console.log(e);
-    // Do something when catch error
-  }
-  return data;
-}
-function updateMap(cb) {
-  wx.request({
-    url: 'http://qn.gxgk.cc/school.js?@21111', //仅为示例，并非真实的资源
-    data: {
-    },
-    header: {
-      'content-type': 'application/json' // 默认值
-    },
-    success: function (res) {
-      if (res.data.map && res.data.map.length > 0){
-        wx.setStorage({
-          key: "map",
-          data: res.data.map
-        })
-        wx.setStorage({
-          key: "Introduce",
-          data: res.data.introduce
-        })
-        typeof cb == "function" && cb(res.data);
-      }
-    }
-  })
-}
-
-module.exports.loadIntroduce = loadIntroduce
-module.exports.loadMap = loadMap
-module.exports.updateMap = updateMap

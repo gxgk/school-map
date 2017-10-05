@@ -85,7 +85,7 @@ Page({
       console.log(res.target)
     }
     return {
-      title: this.data.building.name + ' - 广东科技学院校园导览',
+      title: this.data.building.name + ' - ' + app.globalData.introduce.name +'校园导览',
       path: "/pages/map/details?tid=" + this.data.tid + "&bid=" + this.data.bid,
       imageUrl: this.data.building.img[0],
       success: function (res) {

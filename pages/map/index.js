@@ -39,7 +39,7 @@ Page({
       console.log(res.target)
     }
     return {
-      title: '广东科技学院 - 校园导览',
+      title: app.globalData.introduce.name + ' - 校园导览',
       path: '/pages/map/index',
       success: function (res) {
         // 转发成功

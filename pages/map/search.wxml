@@ -2,7 +2,7 @@
 
 <view class="search">
     <view class="search-icon">
-      <icon type="search" size="16" color="red"/>
+      <icon type="search" size="16" color="blue"/>
     </view>
     <view class="search-form">
       <form>

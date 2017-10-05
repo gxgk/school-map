@@ -1,4 +1,10 @@
+//获取应用实例
+var app = getApp();
 Page({
+  data: {
+    images: app.globalData.introduce.images,
+    shortName: app.globalData.introduce.shortName
+  },
   onLoad: function (options) {
   },
   onShareAppMessage: function (res) {
@@ -7,8 +13,9 @@ Page({
       console.log(res.target)
     }
     return {
-      title: '广东科技学院 - 校园导览',
+      title: app.globalData.introduce.name + ' - 校园导览',
       path: '/pages/index',
+      imageUrl: app.globalData.introduce.images,
       success: function (res) {
         // 转发成功
       },

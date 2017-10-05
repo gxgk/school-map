@@ -1,5 +1,4 @@
 //app.js
-let buildlData = require('/resources/school')
 App({
   onLaunch: function () {
     // 登录
@@ -29,14 +28,79 @@ App({
       }
     })
     var _this = this;
-    buildlData.updateMap(function (data){
-      _this.globalData.map = data.map;
-      _this.globalData.introduce = data.introduce;
+    _this.globalData.map = _this.loadMap();
+    _this.globalData.introduce = _this.loadIntroduce();
+    if (!this.debug) {
+      _this.updateMap(function (data) {
+        _this.globalData.map = data.map;
+        _this.globalData.introduce = data.introduce;
+      })
+    }
+  },
+  loadMap: function () {
+    var buildlData = this.school.map
+    if (this.debug){
+      return buildlData;
+    }
+    try {
+      var value = wx.getStorageSync('map')
+      if (value) {
+        //校验格式用
+        value[0].name;
+        return value;
+      }
+    } catch (e) {
+      console.log(e);
+      // Do something when catch error
+    }
+    return buildlData;
+  },
+  loadIntroduce: function () {
+    var data = this.school.introduce
+    if (this.debug) {
+      return data;
+    }
+    try {
+      var value = wx.getStorageSync('introduce')
+      if (value) {
+        //校验格式用
+        value.name;
+        return value;
+      }
+    } catch (e) {
+      console.log(e);
+      // Do something when catch error
+    }
+    return data;
+  },
+  updateMap: function (cb) {
+    wx.request({
+      url: 'http://qn.gxgk.cc/school.js?@21111', //仅为示例，并非真实的资源
+      data: {
+      },
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: function (res) {
+        if (res.data.map && res.data.map.length > 0) {
+          wx.setStorage({
+            key: "map",
+            data: res.data.map
+          })
+          wx.setStorage({
+            key: "introduce",
+            data: res.data.introduce
+          })
+          typeof cb == "function" && cb(res.data);
+        }
+      }
     })
   },
+  debug: true,
+  school: require('/resources/gdst.js'),
   globalData: {
     userInfo: null,
-    map: buildlData.loadMap(),
-    introduce: buildlData.loadIntroduce()
+    map: null,
+    introduce: null,
   }
 })
