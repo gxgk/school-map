@@ -257,14 +257,14 @@ module.exports.map = [
       "description": "东门二三楼"
     }, {
       "id": 6,
-      "name": "艾时尚",
+      "name": "爱时尚",
       "latitude": "22.976862",
       "longitude": "113.756231",
       "iconPath": "/img/ico/st.png",
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "艾时尚"
+      "description": "爱时尚"
     }]
   }, {
     "scale": 16,
