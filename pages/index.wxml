@@ -1,9 +1,13 @@
 <view class="page" style="background: url('{{images}}');">
-	<view class="button_container">
-		<navigator class="button" url="map/details"><text>{{shortName}}简介</text></navigator>
-		<navigator class="button" url="map/index"><text>逛逛{{shortName}}</text></navigator>
-	</view>
-	<view class="copyright">
-		<text>©莞香广科\n数据提供：{{mapCopyright}}</text>
-	</view>
+  <view class="button_container">
+    <navigator class="button" url="map/details">
+      <text>{{shortName}}简介</text>
+    </navigator>
+    <navigator class="button" url="map/index">
+      <text>逛逛{{shortName}}</text>
+    </navigator>
+  </view>
+  <view class="copyright">
+    <text>©莞香广科\n{{mapCopyright?"数据提供："+mapCopyright:""}}</text>
+  </view>
 </view>
