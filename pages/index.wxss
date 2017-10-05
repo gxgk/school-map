@@ -1,8 +1,13 @@
+page{
+	background: url('http://img1.gtimg.com/ninja/1/2017/09/ninja150668100964231.jpg');
+	background-size: cover;
+}
 .page{
-	widows: 100%;
-	height: 100vh;
-	background-size: auto;
+	width: 100%;
+	height: 100%;
 	display: flex;
+	flex-direction: column;
+	color:white;
 }
 .button_container{
 	width: 100%;
@@ -20,9 +25,16 @@
 	display: flex;
 	justify-content: center;
 }
-text{
+.button text{
 	width:60%;
 	align-self: center;
 	text-align: center;
-	color:white;
+}
+.copyright{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: center;
+	height:50vh;
+	font-size: 13px;
 }
