@@ -32,8 +32,13 @@ button{
   font-size: 26rpx;
   height:6vh;
 }
+.img-view{
+  height:100%;
+  display: flex;
+}
 .img{
   width:85%;
+  height:100%;
   display: flex;
 }
 .img image{
