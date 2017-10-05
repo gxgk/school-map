@@ -5,14 +5,14 @@ module.exports.introduce = {
   "images": "http://img1.gtimg.com/ninja/1/2017/09/ninja150668100964231.jpg", // 首页图片地址
   "latitude": "22.97177",
   "longitude": "113.75453",
-  "img": ["/img/school/tsg.jpg"],  //简介图片
+  "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],  //简介图片
   "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
 }
 //学校地图数据
 module.exports.map = [
   {
     "name": "景点",
-    "scale": 15,
+    "scale": 16,
     "data": [{
       "id": 1,
       "name": "东莞植物园",
@@ -21,7 +21,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jd.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "东莞植物园"
     }, {
       "id": 2,
@@ -31,7 +31,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jd.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg2.jpg", "/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tsg2.jpg", "http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "广东科技学院图书馆"
     }, {
       "id": 3,
@@ -41,7 +41,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jd.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tyg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "广东科技学院体育馆"
     }, {
       "id": 4,
@@ -51,7 +51,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jd.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/xhly.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-xhly.jpg"],
       "description": "西湖乐园"
     }, {
       "id": 5,
@@ -61,12 +61,12 @@ module.exports.map = [
       "iconPath": "/img/ico/jd.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "雅园综合市场"
     }]
   }, {
     "name": "教学楼",
-    "scale": 15,
+    "scale": 16,
     "data": [{
       "id": 1,
       "name": "1号教学楼",
@@ -75,7 +75,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jxl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "1号教学楼"
     }, {
       "id": 2,
@@ -85,7 +85,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jxl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "2号教学楼"
     }, {
       "id": 3,
@@ -95,7 +95,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jxl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "3号教学楼"
     }, {
       "id": 4,
@@ -105,7 +105,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jxl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "4号教学楼"
     }, {
       "id": 5,
@@ -115,7 +115,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jxl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "5号教学楼"
     }, {
       "id": 6,
@@ -125,7 +125,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jxl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "6号教学楼"
     }, {
       "id": 7,
@@ -135,7 +135,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jxl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "7号教学楼"
     }, {
       "id": 8,
@@ -145,7 +145,7 @@ module.exports.map = [
       "iconPath": "/img/ico/jxl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "8号教学楼"
     }, {
       "id": 9,
@@ -155,12 +155,12 @@ module.exports.map = [
       "iconPath": "/img/ico/jxl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "9号教学楼"
     }]
   }, {
     "name": "校门",
-    "scale": 15,
+    "scale": 16,
     "data": [{
       "id": 1,
       "name": "北门",
@@ -169,7 +169,7 @@ module.exports.map = [
       "iconPath": "/img/ico/xm.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "北门"
     }, {
       "id": 2,
@@ -179,7 +179,7 @@ module.exports.map = [
       "iconPath": "/img/ico/xm.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "东门"
     }, {
       "id": 3,
@@ -189,7 +189,7 @@ module.exports.map = [
       "iconPath": "/img/ico/xm.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "南门"
     }, {
       "id": 4,
@@ -199,12 +199,12 @@ module.exports.map = [
       "iconPath": "/img/ico/xm.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "雅苑门"
     }]
   }, {
     "name": "食堂",
-    "scale": 15,
+    "scale": 16,
     "data": [{
       "id": 1,
       "name": "一饭",
@@ -213,7 +213,7 @@ module.exports.map = [
       "iconPath": "/img/ico/st.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "一号饭堂：位于博苑，学校唯一设有2层的饭堂，是从雅苑宿舍到教学楼的必经之路。\n    是校内人流量最多的一个饭堂，饭菜味道大众化，适合多种人的口味，肉类丰富，种类繁多。有4毛钱和6毛钱的米饭窗口，如果打包需要加1块钱的外卖费，蔬菜跟肉类种类都是很多的，口味也大众化，而且也有炖汤提供，价格不一，最靠左边还有鸡扒饭可选择，一饭正门入口外卖摊位那里还有快餐，基本是客家人，也别有一番风味。\n  第二层特色是自助餐，菜跟肉自己挑选，然后称重算钱，15块钱一斤，饭是免费的，可以吃多少打多少，另外还有煮面食的摊位。"
     }, {
       "id": 2,
@@ -223,7 +223,7 @@ module.exports.map = [
       "iconPath": "/img/ico/st.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "二号饭堂：位于南苑4号宿舍的一楼，接近图书馆，环境明亮，早餐有肠粉，菜色丰富，口感鲜美，特色是现煮粥，材料可自己选择。"
     }, {
       "id": 3,
@@ -233,7 +233,7 @@ module.exports.map = [
       "iconPath": "/img/ico/st.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "三号饭堂：三饭与二饭相邻，在南苑1.2号宿舍的一楼，有自助餐和汤粉蒸粉肠粉，三饭的特色是煲仔饭，材料可自己选择（田鸡、鸡肉等）菜色丰富，不过早餐是4个饭堂中种类最多的，味道也都挺不错的。"
     }, {
       "id": 4,
@@ -243,7 +243,7 @@ module.exports.map = [
       "iconPath": "/img/ico/st.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "四号饭堂：在雅苑宿舍区，临近宿舍，方便学生就餐。目前已经改造升级完毕，环境优美，且菜式种类繁多，经过改造升级以后，目前是学校里面环境较好的饭堂。"
     }, {
       "id": 5,
@@ -253,21 +253,21 @@ module.exports.map = [
       "iconPath": "/img/ico/st.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "东门二三楼"
     }, {
       "id": 6,
-      "name": "艾时尚",
+      "name": "爱时尚",
       "latitude": "22.976862",
       "longitude": "113.756231",
       "iconPath": "/img/ico/st.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
-      "description": "艾时尚"
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
+      "description": "爱时尚"
     }]
   }, {
-    "scale": 15,
+    "scale": 16,
     "name": "宿舍",
     "data": [{
       "id": 1,
@@ -277,7 +277,7 @@ module.exports.map = [
       "iconPath": "/img/ico/boy_ss.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "南苑1栋"
     }, {
       "id": 2,
@@ -287,7 +287,7 @@ module.exports.map = [
       "iconPath": "/img/ico/boy_ss.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "南苑2栋"
     }, {
       "id": 3,
@@ -297,7 +297,7 @@ module.exports.map = [
       "iconPath": "/img/ico/boy_ss.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "南苑3栋"
     }, {
       "id": 4,
@@ -307,7 +307,7 @@ module.exports.map = [
       "iconPath": "/img/ico/boy_ss.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "南苑4栋"
     }, {
       "id": 5,
@@ -317,7 +317,7 @@ module.exports.map = [
       "iconPath": "/img/ico/girl_ss.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "博苑1栋"
     }, {
       "id": 6,
@@ -327,7 +327,7 @@ module.exports.map = [
       "iconPath": "/img/ico/boy_ss.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "博苑2栋"
     }, {
       "id": 6,
@@ -337,7 +337,7 @@ module.exports.map = [
       "iconPath": "/img/ico/boy_ss.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "博苑3栋"
     }, {
       "id": 7,
@@ -347,11 +347,11 @@ module.exports.map = [
       "iconPath": "/img/ico/girl_ss.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "博苑4栋"
     }]
   }, {
-    "scale": 12,
+    "scale": 14,
     "name": "校园服务",
     "data": [{
       "id": 1,
@@ -361,7 +361,7 @@ module.exports.map = [
       "iconPath": "/img/ico/xyfu.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "中通、申通。。。。"
     }, {
       "id": 2,
@@ -371,7 +371,7 @@ module.exports.map = [
       "iconPath": "/img/ico/xyfu.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "天天快递"
       }, {
         "id": 3,
@@ -381,7 +381,7 @@ module.exports.map = [
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
-        "img": ["/img/school/tsg.jpg"],
+        "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
         "description": "南门照相馆"
     }, {
       "id": 4,
@@ -391,7 +391,7 @@ module.exports.map = [
       "iconPath": "/img/ico/xyfu.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "南门照相馆"
     }]
   }, {
@@ -405,7 +405,7 @@ module.exports.map = [
       "iconPath": "/img/ico/dcl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
     }, {
       "id": 2,
@@ -415,7 +415,7 @@ module.exports.map = [
       "iconPath": "/img/ico/dcl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "西安科技大学"
     }, {
       "id": 3,
@@ -425,7 +425,7 @@ module.exports.map = [
       "iconPath": "/img/ico/dcl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
     }, {
       "id": 4,
@@ -435,7 +435,7 @@ module.exports.map = [
       "iconPath": "/img/ico/dcl.png",
       "width": "30",
       "height": "30",
-      "img": ["/img/school/tsg.jpg"],
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
     }]
   }
