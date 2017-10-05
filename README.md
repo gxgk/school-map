@@ -35,7 +35,7 @@ module.exports = {
   //密钥申请地址http://lbs.amap.com/api/javascript-api/summary/
   key: "", 
   //地图更新地址，用于热修补，无需每次都提交审核
-  updateUrl: "http://qn.gxgk.cc/school.js?123"
+  updateUrl: "https://qn.gxgk.cc/school.js?123"
 }
 ```
 
@@ -50,6 +50,7 @@ module.exports.map = [{}]
 
 ```
 参照例子自行研究
+地图经纬度获取：http://lbs.qq.com/tool/getpoint/index.html
 ``` 
 
 ---
