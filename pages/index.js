@@ -6,6 +6,9 @@ Page({
     shortName: app.globalData.introduce.shortName
   },
   onLoad: function (options) {
+    wx.setNavigationBarTitle({
+      title: app.globalData.introduce.name
+    })
   },
   onShareAppMessage: function (res) {
     if (res.from === 'button') {
