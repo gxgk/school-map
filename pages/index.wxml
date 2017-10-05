@@ -1,7 +1,7 @@
 <view class="page">
 	<view class="button_container">
-		<navigator class="button" url="./map/details"><text>{{shortName}}简介</text></navigator>
-		<navigator class="button" url="./map/index"><text>逛逛{{shortName}}</text></navigator>
+		<navigator class="button" url="map/details"><text>{{shortName}}简介</text></navigator>
+		<navigator class="button" url="map/index"><text>逛逛{{shortName}}</text></navigator>
 	</view>
 	<view class="copyright">
 		<text>@莞香广科</text>
