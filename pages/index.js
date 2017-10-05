@@ -3,7 +3,8 @@ var app = getApp();
 Page({
   data: {
     images: app.globalData.introduce.images,
-    shortName: app.globalData.introduce.shortName
+    shortName: app.globalData.introduce.shortName,
+    mapCopyright: app.globalData.introduce.mapCopyright
   },
   onLoad: function (options) {
     wx.setNavigationBarTitle({

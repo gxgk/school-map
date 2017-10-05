@@ -4,6 +4,6 @@
 		<navigator class="button" url="map/index"><text>逛逛{{shortName}}</text></navigator>
 	</view>
 	<view class="copyright">
-		<text>@莞香广科</text>
+		<text>©莞香广科\n数据提供：{{mapCopyright}}</text>
 	</view>
 </view>

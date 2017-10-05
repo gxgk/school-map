@@ -1,39 +1,46 @@
-page{
-	background-size: cover;
+page {
+  background-size: cover;
 }
-.page{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	color:white;
+
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
-.button_container{
-	width: 100%;
-	display: flex;
-	align-items: center;
-	flex-direction: column; 
-	margin-top: 20px;
+
+.button_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
 }
-.button{
-	width:145rpx;
-	height:145rpx;
-	margin:20px;
-	background-color: rgba(7,157,242,0.7);
-	border-radius: 80rpx;
-	display: flex;
-	justify-content: center;
+
+.button {
+  width: 145rpx;
+  height: 145rpx;
+  margin: 20px;
+  background-color: rgba(7, 157, 242, 0.7);
+  border-radius: 80rpx;
+  display: flex;
+  justify-content: center;
 }
-.button text{
-	width:60%;
-	align-self: center;
-	text-align: center;
+
+.button text {
+  width: 60%;
+  align-self: center;
+  text-align: center;
 }
-.copyright{
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: column;
-	align-items: center;
-	height:50vh;
-	font-size: 13px;
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  font-size: 13px;
+  text-align: center;
+  line-height: 150%;
 }
