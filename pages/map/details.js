@@ -10,7 +10,8 @@ Page({
     bid: 0,
     building: {
       img: ['/img/loading.svg']//加载中图片地址
-    }
+    },
+    introduce: false,
   },
 
   /**
@@ -20,6 +21,7 @@ Page({
     var bid = parseInt(options.bid);
     var tid = parseInt(options.tid);
     if (!options.bid || !options.tid){
+      this.data.introduce = true;
       var data = app.globalData.introduce;
     } else {
       var data = app.globalData.map[tid].data[bid];
@@ -80,13 +82,21 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function (res) {
+    var title, path;
+    if (this.data.introduce){
+      title = app.globalData.introduce.name + '校园导览';
+      path = "/pages/map/details";
+    } else {
+      title = this.data.building.name + ' - ' + app.globalData.introduce.name + '校园导览'
+      path = "/pages/map/details?tid=" + this.data.tid + "&bid=" + this.data.bid
+    }
     if (res.from === 'button') {
       // 来自页面内转发按钮
       console.log(res.target)
     }
     return {
-      title: this.data.building.name + ' - ' + app.globalData.introduce.name +'校园导览',
-      path: "/pages/map/details?tid=" + this.data.tid + "&bid=" + this.data.bid,
+      title: title,
+      path: path,
       imageUrl: this.data.building.img[0],
       success: function (res) {
         // 转发成功
