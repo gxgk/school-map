@@ -23,7 +23,7 @@ Page({
           longitude: 113.75453
         });
       },
-      complete: function(){
+      complete: function () {
         let distance = Math.abs(_this.data.longitude - options.longitude) + Math.abs(_this.data.latitude - options.latitude)
         console.log(distance);
         var myAmapFun = new amapFile.AMapWX({ key: require('../../config.js').key });
@@ -46,9 +46,15 @@ Page({
             }
             _this.setData({
               markers: [{
+                "width": "25",
+                "height": "35",
+                iconPath: "/img/mapicon_end.png",
                 latitude: options.latitude,
                 longitude: options.longitude
               }, {
+                "width": "25",
+                "height": "35",
+                iconPath: "/img/mapicon_start.png",
                 latitude: _this.data.latitude,
                 longitude: _this.data.longitude
               }],
@@ -67,10 +73,10 @@ Page({
           fail: function (info) {
           }
         }
-        if (distance < 0.85){
+        if (distance < 0.85) {
           // getWalkingRoute 步行
           myAmapFun.getWalkingRoute(routeData)
-        }else{
+        } else {
           // getDrivingRoute 驾车
           myAmapFun.getDrivingRoute(routeData)
         }
