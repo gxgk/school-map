@@ -33,7 +33,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tsg2.jpg", "http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "广东科技学院图书馆"
+      "description": "广东科技学院图书馆建筑面积23720平方米，拥有各类图书236万册，教学仪器设备总值10602万元。位于校园中心至高点，依山傍水，气势宏伟，是学院标志性建筑。另外，馆内藏书丰富，形式多样。有功能各异的阅览室，更有技术先进的网络系统，更好地实现了开放式管理以及现代化管理。在纸质书上，本馆构成了以学院教学为主体的藏书体系，初步实现了文献信息资源的有机整合。在技术上，学院早年引进国内唯一通过ISO9100标准，北京邮电大学开发的“现代电子化图书馆信息网络系统”,并更新了计算机硬件设备，升级了Linux二版管理系统，使得图书馆现代化程度更上一层楼。近日，学校图书馆更是增添各类自习室，自主学习区，实现了全馆的WIFI全覆盖，方便师生更好查阅学习资料。"
     }, {
       "id": 3,
       "name": "体育馆",
@@ -43,7 +43,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "广东科技学院体育馆"
+      "description": "广东科技学院体育馆坐落于学校中心，紧挨学校操场，临近学校7栋教学楼。室内设施现代化，装有中央空调，以及现代化舞台等配套设施。观众席有上下两层，最高可容纳3000人。我校体育馆作为一设施健全，现代化规模高的建筑，每年都会在馆内举报许多大型活动，如我校的迎新晚会，东莞篮球联赛的主场等。是我校标志性建筑之一。"
     }, {
       "id": 4,
       "name": "西湖乐园",
@@ -77,7 +77,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "1号教学楼"
+      "description": "1号教学楼有九层楼，左右两侧有电梯，正对着正门（北门），成拱形，左边是2号教学楼，右边是3号教学楼，中间与4、5号教学楼相连。1号教学楼一楼主要是学校社团部门的活动室，还有农行ATM机，校园银行（中国建设银行），中国电信、联通、移动店，广科报刊亭；2～6层楼为多媒体教室；7～9主要为实验室，有：语言实验室、公共实验室、会计多功能综合实验室、软件综合实验室，同声传译实验室，ERP实训室，NET实训室，国际商务英语模拟实训室，计算机基础技术实训室，数据开发实训室，还有管理办公室。"
     }, {
       "id": 2,
       "name": "2号教学楼",
@@ -87,7 +87,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "2号教学楼"
+      "description": "2号教学楼有六层楼，在1号教学楼的左边，创业楼的后面。"
     }, {
       "id": 3,
       "name": "3号教学楼",
@@ -97,7 +97,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "3号教学楼"
+      "description": "3号教学楼有六层楼，在1号教学楼的右边。"
     }, {
       "id": 4,
       "name": "4号教学楼",
@@ -107,7 +107,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "4号教学楼"
+      "description": "4栋教学楼位于2栋教学楼后方，且与2栋教学楼相连接。4栋教学楼在配套有现代多媒体教学设施，且全部装有空调的同时还配套有最新电脑设备，帮助学生学习最新现代信息技术。"
     }, {
       "id": 5,
       "name": "5号教学楼",
@@ -117,7 +117,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "5号教学楼"
+      "description": "5栋教学楼位于3栋教学楼后方，且与3栋教学楼相连接。3栋教学楼在配套有现代多媒体教学设施，且全部装有空调，保证了学生学习环境和教师教学环境的质量。使学生能舒适专心地进行高质量学习。"
     }, {
       "id": 6,
       "name": "6号教学楼",
@@ -127,7 +127,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "6号教学楼"
+      "description": "6栋教学楼位于4栋教学楼后方，且与4栋教学楼相连接。6栋教学楼在配套有现代多媒体教学设施，且全部装有空调。且在六楼有大型教室，最高可容纳近200人，是大型讲课和讲座的主场地之一。"
     }, {
       "id": 7,
       "name": "7号教学楼",
@@ -137,7 +137,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "7号教学楼"
+      "description": "7号教学楼有六层楼，与5号教学楼相连。教学楼主要为公共多媒体教室，还有资产评估、投资项目管理实验室。"
     }, {
       "id": 8,
       "name": "8号教学楼",
@@ -147,7 +147,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "8号教学楼"
+      "description": "8栋教学楼位于广东科技学院南门，位于行政楼后面。8栋教学楼主体为6层建筑，外墙为淡黄色，一至六楼均有公共多媒体教室，提供了场所让学生上课自习。其中5楼有中心机房，现代教育中心以及网络室。6楼有库房以及现代教育中心主任室。"
     }, {
       "id": 9,
       "name": "9号教学楼",
@@ -157,7 +157,7 @@ module.exports.map = [
       "width": "30",
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "9号教学楼"
+      "description": "9栋教学楼位于广东科技学院南门，行政楼右边。9栋教学楼主体为六层建筑，外墙为淡黄色。一楼为计算机系资料室以及多媒体课室，二楼为计算机系学工办公室及多媒体课室，三楼为计算机系主任办公室以及多媒体教室，四楼为计算机系软件工程教研室以及云终端实训室，五楼以及六楼为计算机系网络工程教研室以及云端实验室。"
     }]
   }, {
     "name": "校门",
@@ -180,7 +180,7 @@ module.exports.map = [
       "iconPath": "/img/ico/xm.png",
       "width": "30",
       "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
+      "img": ["http://gkrg1b.qiniudn.com/%E4%B8%9C%E9%97%A8.jpg?1212121212"],
       "description": "东门有“东莞小香港”之称。从一楼到三楼琳琅满目，一楼设有早餐店，糖水店，小吃店，粥粉店等二楼是快餐为主，各式各类，总有一家店适合你。三楼比较安静，有饺子店，寿司店，咖啡厅，洗发店等"
     }, {
       "id": 3,
@@ -374,16 +374,16 @@ module.exports.map = [
       "height": "30",
       "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
       "description": "天天快递"
-      }, {
-        "id": 3,
-        "name": "南门照相馆",
-        "latitude": "22.981",
-        "longitude": "113.72",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-        "description": "南门照相馆"
+    }, {
+      "id": 3,
+      "name": "南门照相馆",
+      "latitude": "22.981",
+      "longitude": "113.72",
+      "iconPath": "/img/ico/xyfu.png",
+      "width": "30",
+      "height": "30",
+      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
+      "description": "南门照相馆"
     }, {
       "id": 4,
       "name": "雅园照相馆",
