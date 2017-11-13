@@ -70,9 +70,9 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园1.jpg",
-          "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园2.jpg",
           "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园3.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园2.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园1.jpg",
         ],
         "description": "西湖乐园"
       },
@@ -217,6 +217,112 @@ module.exports.map = [
           "http://qn.gxgk.cc/school/jd-tyg.jpg"
         ],
         "description": "9栋教学楼位于广东科技学院南门，行政楼右边。9栋教学楼主体为六层建筑，外墙为淡黄色。一楼为计算机系资料室以及多媒体课室，二楼为计算机系学工办公室及多媒体课室，三楼为计算机系主任办公室以及多媒体教室，四楼为计算机系软件工程教研室以及云终端实训室，五楼以及六楼为计算机系网络工程教研室以及云端实验室。"
+      },
+      {
+        "id": 10,
+        "name": "工一",
+        "latitude": "22.968682",
+        "longitude": "113.754137",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/实训楼/服装实训中心.jpg"
+        ],
+        "description": "工一"
+      },
+      {
+        "id": 11,
+        "name": "工二",
+        "latitude": "22.968410",
+        "longitude": "113.754094",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/实训楼/服装实训中心.jpg"
+        ],
+        "description": "工二"
+      },
+      {
+        "id": 12,
+        "name": "工三",
+        "latitude": "22.968129",
+        "longitude": "113.753981",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/实训楼/服装实训中心.jpg"
+        ],
+        "description": "工三"
+      },
+      {
+        "id": 13,
+        "name": "汽车实训中心",
+        "latitude": "22.968549",
+        "longitude": "113.754174",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/实训楼/服装实训中心.jpg"
+        ],
+        "description": "汽车实训中心"
+      },
+      {
+        "id": 14,
+        "name": "机械加工中心",
+        "latitude": "22.968129",
+        "longitude": "113.753981",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/实训楼/机械加工中心.jpg"
+        ],
+        "description": "机械加工中心"
+      },
+      {
+        "id": 15,
+        "name": "数控加工中心",
+        "latitude": "22.968020",
+        "longitude": "113.754051",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/实训楼/数控加工中心1.jpg",
+          "http://qn.gxgk.cc/校园导览/实训楼/数控加工中心2.jpg"
+        ],
+        "description": "数控加工中心"
+      },
+      {
+        "id": 16,
+        "name": "实验楼1",
+        "latitude": "22.968020",
+        "longitude": "113.754051",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/实训楼/数控加工中心1.jpg",
+          "http://qn.gxgk.cc/校园导览/实训楼/数控加工中心2.jpg"
+        ],
+        "description": "实验楼1"
+      },
+      {
+        "id": 17,
+        "name": "实验楼2(服装实训中心)",
+        "latitude": "22.968020",
+        "longitude": "113.754051",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/实训楼/服装实训中心.jpg"
+        ],
+        "description": "实验楼2(服装实训中心)"
       }
     ]
   },
@@ -343,9 +449,9 @@ module.exports.map = [
       },
       {
         "id": 5,
-        "name": "东门二楼",
-        "latitude": "22.976882",
-        "longitude": "113.756131",
+        "name": "东门二三楼",
+        "latitude": "22.972865",
+        "longitude": "113.758648",
         "iconPath": "/img/ico/st.png",
         "width": "30",
         "height": "30",
@@ -358,8 +464,8 @@ module.exports.map = [
       {
         "id": 6,
         "name": "爱时尚",
-        "latitude": "22.976862",
-        "longitude": "113.756231",
+        "latitude": "22.970070",
+        "longitude": "113.754920",
         "iconPath": "/img/ico/st.png",
         "width": "30",
         "height": "30",
@@ -367,6 +473,20 @@ module.exports.map = [
           "http://qn.gxgk.cc/校园导览/食堂/爱时尚.jpg"
         ],
         "description": "爱时尚"
+      },
+      {
+        "id": 7,
+        "name": "雅知味",
+        "latitude": "22.976619",
+        "longitude": "113.756867",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/食堂/雅之味/雅知味1.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/雅之味/雅知味2.jpg",
+        ],
+        "description": "雅知味"
       }
     ]
   },
@@ -574,7 +694,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/博苑1234/博苑4号.jpg"
+          "http://qn.gxgk.cc/校园导览/博苑1234/博苑4号.jpg",
+          "http://qn.gxgk.cc/校园导览/博苑1234/博苑4栋.jpg"
         ],
         "description": "博苑4栋"
       },
@@ -619,6 +740,20 @@ module.exports.map = [
           "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑3号学生公寓2.jpg"
         ],
         "description": "雅苑3号学生公寓"
+      },
+      {
+        "id": 19,
+        "name": "雅苑5号学生公寓",
+        "latitude": "22.977957",
+        "longitude": "113.756196",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑5号公寓1.jpg",
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑5号公寓2.jpg"
+        ],
+        "description": "雅苑5号学生公寓"
       }
     ]
   },
@@ -689,7 +824,7 @@ module.exports.map = [
         "name": "创业楼",
         "latitude": "22.974130",
         "longitude": "113.754335",
-        "iconPath": "/img/ico/dcl.png",
+        "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -702,7 +837,7 @@ module.exports.map = [
         "name": "行政楼",
         "latitude": "22.969610",
         "longitude": "113.754120",
-        "iconPath": "/img/ico/dcl.png",
+        "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
