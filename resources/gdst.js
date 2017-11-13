@@ -14,430 +14,562 @@ module.exports.map = [
   {
     "name": "景点",
     "scale": 16,
-    "data": [{
-      "id": 1,
-      "name": "东莞植物园",
-      "latitude": "22.96642",
-      "longitude": "113.74962",
-      "iconPath": "/img/ico/jd.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "东莞植物园"
-    }, {
-      "id": 2,
-      "name": "图书馆",
-      "latitude": "22.97128",
-      "longitude": "113.75467",
-      "iconPath": "/img/ico/jd.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tsg2.jpg", "http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "广东科技学院图书馆建筑面积23720平方米，拥有各类图书236万册，教学仪器设备总值10602万元。位于校园中心至高点，依山傍水，气势宏伟，是学院标志性建筑。另外，馆内藏书丰富，形式多样。有功能各异的阅览室，更有技术先进的网络系统，更好地实现了开放式管理以及现代化管理。在纸质书上，本馆构成了以学院教学为主体的藏书体系，初步实现了文献信息资源的有机整合。在技术上，学院早年引进国内唯一通过ISO9100标准，北京邮电大学开发的“现代电子化图书馆信息网络系统”,并更新了计算机硬件设备，升级了Linux二版管理系统，使得图书馆现代化程度更上一层楼。近日，学校图书馆更是增添各类自习室，自主学习区，实现了全馆的WIFI全覆盖，方便师生更好查阅学习资料。"
-    }, {
-      "id": 3,
-      "name": "体育馆",
-      "latitude": "22.97243",
-      "longitude": "113.75629",
-      "iconPath": "/img/ico/jd.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "广东科技学院体育馆坐落于学校中心，紧挨学校操场，临近学校7栋教学楼。室内设施现代化，装有中央空调，以及现代化舞台等配套设施。观众席有上下两层，最高可容纳3000人。我校体育馆作为一设施健全，现代化规模高的建筑，每年都会在馆内举报许多大型活动，如我校的迎新晚会，东莞篮球联赛的主场等。是我校标志性建筑之一。"
-    }, {
-      "id": 4,
-      "name": "西湖乐园",
-      "latitude": "22.96726",
-      "longitude": "113.75763",
-      "iconPath": "/img/ico/jd.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-xhly.jpg"],
-      "description": "西湖乐园"
-    }, {
-      "id": 5,
-      "name": "雅园综合市场",
-      "latitude": "22.972680",
-      "longitude": "113.758130",
-      "iconPath": "/img/ico/jd.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "雅园综合市场"
-    }]
-  }, {
+    "data": [
+      {
+        "id": 1,
+        "name": "东莞植物园",
+        "latitude": "22.96642",
+        "longitude": "113.74962",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园1.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园2.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园3.jpg",
+        ],
+        "description": "东莞植物园"
+      },
+      {
+        "id": 2,
+        "name": "图书馆",
+        "latitude": "22.97128",
+        "longitude": "113.75467",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/景点/图书馆/图书馆1.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/图书馆/图书馆2.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/图书馆/图书馆3.jpg"
+        ],
+        "description": "广东科技学院图书馆建筑面积23720平方米，拥有各类图书236万册，教学仪器设备总值10602万元。位于校园中心至高点，依山傍水，气势宏伟，是学院标志性建筑。另外，馆内藏书丰富，形式多样。有功能各异的阅览室，更有技术先进的网络系统，更好地实现了开放式管理以及现代化管理。在纸质书上，本馆构成了以学院教学为主体的藏书体系，初步实现了文献信息资源的有机整合。在技术上，学院早年引进国内唯一通过ISO9100标准，北京邮电大学开发的“现代电子化图书馆信息网络系统”,并更新了计算机硬件设备，升级了Linux二版管理系统，使得图书馆现代化程度更上一层楼。近日，学校图书馆更是增添各类自习室，自主学习区，实现了全馆的WIFI全覆盖，方便师生更好查阅学习资料。"
+      },
+      {
+        "id": 3,
+        "name": "体育馆",
+        "latitude": "22.97243",
+        "longitude": "113.75629",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/景点/体育馆/体育馆1.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/体育馆/体育馆2.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/体育馆/体育馆3.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/体育馆/体育馆4.jpg"
+        ],
+        "description": "广东科技学院体育馆坐落于学校中心，紧挨学校操场，临近学校7栋教学楼。室内设施现代化，装有中央空调，以及现代化舞台等配套设施。观众席有上下两层，最高可容纳3000人。我校体育馆作为一设施健全，现代化规模高的建筑，每年都会在馆内举报许多大型活动，如我校的迎新晚会，东莞篮球联赛的主场等。是我校标志性建筑之一。"
+      },
+      {
+        "id": 4,
+        "name": "西湖乐园",
+        "latitude": "22.96726",
+        "longitude": "113.75763",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园1.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园2.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园3.jpg",
+        ],
+        "description": "西湖乐园"
+      },
+      {
+        "id": 5,
+        "name": "雅园综合市场",
+        "latitude": "22.972680",
+        "longitude": "113.758130",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/食堂/东门二楼/东门食肆1.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/东门二楼/东门食肆2.jpg"
+        ],
+        "description": "雅园综合市场"
+      }
+    ]
+  },
+  {
     "name": "教学楼",
     "scale": 16,
-    "data": [{
-      "id": 1,
-      "name": "1号教学楼",
-      "latitude": "22.97338",
-      "longitude": "113.7554",
-      "iconPath": "/img/ico/jxl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "1号教学楼有九层楼，左右两侧有电梯，正对着正门（北门），成拱形，左边是2号教学楼，右边是3号教学楼，中间与4、5号教学楼相连。1号教学楼一楼主要是学校社团部门的活动室，还有农行ATM机，校园银行（中国建设银行），中国电信、联通、移动店，广科报刊亭；2～6层楼为多媒体教室；7～9主要为实验室，有：语言实验室、公共实验室、会计多功能综合实验室、软件综合实验室，同声传译实验室，ERP实训室，NET实训室，国际商务英语模拟实训室，计算机基础技术实训室，数据开发实训室，还有管理办公室。"
-    }, {
-      "id": 2,
-      "name": "2号教学楼",
-      "latitude": "22.97331",
-      "longitude": "113.75464",
-      "iconPath": "/img/ico/jxl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "2号教学楼有六层楼，在1号教学楼的左边，创业楼的后面。"
-    }, {
-      "id": 3,
-      "name": "3号教学楼",
-      "latitude": "22.97379",
-      "longitude": "113.75627",
-      "iconPath": "/img/ico/jxl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "3号教学楼有六层楼，在1号教学楼的右边。"
-    }, {
-      "id": 4,
-      "name": "4号教学楼",
-      "latitude": "22.972841",
-      "longitude": "113.755145",
-      "iconPath": "/img/ico/jxl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "4栋教学楼位于2栋教学楼后方，且与2栋教学楼相连接。4栋教学楼在配套有现代多媒体教学设施，且全部装有空调的同时还配套有最新电脑设备，帮助学生学习最新现代信息技术。"
-    }, {
-      "id": 5,
-      "name": "5号教学楼",
-      "latitude": "22.973043",
-      "longitude": "113.755928",
-      "iconPath": "/img/ico/jxl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "5栋教学楼位于3栋教学楼后方，且与3栋教学楼相连接。3栋教学楼在配套有现代多媒体教学设施，且全部装有空调，保证了学生学习环境和教师教学环境的质量。使学生能舒适专心地进行高质量学习。"
-    }, {
-      "id": 6,
-      "name": "6号教学楼",
-      "latitude": "22.97253",
-      "longitude": "113.75524",
-      "iconPath": "/img/ico/jxl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "6栋教学楼位于4栋教学楼后方，且与4栋教学楼相连接。6栋教学楼在配套有现代多媒体教学设施，且全部装有空调。且在六楼有大型教室，最高可容纳近200人，是大型讲课和讲座的主场地之一。"
-    }, {
-      "id": 7,
-      "name": "7号教学楼",
-      "latitude": "22.97265",
-      "longitude": "113.7558",
-      "iconPath": "/img/ico/jxl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "7号教学楼有六层楼，与5号教学楼相连。教学楼主要为公共多媒体教室，还有资产评估、投资项目管理实验室。"
-    }, {
-      "id": 8,
-      "name": "8号教学楼",
-      "latitude": "22.96993",
-      "longitude": "113.75418",
-      "iconPath": "/img/ico/jxl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "8栋教学楼位于广东科技学院南门，位于行政楼后面。8栋教学楼主体为6层建筑，外墙为淡黄色，一至六楼均有公共多媒体教室，提供了场所让学生上课自习。其中5楼有中心机房，现代教育中心以及网络室。6楼有库房以及现代教育中心主任室。"
-    }, {
-      "id": 9,
-      "name": "9号教学楼",
-      "latitude": "22.96945",
-      "longitude": "113.75461",
-      "iconPath": "/img/ico/jxl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "9栋教学楼位于广东科技学院南门，行政楼右边。9栋教学楼主体为六层建筑，外墙为淡黄色。一楼为计算机系资料室以及多媒体课室，二楼为计算机系学工办公室及多媒体课室，三楼为计算机系主任办公室以及多媒体教室，四楼为计算机系软件工程教研室以及云终端实训室，五楼以及六楼为计算机系网络工程教研室以及云端实验室。"
-    }]
-  }, {
+    "data": [
+      {
+        "id": 1,
+        "name": "1号教学楼",
+        "latitude": "22.97338",
+        "longitude": "113.7554",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/教学楼/1号教学楼.jpg"
+        ],
+        "description": "1号教学楼有九层楼，左右两侧有电梯，正对着正门（北门），成拱形，左边是2号教学楼，右边是3号教学楼，中间与4、5号教学楼相连。1号教学楼一楼主要是学校社团部门的活动室，还有农行ATM机，校园银行（中国建设银行），中国电信、联通、移动店，广科报刊亭；2～6层楼为多媒体教室；7～9主要为实验室，有：语言实验室、公共实验室、会计多功能综合实验室、软件综合实验室，同声传译实验室，ERP实训室，NET实训室，国际商务英语模拟实训室，计算机基础技术实训室，数据开发实训室，还有管理办公室。"
+      },
+      {
+        "id": 2,
+        "name": "2号教学楼",
+        "latitude": "22.97331",
+        "longitude": "113.75464",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/教学楼/2号教学楼.jpg"
+        ],
+        "description": "2号教学楼有六层楼，在1号教学楼的左边，创业楼的后面。"
+      },
+      {
+        "id": 3,
+        "name": "3号教学楼",
+        "latitude": "22.97379",
+        "longitude": "113.75627",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/教学楼/3号教学楼1.jpg",
+          "http://qn.gxgk.cc/校园导览/教学楼/3号教学楼2.jpg"
+        ],
+        "description": "3号教学楼有六层楼，在1号教学楼的右边。"
+      },
+      {
+        "id": 4,
+        "name": "4号教学楼",
+        "latitude": "22.972841",
+        "longitude": "113.755145",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/教学楼/4号教学楼1.jpg",
+          "http://qn.gxgk.cc/校园导览/教学楼/4号教学楼2.jpg"
+        ],
+        "description": "4栋教学楼位于2栋教学楼后方，且与2栋教学楼相连接。4栋教学楼在配套有现代多媒体教学设施，且全部装有空调的同时还配套有最新电脑设备，帮助学生学习最新现代信息技术。"
+      },
+      {
+        "id": 5,
+        "name": "5号教学楼",
+        "latitude": "22.973043",
+        "longitude": "113.755928",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/教学楼/5号教学楼1.jpg",
+          "http://qn.gxgk.cc/校园导览/教学楼/5号教学楼2.jpg"
+        ],
+        "description": "5栋教学楼位于3栋教学楼后方，且与3栋教学楼相连接。3栋教学楼在配套有现代多媒体教学设施，且全部装有空调，保证了学生学习环境和教师教学环境的质量。使学生能舒适专心地进行高质量学习。"
+      },
+      {
+        "id": 6,
+        "name": "6号教学楼",
+        "latitude": "22.97253",
+        "longitude": "113.75524",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/教学楼/6栋教学楼1.jpg",
+          "http://qn.gxgk.cc/校园导览/教学楼/6号教学楼2.jpg"
+        ],
+        "description": "6栋教学楼位于4栋教学楼后方，且与4栋教学楼相连接。6栋教学楼在配套有现代多媒体教学设施，且全部装有空调。且在六楼有大型教室，最高可容纳近200人，是大型讲课和讲座的主场地之一。"
+      },
+      {
+        "id": 7,
+        "name": "7号教学楼",
+        "latitude": "22.97265",
+        "longitude": "113.7558",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/教学楼/7号教学楼1.jpg",
+          "http://qn.gxgk.cc/校园导览/教学楼/7号教学楼2.jpg"
+        ],
+        "description": "7号教学楼有六层楼，与5号教学楼相连。教学楼主要为公共多媒体教室，还有资产评估、投资项目管理实验室。"
+      },
+      {
+        "id": 8,
+        "name": "8号教学楼",
+        "latitude": "22.96993",
+        "longitude": "113.75418",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/教学楼/8号教学楼.jpg"
+        ],
+        "description": "8栋教学楼位于广东科技学院南门，位于行政楼后面。8栋教学楼主体为6层建筑，外墙为淡黄色，一至六楼均有公共多媒体教室，提供了场所让学生上课自习。其中5楼有中心机房，现代教育中心以及网络室。6楼有库房以及现代教育中心主任室。"
+      },
+      {
+        "id": 9,
+        "name": "9号教学楼",
+        "latitude": "22.96945",
+        "longitude": "113.75461",
+        "iconPath": "/img/ico/jxl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+        ],
+        "description": "9栋教学楼位于广东科技学院南门，行政楼右边。9栋教学楼主体为六层建筑，外墙为淡黄色。一楼为计算机系资料室以及多媒体课室，二楼为计算机系学工办公室及多媒体课室，三楼为计算机系主任办公室以及多媒体教室，四楼为计算机系软件工程教研室以及云终端实训室，五楼以及六楼为计算机系网络工程教研室以及云端实验室。"
+      }
+    ]
+  },
+  {
     "name": "校门",
     "scale": 16,
-    "data": [{
-      "id": 1,
-      "name": "北门",
-      "latitude": "22.97427",
-      "longitude": "113.75511",
-      "iconPath": "/img/ico/xm.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "北门"
-    }, {
-      "id": 2,
-      "name": "东门",
-      "latitude": "22.9732",
-      "longitude": "113.75779",
-      "iconPath": "/img/ico/xm.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://gkrg1b.qiniudn.com/%E4%B8%9C%E9%97%A8.jpg?1212121212"],
-      "description": "东门有“东莞小香港”之称。从一楼到三楼琳琅满目，一楼设有早餐店，糖水店，小吃店，粥粉店等二楼是快餐为主，各式各类，总有一家店适合你。三楼比较安静，有饺子店，寿司店，咖啡厅，洗发店等"
-    }, {
-      "id": 3,
-      "name": "南门",
-      "latitude": "22.96919",
-      "longitude": "113.75486",
-      "iconPath": "/img/ico/xm.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "南门"
-    }, {
-      "id": 4,
-      "name": "雅苑门",
-      "latitude": "22.97718",
-      "longitude": "113.75838",
-      "iconPath": "/img/ico/xm.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "雅苑门"
-    }]
-  }, {
+    "data": [
+      {
+        "id": 1,
+        "name": "北门",
+        "latitude": "22.97427",
+        "longitude": "113.75511",
+        "iconPath": "/img/ico/xm.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/校门/北门.jpg"
+        ],
+        "description": "北门"
+      },
+      {
+        "id": 2,
+        "name": "东门",
+        "latitude": "22.9732",
+        "longitude": "113.75779",
+        "iconPath": "/img/ico/xm.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/校门/东门.jpg"
+        ],
+        "description": "东门有“东莞小香港”之称。从一楼到三楼琳琅满目，一楼设有早餐店，糖水店，小吃店，粥粉店等二楼是快餐为主，各式各类，总有一家店适合你。三楼比较安静，有饺子店，寿司店，咖啡厅，洗发店等"
+      },
+      {
+        "id": 3,
+        "name": "南门",
+        "latitude": "22.96919",
+        "longitude": "113.75486",
+        "iconPath": "/img/ico/xm.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/校门/南门.jpg"
+        ],
+        "description": "南门"
+      },
+      {
+        "id": 4,
+        "name": "雅苑门",
+        "latitude": "22.97718",
+        "longitude": "113.75838",
+        "iconPath": "/img/ico/xm.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/校门/雅苑门.jpg"
+        ],
+        "description": "雅苑门"
+      }
+    ]
+  },
+  {
     "name": "食堂",
     "scale": 16,
-    "data": [{
-      "id": 1,
-      "name": "一饭",
-      "latitude": "22.974238",
-      "longitude": "113.756990",
-      "iconPath": "/img/ico/st.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "一号饭堂：位于博苑，学校唯一设有2层的饭堂，是从雅苑宿舍到教学楼的必经之路。\n    是校内人流量最多的一个饭堂，饭菜味道大众化，适合多种人的口味，肉类丰富，种类繁多。有4毛钱和6毛钱的米饭窗口，如果打包需要加1块钱的外卖费，蔬菜跟肉类种类都是很多的，口味也大众化，而且也有炖汤提供，价格不一，最靠左边还有鸡扒饭可选择，一饭正门入口外卖摊位那里还有快餐，基本是客家人，也别有一番风味。\n  第二层特色是自助餐，菜跟肉自己挑选，然后称重算钱，15块钱一斤，饭是免费的，可以吃多少打多少，另外还有煮面食的摊位。"
-    }, {
-      "id": 2,
-      "name": "二饭",
-      "latitude": "22.970702",
-      "longitude": "113.754673",
-      "iconPath": "/img/ico/st.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "二号饭堂：位于南苑4号宿舍的一楼，接近图书馆，环境明亮，早餐有肠粉，菜色丰富，口感鲜美，特色是现煮粥，材料可自己选择。"
-    }, {
-      "id": 3,
-      "name": "三饭",
-      "latitude": "22.970260",
-      "longitude": "113.754510",
-      "iconPath": "/img/ico/st.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "三号饭堂：三饭与二饭相邻，在南苑1.2号宿舍的一楼，有自助餐和汤粉蒸粉肠粉，三饭的特色是煲仔饭，材料可自己选择（田鸡、鸡肉等）菜色丰富，不过早餐是4个饭堂中种类最多的，味道也都挺不错的。"
-    }, {
-      "id": 4,
-      "name": "四饭",
-      "latitude": "22.976881",
-      "longitude": "113.756191",
-      "iconPath": "/img/ico/st.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "四号饭堂：在雅苑宿舍区，临近宿舍，方便学生就餐。目前已经改造升级完毕，环境优美，且菜式种类繁多，经过改造升级以后，目前是学校里面环境较好的饭堂。"
-    }, {
-      "id": 5,
-      "name": "东门二三楼",
-      "latitude": "22.976882",
-      "longitude": "113.756131",
-      "iconPath": "/img/ico/st.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "东门二三楼"
-    }, {
-      "id": 6,
-      "name": "爱时尚",
-      "latitude": "22.976862",
-      "longitude": "113.756231",
-      "iconPath": "/img/ico/st.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "爱时尚"
-    }]
-  }, {
+    "data": [
+      {
+        "id": 1,
+        "name": "一饭",
+        "latitude": "22.974238",
+        "longitude": "113.756990",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/食堂/一饭/一饭1.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/一饭/一饭2.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/一饭/一饭二楼1.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/一饭/一饭二楼2.jpg"
+        ],
+        "description": "一号饭堂：位于博苑，学校唯一设有2层的饭堂，是从雅苑宿舍到教学楼的必经之路。是校内人流量最多的一个饭堂，饭菜味道大众化，适合多种人的口味，肉类丰富，种类繁多。有4毛钱和6毛钱的米饭窗口，如果打包需要加1块钱的外卖费，蔬菜跟肉类种类都是很多的，口味也大众化，而且也有炖汤提供，价格不一，最靠左边还有鸡扒饭可选择，一饭正门入口外卖摊位那里还有快餐，基本是客家人，也别有一番风味。第二层特色是自助餐，菜跟肉自己挑选，然后称重算钱，15块钱一斤，饭是免费的，可以吃多少打多少，另外还有煮面食的摊位。"
+      },
+      {
+        "id": 2,
+        "name": "二饭",
+        "latitude": "22.970702",
+        "longitude": "113.754673",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/食堂/二饭/二饭1.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/二饭/二饭2.jpg"
+        ],
+        "description": "二号饭堂：位于南苑4号宿舍的一楼，接近图书馆，环境明亮，早餐有肠粉，菜色丰富，口感鲜美，特色是现煮粥，材料可自己选择。"
+      },
+      {
+        "id": 3,
+        "name": "三饭",
+        "latitude": "22.970260",
+        "longitude": "113.754510",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/食堂/三饭/三饭1.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/三饭/三饭2.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/三饭/三饭3.jpg"
+        ],
+        "description": "三号饭堂：三饭与二饭相邻，在南苑1.2号宿舍的一楼，有自助餐和汤粉蒸粉肠粉，三饭的特色是煲仔饭，材料可自己选择（田鸡、鸡肉等）菜色丰富，不过早餐是4个饭堂中种类最多的，味道也都挺不错的。"
+      },
+      {
+        "id": 4,
+        "name": "四饭",
+        "latitude": "22.976881",
+        "longitude": "113.756191",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/食堂/四饭/第4饭堂1.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/四饭/第4饭堂2.jpg"
+        ],
+        "description": "四号饭堂：在雅苑宿舍区，临近宿舍，方便学生就餐。目前已经改造升级完毕，环境优美，且菜式种类繁多，经过改造升级以后，目前是学校里面环境较好的饭堂。"
+      },
+      {
+        "id": 5,
+        "name": "东门二楼",
+        "latitude": "22.976882",
+        "longitude": "113.756131",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/食堂/东门二楼/东门食肆1.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/东门二楼/东门食肆2.jpg"
+        ],
+        "description": "东门二楼"
+      },
+      {
+        "id": 6,
+        "name": "爱时尚",
+        "latitude": "22.976862",
+        "longitude": "113.756231",
+        "iconPath": "/img/ico/st.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/食堂/爱时尚.jpg"
+        ],
+        "description": "爱时尚"
+      }
+    ]
+  },
+  {
     "scale": 16,
     "name": "宿舍",
-    "data": [{
-      "id": 1,
-      "name": "南苑1栋",
-      "latitude": "22.970203",
-      "longitude": "113.754367",
-      "iconPath": "/img/ico/boy_ss.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "南苑1栋"
-    }, {
-      "id": 2,
-      "name": "南苑2栋",
-      "latitude": "22.970356",
-      "longitude": "113.753884",
-      "iconPath": "/img/ico/boy_ss.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "南苑2栋"
-    }, {
-      "id": 3,
-      "name": "南苑3栋",
-      "latitude": "22.971003",
-      "longitude": "113.754002",
-      "iconPath": "/img/ico/boy_ss.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "南苑3栋"
-    }, {
-      "id": 4,
-      "name": "南苑4栋",
-      "latitude": "22.970885",
-      "longitude": "113.754544",
-      "iconPath": "/img/ico/boy_ss.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "南苑4栋"
-    }, {
-      "id": 5,
-      "name": "博苑1栋",
-      "latitude": "22.974001",
-      "longitude": "113.757033",
-      "iconPath": "/img/ico/girl_ss.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "博苑1栋"
-    }, {
-      "id": 6,
-      "name": "博苑2栋",
-      "latitude": "22.974683",
-      "longitude": "113.757607",
-      "iconPath": "/img/ico/boy_ss.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "博苑2栋"
-    }, {
-      "id": 6,
-      "name": "博苑3栋",
-      "latitude": "22.974278",
-      "longitude": "113.757591",
-      "iconPath": "/img/ico/boy_ss.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "博苑3栋"
-    }, {
-      "id": 7,
-      "name": "博苑4栋",
-      "latitude": "22.973567",
-      "longitude": "113.757570",
-      "iconPath": "/img/ico/girl_ss.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "博苑4栋"
-    }]
-  }, {
+    "data": [
+      {
+        "id": 1,
+        "name": "南苑1栋",
+        "latitude": "22.970203",
+        "longitude": "113.754367",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+        ],
+        "description": "南苑1栋"
+      },
+      {
+        "id": 2,
+        "name": "南苑2栋",
+        "latitude": "22.970356",
+        "longitude": "113.753884",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+        ],
+        "description": "南苑2栋"
+      },
+      {
+        "id": 3,
+        "name": "南苑3栋",
+        "latitude": "22.971003",
+        "longitude": "113.754002",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/南苑男生/南苑3-4栋.jpg"
+        ],
+        "description": "南苑3栋"
+      },
+      {
+        "id": 4,
+        "name": "南苑4栋",
+        "latitude": "22.970885",
+        "longitude": "113.754544",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/南苑男生/南苑3-4栋.jpg"
+        ],
+        "description": "南苑4栋"
+      },
+      {
+        "id": 5,
+        "name": "博苑1栋",
+        "latitude": "22.974001",
+        "longitude": "113.757033",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/博苑1234/博苑1号1.jpg",
+          "http://qn.gxgk.cc/校园导览/博苑1234/博苑1号2.jpg"
+        ],
+        "description": "博苑1栋"
+      },
+      {
+        "id": 6,
+        "name": "博苑2栋",
+        "latitude": "22.974683",
+        "longitude": "113.757607",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+        ],
+        "description": "博苑2栋"
+      },
+      {
+        "id": 7,
+        "name": "博苑3栋",
+        "latitude": "22.974278",
+        "longitude": "113.757591",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/博苑1234/博苑3号1.jpg",
+          "http://qn.gxgk.cc/校园导览/博苑1234/博苑3号2.jpg"
+        ],
+        "description": "博苑3栋"
+      },
+      {
+        "id": 8,
+        "name": "博苑4栋",
+        "latitude": "22.973567",
+        "longitude": "113.757570",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/博苑1234/博苑4号.jpg"
+        ],
+        "description": "博苑4栋"
+      }
+    ]
+  },
+  {
     "scale": 14,
     "name": "校园服务",
-    "data": [{
-      "id": 1,
-      "name": "南门快递超市",
-      "latitude": "22.982",
-      "longitude": "113.7",
-      "iconPath": "/img/ico/xyfu.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "中通、申通。。。。"
-    }, {
-      "id": 2,
-      "name": "东门二楼快递",
-      "latitude": "22.98",
-      "longitude": "113.71",
-      "iconPath": "/img/ico/xyfu.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "天天快递"
-    }, {
-      "id": 3,
-      "name": "南门照相馆",
-      "latitude": "22.981",
-      "longitude": "113.72",
-      "iconPath": "/img/ico/xyfu.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "南门照相馆"
-    }, {
-      "id": 4,
-      "name": "雅园照相馆",
-      "latitude": "22.982",
-      "longitude": "113.725",
-      "iconPath": "/img/ico/xyfu.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "南门照相馆"
-    }]
-  }, {
+    "data": [
+      {
+        "id": 1,
+        "name": "南门快递超市",
+        "latitude": "22.982",
+        "longitude": "113.7",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+        ],
+        "description": "中通、申通。。。。"
+      },
+      {
+        "id": 2,
+        "name": "东门二楼快递",
+        "latitude": "22.98",
+        "longitude": "113.71",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+        ],
+        "description": "天天快递"
+      },
+      {
+        "id": 3,
+        "name": "南门照相馆",
+        "latitude": "22.981",
+        "longitude": "113.72",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+        ],
+        "description": "南门照相馆"
+      },
+      {
+        "id": 4,
+        "name": "雅园照相馆",
+        "latitude": "22.982",
+        "longitude": "113.725",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+        ],
+        "description": "南门照相馆"
+      }
+    ]
+  },
+  {
     "scale": 12,
-    "name": "到处浪",
-    "data": [{
-      "id": 1,
-      "name": "汇一城",
-      "latitude": "22.97",
-      "longitude": "113.7",
-      "iconPath": "/img/ico/dcl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
-    }, {
-      "id": 2,
-      "name": "新光明市场",
-      "latitude": "22.972",
-      "longitude": "113.753",
-      "iconPath": "/img/ico/dcl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "西安科技大学"
-    }, {
-      "id": 3,
-      "name": "厚街万达",
-      "latitude": "22.9761",
-      "longitude": "113.8",
-      "iconPath": "/img/ico/dcl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
-    }, {
-      "id": 4,
-      "name": "咸阳师范学院",
-      "latitude": "22.92122",
-      "longitude": "113.75122",
-      "iconPath": "/img/ico/dcl.png",
-      "width": "30",
-      "height": "30",
-      "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],
-      "description": "北京大学（Peking University）简称“北大”（Beida[1]  ），诞生于1898年，初名京师大学堂，是中国近代第一所国立大学，也是第一个以“大学”之名创办的学校，其成立标志着中国近代高等教育的开端。北大是中国近代以来唯一以国家最高学府身份创立的学校，最初也是国家最高教育行政机关，行使教育部职能，统管全国教育。北大催生了中国最早的现代学制，开创了中国最早的文科、理科、社科、农科、医科等大学学科，是近代以来中国高等教育的奠基者。"
-    }]
+    "name": "办公楼",
+    "data": [
+      {
+        "id": 1,
+        "name": "创业楼",
+        "latitude": "22.92122",
+        "longitude": "113.75122",
+        "iconPath": "/img/ico/dcl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+        ],
+        "description": "<p>创业楼有十二层楼，位于广东科技学院北门的正对左侧，创业楼的二层到六层楼主要为办公室，七层到十二层楼主要是创新创业学院，创新创业学院拥有建筑面积达4210平米的创业大楼，设有创客中心、孵化中心、科技研发与转化中心、创投中心、电商中心等，为在校大学生和毕业5年内的校友创新创业提供了十分优越的条件。</p><br><p>学院致力于将创新创业学院建成涵盖创新工场、孵化基地、研发中心、高新科研成果转化中心、风险投资中心、电商创业园等平台的科技创新创业基地，并培育若干个高成长性、科技型创新企业，为把学院打造成全国知名的创新创业型学院奠定坚实基础。</p>"
+      },
+      {
+        "id": 2,
+        "name": "行政楼",
+        "latitude": "22.9761",
+        "longitude": "113.8",
+        "iconPath": "/img/ico/dcl.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "行政楼位于广东科技学院南门，面向西湖公园，背依8栋教学楼。行政楼始建于2012年9月，落成于2014年3月。行政楼主体为8层建筑，总面积约8000平方米，为钢筋混凝土框架结构，建筑结构先进，材料质地坚固。广东科技学院 12栋楼有8层，每层面积约为1000多平方。建筑风格为现代简约，简洁又不失大气，二、三、四层过道两边的墙体采用玻璃墙体，美观大气，又增加二楼采光效果。建筑楼顶广东科技学院的战略目标“创百年学府，育产业精英”的大字。行政楼建好至今，行政楼一直为各级行政领导的办公区域。"
+      }
+    ]
   }
 ]

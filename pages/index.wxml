@@ -8,6 +8,6 @@
     </navigator>
   </view>
   <view class="copyright">
-    <text>©莞香广科\n{{mapCopyright?"数据提供："+mapCopyright:""}}</text>
+    <text>©莞香广科\n{{mapCopyright?"数据版权："+mapCopyright:""}}</text>
   </view>
 </view>
