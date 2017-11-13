@@ -5,7 +5,7 @@ module.exports.introduce = {
   "images": "https://qn.gxgk.cc/gdst.jpg?20171005", // 首页图片地址
   "latitude": "22.97177",
   "longitude": "113.75453",
-  "img": ["http://qn.gxgk.cc/school/jd-tyg.jpg"],  //简介图片
+  "img": ["http://qn.gxgk.cc/校园导览/教学楼/全景.jpg"],  //简介图片
   "description": "<p>广东科技学院创建于2003年，是国家教育部批准设立的一所以工学为主，管理学、经济学、文学、艺术学等多学科协调发展的全日制普通本科院校，拥有学士学位授予权，培养经济社会发展需要的高素质应用型人才。</p><br><p>学院现有全日制在校学生17106人，专任教师799人，其中具有高级职称教师和硕士及以上学位教师占专任教师的比例分别达到32%和60 %。学院设有机电工程系、计算机系、管理系、财经系、外语系、艺术设计系、公共基础课部、思想政治理论课教学部、继续教育学院、国际教育学院、创新创业学院等六系两部三院，承担国家计划内招生任务。2017年开设本科招生专业27个。</p><br><p>  学院位于东莞市南城区，东临西平湖，西接植物园，南依西湖乐园，北靠环城路，环境幽雅，交通便利，风景怡人。校园规划占地面积934亩，建筑面积52万余平方米，图书馆面积2.36万平方米，拥有各类图书236万册，教学仪器设备总值10602万余元。</p>",
   "mapCopyright": "宣传服务中心"
 }
@@ -353,7 +353,7 @@ module.exports.map = [
           "http://qn.gxgk.cc/校园导览/食堂/东门二楼/东门食肆1.jpg",
           "http://qn.gxgk.cc/校园导览/食堂/东门二楼/东门食肆2.jpg"
         ],
-        "description": "东门二楼"
+        "description": "东门二三楼"
       },
       {
         "id": 6,
@@ -428,6 +428,104 @@ module.exports.map = [
       },
       {
         "id": 5,
+        "name": "南苑5栋",
+        "latitude": "22.971532",
+        "longitude": "113.753622",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/南苑男生/南苑5栋.jpg"
+        ],
+        "description": "南苑5栋"
+      },
+      {
+        "id": 6,
+        "name": "南苑6栋",
+        "latitude": "22.970035",
+        "longitude": "113.754839",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/南苑女生/南苑6栋.jpg"
+        ],
+        "description": "南苑6栋"
+      },
+      {
+        "id": 7,
+        "name": "南苑7栋",
+        "latitude": "22.970776",
+        "longitude": "113.755199",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/南苑女生/南苑7栋.jpg"
+        ],
+        "description": "南苑7栋"
+      },
+      {
+        "id": 8,
+        "name": "南苑8栋",
+        "latitude": "22.971734",
+        "longitude": "113.755118",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑1.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑2.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑3.jpg",
+        ],
+        "description": "南苑8栋"
+      },
+      {
+        "id": 9,
+        "name": "南苑9栋",
+        "latitude": "22.971927",
+        "longitude": "113.755199",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑2.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑3.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑1.jpg",
+        ],
+        "description": "南苑9栋"
+      },
+      {
+        "id": 10,
+        "name": "南苑10栋",
+        "latitude": "22.972154",
+        "longitude": "113.755333",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑3.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑2.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑1.jpg",
+        ],
+        "description": "南苑10栋"
+      },
+      {
+        "id": 11,
+        "name": "南苑11栋",
+        "latitude": "22.971433",
+        "longitude": "113.753933",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/南苑男生/南苑11栋.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑男生/南苑11栋2.jpg",
+        ],
+        "description": "南苑11栋"
+      },
+      {
+        "id": 12,
         "name": "博苑1栋",
         "latitude": "22.974001",
         "longitude": "113.757033",
@@ -441,7 +539,7 @@ module.exports.map = [
         "description": "博苑1栋"
       },
       {
-        "id": 6,
+        "id": 13,
         "name": "博苑2栋",
         "latitude": "22.974683",
         "longitude": "113.757607",
@@ -454,7 +552,7 @@ module.exports.map = [
         "description": "博苑2栋"
       },
       {
-        "id": 7,
+        "id": 14,
         "name": "博苑3栋",
         "latitude": "22.974278",
         "longitude": "113.757591",
@@ -468,7 +566,7 @@ module.exports.map = [
         "description": "博苑3栋"
       },
       {
-        "id": 8,
+        "id": 15,
         "name": "博苑4栋",
         "latitude": "22.973567",
         "longitude": "113.757570",
@@ -479,6 +577,48 @@ module.exports.map = [
           "http://qn.gxgk.cc/校园导览/博苑1234/博苑4号.jpg"
         ],
         "description": "博苑4栋"
+      },
+      {
+        "id": 16,
+        "name": "雅苑1号学生公寓",
+        "latitude": "22.976678",
+        "longitude": "113.756867",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑1号学生公寓1.jpg", 
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑1号学生公寓2.jpg"
+        ],
+        "description": "雅苑1号学生公寓"
+      },
+      {
+        "id": 17,
+        "name": "雅苑2号学生公寓",
+        "latitude": "22.976481",
+        "longitude": "113.756180",
+        "iconPath": "/img/ico/girl_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑2号学生公寓1.jpg",
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑2号学生公寓2.jpg"
+        ],
+        "description": "雅苑2号学生公寓"
+      },
+      {
+        "id": 18,
+        "name": "雅苑3号学生公寓",
+        "latitude": "22.976950",
+        "longitude": "113.756014",
+        "iconPath": "/img/ico/boy_ss.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑3号学生公寓1.jpg",
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑3号学生公寓2.jpg"
+        ],
+        "description": "雅苑3号学生公寓"
       }
     ]
   },
@@ -541,14 +681,14 @@ module.exports.map = [
     ]
   },
   {
-    "scale": 12,
+    "scale": 16,
     "name": "办公楼",
     "data": [
       {
         "id": 1,
         "name": "创业楼",
-        "latitude": "22.92122",
-        "longitude": "113.75122",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
         "iconPath": "/img/ico/dcl.png",
         "width": "30",
         "height": "30",
@@ -560,8 +700,8 @@ module.exports.map = [
       {
         "id": 2,
         "name": "行政楼",
-        "latitude": "22.9761",
-        "longitude": "113.8",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
         "iconPath": "/img/ico/dcl.png",
         "width": "30",
         "height": "30",
