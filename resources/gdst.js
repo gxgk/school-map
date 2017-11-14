@@ -247,8 +247,8 @@ module.exports.map = [
       {
         "id": 12,
         "name": "工三",
-        "latitude": "22.968129",
-        "longitude": "113.753981",
+        "latitude": "22.968124",
+        "longitude": "113.754120",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -260,21 +260,21 @@ module.exports.map = [
       {
         "id": 13,
         "name": "汽车实训中心",
-        "latitude": "22.968549",
-        "longitude": "113.754174",
+        "latitude": "22.968460",
+        "longitude": "113.754196",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/实训楼/服装实训中心.jpg"
+          "http://qn.gxgk.cc/校园导览/实训楼/汽车实训中心.jpg"
         ],
         "description": "汽车实训中心"
       },
       {
         "id": 14,
         "name": "机械加工中心",
-        "latitude": "22.968129",
-        "longitude": "113.753981",
+        "latitude": "22.968178",
+        "longitude": "113.754131",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -286,8 +286,8 @@ module.exports.map = [
       {
         "id": 15,
         "name": "数控加工中心",
-        "latitude": "22.968020",
-        "longitude": "113.754051",
+        "latitude": "22.968074",
+        "longitude": "113.754104",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -300,8 +300,8 @@ module.exports.map = [
       {
         "id": 16,
         "name": "实验楼1",
-        "latitude": "22.968020",
-        "longitude": "113.754051",
+        "latitude": "22.967966",
+        "longitude": "113.754067",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -314,8 +314,8 @@ module.exports.map = [
       {
         "id": 17,
         "name": "实验楼2(服装实训中心)",
-        "latitude": "22.968020",
-        "longitude": "113.754051",
+        "latitude": "22.968079",
+        "longitude": "113.753766",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
