@@ -3,8 +3,8 @@ module.exports.introduce = {
   "shortName": "广科", //学校名字两个字缩写
   "name": "广东科技学院", //学校名称
   "images": "https://qn.gxgk.cc/gdst.jpg?20171005", // 首页图片地址
-  "latitude": "22.97177",
-  "longitude": "113.75453",
+  "latitude": "22.972816",
+  "longitude": "113.756003",
   "img": ["http://qn.gxgk.cc/校园导览/教学楼/全景.jpg"],  //简介图片
   "description": "<p>广东科技学院创建于2003年，是国家教育部批准设立的一所以工学为主，管理学、经济学、文学、艺术学等多学科协调发展的全日制普通本科院校，拥有学士学位授予权，培养经济社会发展需要的高素质应用型人才。</p><br><p>学院现有全日制在校学生17106人，专任教师799人，其中具有高级职称教师和硕士及以上学位教师占专任教师的比例分别达到32%和60 %。学院设有机电工程系、计算机系、管理系、财经系、外语系、艺术设计系、公共基础课部、思想政治理论课教学部、继续教育学院、国际教育学院、创新创业学院等六系两部三院，承担国家计划内招生任务。2017年开设本科招生专业27个。</p><br><p>  学院位于东莞市南城区，东临西平湖，西接植物园，南依西湖乐园，北靠环城路，环境幽雅，交通便利，风景怡人。校园规划占地面积934亩，建筑面积52万余平方米，图书馆面积2.36万平方米，拥有各类图书236万册，教学仪器设备总值10602万余元。</p>",
   "mapCopyright": "宣传服务中心"
@@ -201,6 +201,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
+          "http://qn.gxgk.cc/校园导览/教学楼/8号教学楼2.jpg",
           "http://qn.gxgk.cc/校园导览/教学楼/8号教学楼.jpg"
         ],
         "description": "8栋教学楼位于广东科技学院南门，位于行政楼后面。8栋教学楼主体为6层建筑，外墙为淡黄色，一至六楼均有公共多媒体教室，提供了场所让学生上课自习。其中5楼有中心机房，现代教育中心以及网络室。6楼有库房以及现代教育中心主任室。"
@@ -214,7 +215,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+          "http://qn.gxgk.cc/校园导览/教学楼/9号教学楼1.jpg",
+          "http://qn.gxgk.cc/校园导览/教学楼/9号教学楼2.jpg"
         ],
         "description": "9栋教学楼位于广东科技学院南门，行政楼右边。9栋教学楼主体为六层建筑，外墙为淡黄色。一楼为计算机系资料室以及多媒体课室，二楼为计算机系学工办公室及多媒体课室，三楼为计算机系主任办公室以及多媒体教室，四楼为计算机系软件工程教研室以及云终端实训室，五楼以及六楼为计算机系网络工程教研室以及云端实验室。"
       },
@@ -247,8 +249,8 @@ module.exports.map = [
       {
         "id": 12,
         "name": "工三",
-        "latitude": "22.968124",
-        "longitude": "113.754120",
+        "latitude": "22.968153",
+        "longitude": "113.754067",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -273,8 +275,8 @@ module.exports.map = [
       {
         "id": 14,
         "name": "机械加工中心",
-        "latitude": "22.968178",
-        "longitude": "113.754131",
+        "latitude": "22.968193",
+        "longitude": "113.754147",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -286,8 +288,8 @@ module.exports.map = [
       {
         "id": 15,
         "name": "数控加工中心",
-        "latitude": "22.968074",
-        "longitude": "113.754104",
+        "latitude": "22.968040",
+        "longitude": "113.754083",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -300,8 +302,8 @@ module.exports.map = [
       {
         "id": 16,
         "name": "实验楼1",
-        "latitude": "22.967966",
-        "longitude": "113.754067",
+        "latitude": "22.967981",
+        "longitude": "113.754008",
         "iconPath": "/img/ico/jxl.png",
         "width": "30",
         "height": "30",
@@ -503,7 +505,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+          "http://qn.gxgk.cc/校园导览/南苑男生/南苑1栋.jpg"
         ],
         "description": "南苑1栋"
       },
@@ -516,7 +518,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/school/jd-tyg.jpg"
+          "http://qn.gxgk.cc/校园导览/南苑男生/南苑2栋.jpg"
         ],
         "description": "南苑2栋"
       },
@@ -542,7 +544,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/南苑男生/南苑3-4栋.jpg"
+          "http://qn.gxgk.cc/校园导览/南苑男生/南苑4栋.jpg"
         ],
         "description": "南苑4栋"
       },
@@ -750,8 +752,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑5号公寓1.jpg",
-          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑5号公寓2.jpg"
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑5号公寓2.jpg",
+          "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑5号公寓1.jpg"
         ],
         "description": "雅苑5号学生公寓"
       }
