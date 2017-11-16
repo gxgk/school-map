@@ -35,8 +35,9 @@
   justify-content: flex-end;
   flex-direction: column;
   align-items: center;
-  height: 50vh;
-  font-size: 13px;
+  height: 55vh;
+  font-size: 32rpx;
   text-align: center;
   line-height: 150%;
+  text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
 }

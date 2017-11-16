@@ -1,4 +1,4 @@
-<view class="page" style="background: url('{{images}}'); background-size: cover;">
+<view class="page" style="background: url('{{images}}'); background-size: 100% 100%;">
   <view class="button_container">
     <navigator class="button" url="map/details">
       <text>{{shortName}}简介</text>
