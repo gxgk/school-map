@@ -21,6 +21,16 @@
 
 ---
 
+## 预览
+ 
+请认真阅读并遵守以下开源协议
+
+![首页](https://github.com/gxgk/map/blob/master/screenshot/Screenshot_2017-11-18-10-22-34-589.png)![导览](https://github.com/gxgk/map/blob/master/screenshot/Screenshot_2017-11-18-10-22-40-854.png)![详情页](https://github.com/gxgk/map/blob/master/screenshot/Screenshot_2017-11-18-10-22-53-074.png)
+
+![二维码](https://github.com/gxgk/map/blob/master/screenshot/qrcode.jpg)
+
+
+---
 ## 使用说明
 
 项目根文件新建config.js文件，写入以下内容，并根据自身需求修改

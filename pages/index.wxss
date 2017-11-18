@@ -36,8 +36,8 @@
   flex-direction: column;
   align-items: center;
   height: 55vh;
-  font-size: 32rpx;
+  font-size: 27rpx;
   text-align: center;
   line-height: 150%;
-  text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+  text-shadow:#000 1rpx 0 0,#000 0 1rpx 0,#000 -1rpx 0 0,#000 0 -1rpx 0;
 }
