@@ -2,7 +2,8 @@
 module.exports.introduce = {
   "shortName": "广科", //学校名字两个字缩写
   "name": "广东科技学院", //学校名称
-  "images": "https://qn.gxgk.cc/校园导览/gdst.jpg?20171117", // 首页图片地址
+  "images": "https://qn.gxgk.cc/校园导览/gdst.jpg?20171120", // 首页图片地址
+  "share": "https://qn.gxgk.cc/校园导览/share.jpg", //分享时展示图片的地址
   "latitude": "22.972816",
   "longitude": "113.756003",
   "img": ["http://qn.gxgk.cc/校园导览/校门/北门.jpg",
@@ -27,7 +28,7 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/景点/植物园/植物园1.jpg",
           "http://qn.gxgk.cc/校园导览/景点/植物园/植物园2.jpg",
-          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园3.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园3.jpg"
         ],
         "description": "东莞植物园"
       },
@@ -73,7 +74,7 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园3.jpg",
           "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园2.jpg",
-          "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园1.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/西湖乐园/西湖乐园1.jpg"
         ],
         "description": "西湖乐园"
       },
@@ -487,7 +488,7 @@ module.exports.map = [
         "height": "30",
         "img": [
           "http://qn.gxgk.cc/校园导览/食堂/雅之味/雅知味1.jpg",
-          "http://qn.gxgk.cc/校园导览/食堂/雅之味/雅知味2.jpg",
+          "http://qn.gxgk.cc/校园导览/食堂/雅之味/雅知味2.jpg"
         ],
         "description": "雅知味"
       }
@@ -599,7 +600,7 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/南苑8910/南苑1.jpg",
           "http://qn.gxgk.cc/校园导览/南苑8910/南苑2.jpg",
-          "http://qn.gxgk.cc/校园导览/南苑8910/南苑3.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑3.jpg"
         ],
         "description": "南苑8栋"
       },
@@ -614,7 +615,7 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/南苑8910/南苑2.jpg",
           "http://qn.gxgk.cc/校园导览/南苑8910/南苑3.jpg",
-          "http://qn.gxgk.cc/校园导览/南苑8910/南苑1.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑1.jpg"
         ],
         "description": "南苑9栋"
       },
@@ -629,7 +630,7 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/南苑8910/南苑3.jpg",
           "http://qn.gxgk.cc/校园导览/南苑8910/南苑2.jpg",
-          "http://qn.gxgk.cc/校园导览/南苑8910/南苑1.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑8910/南苑1.jpg"
         ],
         "description": "南苑10栋"
       },
@@ -643,7 +644,7 @@ module.exports.map = [
         "height": "30",
         "img": [
           "http://qn.gxgk.cc/校园导览/南苑男生/南苑11栋.jpg",
-          "http://qn.gxgk.cc/校园导览/南苑男生/南苑11栋2.jpg",
+          "http://qn.gxgk.cc/校园导览/南苑男生/南苑11栋2.jpg"
         ],
         "description": "南苑11栋"
       },
@@ -760,66 +761,6 @@ module.exports.map = [
       }
     ]
   },
-  /*
-  {
-    "scale": 14,
-    "name": "校园服务",
-    "data": [
-      {
-        "id": 1,
-        "name": "南门快递超市",
-        "latitude": "22.982",
-        "longitude": "113.7",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/school/jd-tyg.jpg"
-        ],
-        "description": "中通、申通。。。。"
-      },
-      {
-        "id": 2,
-        "name": "东门二楼快递",
-        "latitude": "22.98",
-        "longitude": "113.71",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/school/jd-tyg.jpg"
-        ],
-        "description": "天天快递"
-      },
-      {
-        "id": 3,
-        "name": "南门照相馆",
-        "latitude": "22.981",
-        "longitude": "113.72",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/school/jd-tyg.jpg"
-        ],
-        "description": "南门照相馆"
-      },
-      {
-        "id": 4,
-        "name": "雅园照相馆",
-        "latitude": "22.982",
-        "longitude": "113.725",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/school/jd-tyg.jpg"
-        ],
-        "description": "南门照相馆"
-      }
-    ]
-  },
-  */
   {
     "scale": 16,
     "name": "办公楼",
