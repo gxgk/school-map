@@ -83,7 +83,7 @@ Page({
     
   },
   clickButton: function (e) {
-    console.log(this.data.fullscreen)
+    //console.log(this.data.fullscreen)
     //打印所有关于点击对象的信息
     this.setData({ fullscreen: !this.data.fullscreen })  
     if (this.data.fullscreen){
