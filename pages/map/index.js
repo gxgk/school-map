@@ -10,7 +10,8 @@ Page({
     windowWidth:"",
     isSelectedBuild: 0,
     isSelectedBuildType: 0,
-    controls: []
+    controls: [],
+    islocation: false
   },
   onLoad: function () {
     wx.showShareMenu({
@@ -73,7 +74,8 @@ Page({
           console.log(res)
           _this.setData({
             longitude: res.longitude,
-            latitude: res.latitude
+            latitude: res.latitude,
+            islocation: true
           })
         }
       　})

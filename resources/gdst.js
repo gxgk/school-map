@@ -15,7 +15,7 @@ module.exports.introduce = {
 module.exports.map = [
   {
     "name": "景点",
-    "scale": 16,
+    "scale": 15,
     "data": [
       {
         "id": 1,
