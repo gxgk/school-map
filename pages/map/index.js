@@ -6,12 +6,12 @@ Page({
     latitude: 22.972816,
     longitude: 113.756003,
     buildlData: app.globalData.map,
-    windowHeight:"",
-    windowWidth:"",
+    windowHeight: "",
+    windowWidth: "",
     isSelectedBuild: 0,
     isSelectedBuildType: 0,
     controls: [],
-    islocation: false
+    islocation: true
   },
   onLoad: function () {
     wx.showShareMenu({
@@ -62,44 +62,46 @@ Page({
     console.log("e.markerId", e.markerId)
   },
   controltap(e) {
-    if (e.controlId == -1){
+    if (e.controlId == -1) {
       wx.navigateTo({
         url: 'search'
       })
     } else if (e.controlId == -2) {
-      var _this = this
-      wx.getLocation({
-        type: 'wgs84', // 默认为 wgs84 返回 gps 坐标，gcj02 返回可用于 wx.openLocation 的坐标  
-        success: function (res) {
-          console.log(res)
-          _this.setData({
-            longitude: res.longitude,
-            latitude: res.latitude,
-            islocation: true
-          })
-        }
-      　})
-    }else{
+      this.location()
+    } else {
       console.log("e.controlId", e.controlId)
     }
-    
+  },
+  location: function () {
+    var _this = this
+    wx.getLocation({
+      type: 'wgs84', // 默认为 wgs84 返回 gps 坐标，gcj02 返回可用于 wx.openLocation 的坐标  
+      success: function (res) {
+        app.globalData.latitude = res.latitude;
+        app.globalData.longitude = res.longitude;
+        _this.setData({
+          longitude: res.longitude,
+          latitude: res.latitude
+        })
+      }
+    })
   },
   clickButton: function (e) {
     //console.log(this.data.fullscreen)
     //打印所有关于点击对象的信息
-    this.setData({ fullscreen: !this.data.fullscreen })  
-    if (this.data.fullscreen){
-      this.setControls(this.data.windowWidth, this.data.windowHeight -25)
-    }else{
-      this.setControls(this.data.windowWidth, this.data.windowHeight /2)
+    this.setData({ fullscreen: !this.data.fullscreen })
+    if (this.data.fullscreen) {
+      this.setControls(this.data.windowWidth, this.data.windowHeight - 25)
+    } else {
+      this.setControls(this.data.windowWidth, this.data.windowHeight / 2)
     }
   },
-  changePage: function(event){
-    this.setData({ 
+  changePage: function (event) {
+    this.setData({
       isSelectedBuildType: event.currentTarget.id,
       isSelectedBuild: 0
     });
-    
+
   },
   // 修改控键位置
   setControls: function (width, height) {
@@ -109,7 +111,7 @@ Page({
         iconPath: '/img/search.png',
         position: {
           left: width - 50,
-          top: height  - 110,
+          top: height - 110,
           width: 40,
           height: 40
         },
@@ -126,6 +128,6 @@ Page({
         clickable: true
       }]
     })
-    
+
   }
 })

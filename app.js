@@ -39,6 +39,23 @@ App({
         _this.globalData.introduce = data.introduce;
       })
     }
+    //如果已经授权，提前获取定位信息
+    wx.getSetting({
+      success(res) {
+        if (res.authSetting['scope.userLocation']) {
+          //获取地理位置
+          wx.getLocation({
+            type: 'wgs84', // 默认为 wgs84 返回 gps 坐标，gcj02 返回可用于 wx.openLocation 的坐标  
+            success: function (res) {
+              console.log(res)
+              _this.globalData.latitude = res.latitude;
+              _this.globalData.longitude = res.longitude;
+              _this.globalData.islocation = true
+            }
+          })
+        }
+      }
+    })
   },
   loadMap: function () {
     var buildlData = this.school.map
@@ -107,5 +124,7 @@ App({
     userInfo: null,
     map: null,
     introduce: null,
+    latitude: null,
+    longitude: null
   }
 })

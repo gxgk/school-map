@@ -1,3 +1,4 @@
+var app = getApp();
 var amapFile = require('../../utils/amap-wx.js');
 Page({
   data: {
@@ -9,13 +10,21 @@ Page({
   },
   onLoad: function (options) {
     var _this = this;
+    _this.setData({
+      longitude: app.globalData.longitude,
+      latitude: app.globalData.latitude
+    })
+    _this.routing(options);
     wx.getLocation({
       type: 'gcj02',
       success: function (res) {
+        app.globalData.latitude = res.latitude;
+        app.globalData.longitude = res.longitude;
         _this.setData({
           latitude: res.latitude,
           longitude: res.longitude
         });
+        _this.routing(options);
       },
       fail: function () {
         console.log("定位失败")
@@ -32,6 +41,9 @@ Page({
         })
       }
     })
+  },
+  routing: function (options){
+    var _this = this;
     let distance = Math.abs(_this.data.longitude - options.longitude) + Math.abs(_this.data.latitude - options.latitude)
     console.log(distance);
     var myAmapFun = new amapFile.AMapWX({ key: require('../../config.js').key });

@@ -11,7 +11,6 @@ Page({
     building: {
       img: ['/img/loading.svg']//加载中图片地址
     },
-    introduce: false,
   },
 
   /**
@@ -21,7 +20,6 @@ Page({
     var bid = parseInt(options.bid);
     var tid = parseInt(options.tid);
     if (!options.bid || !options.tid){
-      this.data.introduce = true;
       var data = app.globalData.introduce;
     } else {
       var data = app.globalData.map[tid].data[bid];
