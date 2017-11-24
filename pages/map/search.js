@@ -7,20 +7,38 @@ Page({
    * 页面的初始数据
    */
   data: {
-    keyword: null
+    keyword: null,
+    buildlData: app.globalData.map,
+    showData: null,
+    cursor: 0
   },
 
   bindSearchInput: function (e) {
-    let inputData = e.detail.value.replace(/(^\s*)|(\s*$)/g, "")
-    if (inputData) {
-      let searchdata = app.globalData.map
-      for (var b in searchdata) {
-        for (var i in searchdata[b].data) {
-          searchdata[b].data[i].show = searchdata[b].data[i].name.indexOf(inputData) + searchdata[b].name.indexOf(inputData) + 1
+    let showData = new Array();
+    let searchdata = this.data.buildlData;
+    if (e.detail.cursor >= this.data.cursor) {
+      //输入文字
+      console.log('输入文字')
+      let inputData = e.detail.value.replace(/(^\s*)|(\s*$)/g, "")
+      if (inputData) {
+        for (var b in searchdata) {
+          for (var i in searchdata[b].data) {
+            if (searchdata[b].data[i].name.indexOf(inputData) != -1 || searchdata[b].data[i].description.indexOf(inputData) != -1) {
+              let build = searchdata[b].data[i];
+              build.tid = b;
+              build.bid = i;
+              showData.push(build)
+            }
+          }
         }
+        this.setData({ showData: showData });
       }
-      this.setData({ buildlData: searchdata });
+    } else {
+      //删除文字
+      console.log('删除文字')
+      this.setData({ showData: null });
     }
+    this.data.cursor = e.detail.cursor;
   },
   /**
    * 生命周期函数--监听页面加载
