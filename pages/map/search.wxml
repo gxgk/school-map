@@ -14,7 +14,7 @@
   </view>
 </view>
 
-<view wx:for="{{showData}}" wx:key="id" class="building-item">
+<view wx:for="{{showData}}" wx:key="name" class="building-item">
 
   <view style="height:100%; display: flex;">
     <navigator class="img" url='details?tid={{item.tid}}&bid={{item.bid}}'>

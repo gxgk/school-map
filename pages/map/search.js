@@ -21,16 +21,38 @@ Page({
       console.log('输入文字')
       let inputData = e.detail.value.replace(/(^\s*)|(\s*$)/g, "")
       if (inputData) {
+        let z = 0,x = 100;
         for (var b in searchdata) {
           for (var i in searchdata[b].data) {
-            if (searchdata[b].data[i].name.indexOf(inputData) != -1 || searchdata[b].data[i].description.indexOf(inputData) != -1) {
+            if (searchdata[b].data[i].name.indexOf(inputData) != -1) {
               let build = searchdata[b].data[i];
               build.tid = b;
               build.bid = i;
-              showData.push(build)
+              z = z + 1;
+              build.index = z;
+              showData.push(build);
+            } else if (searchdata[b].data[i].description.indexOf(inputData) != -1) {
+              let build = searchdata[b].data[i];
+              build.tid = b;
+              build.bid = i;
+              x = x + 1;
+              build.index = x;
+              showData.push(build);
             }
           }
         }
+        //冒泡排序
+        for (var i = 0; i < showData.length; i++) {
+          for (var j = 0; j < showData.length - i - 1; j++) {
+            if (showData[j].index > showData[j + 1].index) {
+              var temp = showData[j];
+              showData[j] = showData[j + 1];
+              showData[j + 1] = temp;
+              console.log('交换' + showData[j].index + ':' + showData[j + 1].index)
+            }
+          }
+        }
+        console.log(showData)
         this.setData({ showData: showData });
       }
     } else {
