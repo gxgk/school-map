@@ -5,35 +5,45 @@
   line-height: 30px;
   font-size: 30rpx;
 }
-.swiper{
-	height:40vh
+
+.swiper {
+  height: 40vh;
 }
-.swiper-image{
-	width:100%;
+
+.swiper-image {
+  width: 100%;
 }
-.building{
-	height:10vh; 
-	display: flex;
+
+.building {
+  height: 10vh;
+  display: flex;
+  margin: auto 20rpx;
 }
-.buildingName{
-	margin:auto 30px;
-	width:80%;
-	color: #079df2;
-	font-size: 50rpx;
+
+.buildingName {
+  margin: auto 15rpx;
+  width: 80%;
+  color: #079df2;
+  font-size: 50rpx;
+  white-space:nowrap;
 }
-.nav_map{
-	margin:auto 15px;
+
+.nav_map {
+  margin: auto 10rpx;
 }
-.nav_map image{
-	width:80rpx; 
-	height:80rpx;
+
+.nav_map image {
+  width: 80rpx;
+  height: 80rpx;
 }
-.descript{
-	background:#f8f8f8; 
-	width:100%; 
-	min-height:49vh;
+
+.descript {
+  background: #f8f8f8;
+  width: 100%;
+  min-height: 49vh;
 }
-.descript rich-text{
-	font-size: 30rpx;
+
+.descript rich-text {
+  font-size: 30rpx;
   color: #000;
 }
