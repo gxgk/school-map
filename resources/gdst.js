@@ -15,7 +15,7 @@ module.exports.introduce = {
 module.exports.map = [
   {
     "name": "景点",
-    "scale": 15,
+    "scale": 16,
     "data": [
       {
         "id": 1,
@@ -389,6 +389,332 @@ module.exports.map = [
     ]
   },
   {
+    "scale": 16,
+    "name": "行政楼",
+    "data": [
+      {
+        "id": 1,
+        "name": "团委办公室",
+        "floor": "201",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+        ],
+        "description": "201团委办公室 League Committee Office"
+      },
+      {
+        "id": 2,
+        "name": "学生处处长办公室",
+        "floor": "203",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+        ],
+        "description": "203学生处处长办公室 Director of Teaching Management Department"
+      },
+      {
+        "id": 3,
+        "name": "教务处",
+        "floor": "205",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+        ],
+        "description": "205 教务处 Teaching Management Department"
+      },
+      {
+        "id": 4,
+        "name": "国际教育学院",
+        "floor": "302",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+        ],
+        "description": "302 国际教育学院 International Education Institute"
+      },
+      {
+        "id": 5,
+        "name": "党群工作部",
+        "floor": "513",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+        ],
+        "description": "513 党群工作部 Party Work Department"
+      }
+    ]
+  },
+  {
+    "scale": 16,
+    "name": "创业楼",
+    "data": [
+      {
+        "id": 1,
+        "name": "广科招生办",
+        "floor": "301",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "301 广科招生办 Admissions Office"
+      },
+      {
+        "id": 2,
+        "name": "财务处",
+        "floor": "302",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "302 财务处"
+      },
+      {
+        "id": 3,
+        "name": "南博职业技术学校办公室",
+        "floor": "405",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "405 南博职业技术学校办公室"
+      },
+      {
+        "id": 4,
+        "name": "南博招生办",
+        "floor": "408",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "408 南博招生办 Admissions Office"
+      },
+      {
+        "id": 5,
+        "name": "党支部",
+        "floor": "406",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "406 党支部 Communist Party Office"
+      },
+      {
+        "id": 6,
+        "name": "职业技能鉴定所",
+        "floor": "503",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "503 职业技能鉴定所 Occupation Skill Appraisal Institute"
+      },
+      {
+        "id": 7,
+        "name": "就业指导中心",
+        "floor": "1202",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "1202 就业指导中心 Employment Guidance Center"
+      }
+    ]
+  },
+  {
+    "scale": 16,
+    "name": "各系办公室",
+    "data": [
+      {
+        "id": 1,
+        "name": "管理系办公室",
+        "floor": "2-508 2-506",
+        "latitude": "22.97331",
+        "longitude": "113.75464",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "管理系办公室 2-508 2-506"
+      },
+      {
+        "id": 2,
+        "name": "管理系主任办公室",
+        "floor": "2-505",
+        "latitude": "22.97331",
+        "longitude": "113.75464",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "管理系主任办公室 2-505"
+      },
+      {
+        "id": 3,
+        "name": "管理系学工主任办公室",
+        "floor": "2-607",
+        "latitude": "22.97331",
+        "longitude": "113.75464",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": "管理系学工主任办公室 2-607"
+      },
+      {
+        "id": 4,
+        "name": "财经系主任办公室",
+        "floor": "2-406",
+        "latitude": "22.97331",
+        "longitude": "113.75464",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": ""
+      },
+      {
+        "id": 5,
+        "name": "财经系学工主任办公室",
+        "floor": "2-306 2-307",
+        "latitude": "22.97331",
+        "longitude": "113.75464",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": ""
+      },
+      {
+        "id": 6,
+        "name": "计算机系办公室",
+        "floor": "9-301",
+        "latitude": "22.96945",
+        "longitude": "113.75461",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": ""
+      },
+      {
+        "id": 7,
+        "name": "计算机系主任办公室",
+        "floor": "9-201",
+        "latitude": "22.96945",
+        "longitude": "113.75461",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": ""
+      },
+      {
+        "id": 8,
+        "name": "机电工程系系主任办公室",
+        "floor": "2-301",
+        "latitude": "22.97331",
+        "longitude": "113.75464",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": ""
+      },
+      {
+        "id": 9,
+        "name": "艺术系办公室",
+        "floor": "3-306",
+        "latitude": "22.97379",
+        "longitude": "113.75627",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": ""
+      },
+      {
+        "id": 10,
+        "name": "应用英语办公室",
+        "floor": "3-505",
+        "latitude": "22.97379",
+        "longitude": "113.75627",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+        ],
+        "description": ""
+      }
+    ]
+  },
+  {
     "name": "食堂",
     "scale": 16,
     "data": [
@@ -758,38 +1084,6 @@ module.exports.map = [
           "http://qn.gxgk.cc/校园导览/雅苑宿舍/雅苑5号公寓1.jpg"
         ],
         "description": "雅苑5号学生公寓"
-      }
-    ]
-  },
-  {
-    "scale": 16,
-    "name": "办公楼",
-    "data": [
-      {
-        "id": 1,
-        "name": "创业楼",
-        "latitude": "22.974130",
-        "longitude": "113.754335",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
-        ],
-        "description": "<p>创业楼有十二层楼，位于广东科技学院北门的正对左侧，创业楼的二层到六层楼主要为办公室，七层到十二层楼主要是创新创业学院，创新创业学院拥有建筑面积达4210平米的创业大楼，设有创客中心、孵化中心、科技研发与转化中心、创投中心、电商中心等，为在校大学生和毕业5年内的校友创新创业提供了十分优越的条件。</p><br><p>学院致力于将创新创业学院建成涵盖创新工场、孵化基地、研发中心、高新科研成果转化中心、风险投资中心、电商创业园等平台的科技创新创业基地，并培育若干个高成长性、科技型创新企业，为把学院打造成全国知名的创新创业型学院奠定坚实基础。</p>"
-      },
-      {
-        "id": 2,
-        "name": "行政楼",
-        "latitude": "22.969610",
-        "longitude": "113.754120",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
-        ],
-        "description": "行政楼位于广东科技学院南门，面向西湖公园，背依8栋教学楼。行政楼始建于2012年9月，落成于2014年3月。行政楼主体为8层建筑，总面积约8000平方米，为钢筋混凝土框架结构，建筑结构先进，材料质地坚固。广东科技学院 12栋楼有8层，每层面积约为1000多平方。建筑风格为现代简约，简洁又不失大气，二、三、四层过道两边的墙体采用玻璃墙体，美观大气，又增加二楼采光效果。建筑楼顶广东科技学院的战略目标“创百年学府，育产业精英”的大字。行政楼建好至今，行政楼一直为各级行政领导的办公区域。"
       }
     ]
   }

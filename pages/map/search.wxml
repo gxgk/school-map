@@ -19,8 +19,13 @@
   <view style="height:100%; display: flex;">
     <navigator class="img" url='details?tid={{item.tid}}&bid={{item.bid}}'>
       <image src="{{item.img[0]}}" mode="aspectFill"> </image>
-      <view class="itemName">
-        {{item.name}}
+      <view class="item">
+        <view class="itemName">
+          {{item.name}}
+        </view>
+        <view class="itemFloor" wx:if="{{item.floor}}">
+          {{item.floor}}
+        </view>
       </view>
     </navigator>
     <navigator class="text" url='polyline?latitude={{item.latitude}}&longitude={{item.longitude}}'>

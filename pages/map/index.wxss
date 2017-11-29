@@ -46,9 +46,19 @@ button{
   height:90%;
   margin: auto 7rpx;
 }
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
 .itemName{
-  margin: auto 20rpx;
+  margin: 0 20rpx;
   font-size: 32rpx;
+}
+.itemFloor{
+  margin: 0 20rpx;
+  font-size: 28rpx;
+  color: #555555;
 }
 .text{
   margin:auto 15px; 

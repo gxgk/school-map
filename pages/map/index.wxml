@@ -1,13 +1,13 @@
 <!--pages/map/map.wxml-->
 <view style="width: 100%;">
   <scroll-view scroll-x="true">
-    <view class="top-swich" style="width:{{buildlData.length * 60 < windowWidth ? windowWidth: buildlData.length * 60}}px;" wx:if="{{!fullscreen}}">
-      <label wx:for="{{buildlData}}" wx:key="id" id="{{index}}" bindtap="changePage"
-      class="top-swich-btn {{isSelectedBuildType == index ? 'active' : ''}}" >{{item.name}}
+    <view class="top-swich" style="width:{{buildlData.length * 120 < windowWidth ? windowWidth: buildlData.length * 120}}rpx;" wx:if="{{!fullscreen}}">
+      <label wx:for="{{buildlData}}" wx:key="id" id="{{index}}" bindtap="changePage" class="top-swich-btn {{isSelectedBuildType == index ? 'active' : ''}}">{{item.name}}
       </label>
     </view>
   </scroll-view>
-  <map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{buildlData[isSelectedBuildType].scale}}" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" include-points="{{buildlData[isSelectedBuildType].data}}" show-location="{{islocation}}" controls="{{controls}}" style="width: auto; height:{{fullscreen ? 94 : 48}}vh;">
+  <map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{buildlData[isSelectedBuildType].scale}}" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" include-points="{{buildlData[isSelectedBuildType].data}}"
+    show-location="{{islocation? 'true': 'false'}}" controls="{{controls}}" style="width: auto; height:{{fullscreen ? 94 : 48}}vh;">
   </map>
   <button bindtap="clickButton">
     共有{{buildlData[isSelectedBuildType].data.length}}个景观 ◕‿◕
@@ -17,8 +17,13 @@
       <view class="img-view">
         <navigator class="img" url='details?tid={{isSelectedBuildType}}&bid={{index}}'>
           <image src="{{item.img[0]}}" mode="aspectFill"> </image>
-          <view class="itemName">
-            {{item.name}}
+          <view class="item">
+            <view class="itemName">
+              {{item.name}}
+            </view>
+            <view class="itemFloor" wx:if="{{item.floor}}">
+              位置：{{item.floor}}
+            </view>
           </view>
         </navigator>
         <navigator class="text" url='polyline?latitude={{item.latitude}}&longitude={{item.longitude}}'>

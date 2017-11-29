@@ -21,10 +21,10 @@ Page({
       console.log('输入文字')
       let inputData = e.detail.value.replace(/(^\s*)|(\s*$)/g, "")
       if (inputData) {
-        let z = 0,x = 100;
+        let z = 0, x = 100;
         for (var b in searchdata) {
           for (var i in searchdata[b].data) {
-            if (searchdata[b].data[i].name.indexOf(inputData) != -1) {
+            if (searchdata[b].data[i].name.indexOf(inputData) != -1 || (searchdata[b].data[i].floor && searchdata[b].data[i].floor.indexOf(inputData) != -1)) {
               let build = searchdata[b].data[i];
               build.tid = b;
               build.bid = i;
