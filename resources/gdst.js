@@ -689,9 +689,9 @@ module.exports.map = [
       {
         "id": 8,
         "name": "机电工程系系主任办公室",
-        "floor": "2-301",
-        "latitude": "22.97331",
-        "longitude": "113.75464",
+        "floor": "工2-301",
+        "latitude": "22.968410",
+        "longitude": "113.754094",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
