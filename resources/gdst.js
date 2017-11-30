@@ -402,7 +402,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+          "http://qn.gxgk.cc/校园导览/行政楼/团委办公室203.jpg"
         ],
         "description": "201团委办公室 League Committee Office"
       },
@@ -416,7 +416,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+          "http://qn.gxgk.cc/校园导览/行政楼/学生处处长办公室201.jpg"
         ],
         "description": "203学生处处长办公室 Director of Teaching Management Department"
       },
@@ -430,7 +430,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+          "http://qn.gxgk.cc/校园导览/行政楼/教务处205.jpg"
         ],
         "description": "205 教务处 Teaching Management Department"
       },
@@ -444,7 +444,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+          "http://qn.gxgk.cc/校园导览/行政楼/国际教育学院303.jpg"
         ],
         "description": "302 国际教育学院 International Education Institute"
       },
@@ -458,7 +458,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
+          "http://qn.gxgk.cc/校园导览/行政楼/党群工作部502.jpg"
         ],
         "description": "513 党群工作部 Party Work Department"
       }
@@ -478,7 +478,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/创业楼/广科招生办301.jpg"
         ],
         "description": "301 广科招生办 Admissions Office"
       },
@@ -492,7 +492,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/创业楼/财务室302.jpg"
         ],
         "description": "302 财务处"
       },
@@ -506,7 +506,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/创业楼/南博职校办公室405.jpg"
         ],
         "description": "405 南博职业技术学校办公室"
       },
@@ -540,6 +540,20 @@ module.exports.map = [
       },
       {
         "id": 6,
+        "name": "继续教育学院",
+        "floor": "501",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/创业楼/继续教育学院501.jpg"
+        ],
+        "description": ""
+      },
+      {
+        "id": 7,
         "name": "职业技能鉴定所",
         "floor": "503",
         "latitude": "22.974130",
@@ -548,12 +562,12 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/创业楼/职业技能鉴定所 503.jpg"
         ],
         "description": "503 职业技能鉴定所 Occupation Skill Appraisal Institute"
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "就业指导中心",
         "floor": "1202",
         "latitude": "22.974130",
@@ -562,7 +576,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/创业楼/就业指导中心 1202.jpg"
         ],
         "description": "1202 就业指导中心 Employment Guidance Center"
       }
@@ -582,7 +596,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/管理系办公室2-508.jpg"
         ],
         "description": "管理系办公室 2-508 2-506"
       },
@@ -596,7 +610,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/管理系主任办公室2-505.jpg"
         ],
         "description": "管理系主任办公室 2-505"
       },
@@ -610,7 +624,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/管理系学工主任办公室2-607.jpg"
         ],
         "description": "管理系学工主任办公室 2-607"
       },
@@ -624,21 +638,23 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/财经系主任办公室2-406.jpg"
         ],
         "description": ""
       },
       {
         "id": 5,
         "name": "财经系学工主任办公室",
-        "floor": "2-306 2-307",
+        "floor": "2-306 2-304 2-307",
         "latitude": "22.97331",
         "longitude": "113.75464",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/财经系学工主任办公室2-306.jpg",
+          "http://qn.gxgk.cc/校园导览/各系办公室/财经系学工办公室（一）2-304.jpg",
+          "http://qn.gxgk.cc/校园导览/各系办公室/财经系学工办公室（二）2-307.jpg"
         ],
         "description": ""
       },
@@ -652,7 +668,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/计算机系办公室9-301.jpg"
         ],
         "description": ""
       },
@@ -666,7 +682,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/计算机系主任办公室9-201.jpg"
         ],
         "description": ""
       },
@@ -680,26 +696,41 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系系主任办公室 工2-301.jpg"
         ],
         "description": ""
       },
       {
         "id": 9,
         "name": "艺术系办公室",
-        "floor": "3-306",
+        "floor": "3-306 3-308",
         "latitude": "22.97379",
         "longitude": "113.75627",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/艺术系办公室3-306.jpg",
+          "http://qn.gxgk.cc/校园导览/各系办公室/艺术系系办公室3-308.jpg"
         ],
         "description": ""
       },
       {
         "id": 10,
+        "name": "艺术系学工主任办公室",
+        "floor": "3-307",
+        "latitude": "22.97379",
+        "longitude": "113.75627",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/艺术系学工办公室3-307.jpg"
+        ],
+        "description": ""
+      },
+      {
+        "id": 11,
         "name": "外语系办公室",
         "floor": "3-505",
         "latitude": "22.97379",
