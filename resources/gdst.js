@@ -520,7 +520,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
         ],
         "description": "408 南博招生办 Admissions Office"
       },
@@ -534,7 +534,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
         ],
         "description": "406 党支部 Communist Party Office"
       },
@@ -702,7 +702,7 @@ module.exports.map = [
       },
       {
         "id": 9,
-        "name": "艺术系办公室",
+        "name": "艺术设计系办公室",
         "floor": "3-306 3-308",
         "latitude": "22.97379",
         "longitude": "113.75627",
@@ -717,7 +717,7 @@ module.exports.map = [
       },
       {
         "id": 10,
-        "name": "艺术系学工主任办公室",
+        "name": "艺术设计系学工主任办公室",
         "floor": "3-307",
         "latitude": "22.97379",
         "longitude": "113.75627",
