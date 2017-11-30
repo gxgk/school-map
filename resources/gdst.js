@@ -616,7 +616,7 @@ module.exports.map = [
       },
       {
         "id": 3,
-        "name": "管理系学工主任办公室",
+        "name": "管理系学工办公室",
         "floor": "2-607",
         "latitude": "22.97331",
         "longitude": "113.75464",
@@ -644,7 +644,7 @@ module.exports.map = [
       },
       {
         "id": 5,
-        "name": "财经系学工主任办公室",
+        "name": "财经系学工办公室",
         "floor": "2-306 2-304 2-307",
         "latitude": "22.97331",
         "longitude": "113.75464",
@@ -689,9 +689,9 @@ module.exports.map = [
       {
         "id": 8,
         "name": "机电工程系系主任办公室",
-        "floor": "工2-301",
-        "latitude": "22.968410",
-        "longitude": "113.754094",
+        "floor": "8-301",
+        "latitude": "22.96993",
+        "longitude": "113.75418",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
@@ -702,6 +702,20 @@ module.exports.map = [
       },
       {
         "id": 9,
+        "name": "机电工程系学工办公室",
+        "floor": "8-304",
+        "latitude": "22.96993",
+        "longitude": "113.75418",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系学工办公室 工2-304.jpg"
+        ],
+        "description": ""
+      },
+      {
+        "id": 10,
         "name": "艺术设计系办公室",
         "floor": "3-306 3-308",
         "latitude": "22.97379",
@@ -716,8 +730,8 @@ module.exports.map = [
         "description": ""
       },
       {
-        "id": 10,
-        "name": "艺术设计系学工主任办公室",
+        "id": 11,
+        "name": "艺术设计系学工办公室",
         "floor": "3-307",
         "latitude": "22.97379",
         "longitude": "113.75627",
@@ -730,7 +744,7 @@ module.exports.map = [
         "description": ""
       },
       {
-        "id": 11,
+        "id": 12,
         "name": "外语系办公室",
         "floor": "3-505",
         "latitude": "22.97379",
