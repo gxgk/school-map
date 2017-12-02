@@ -59,19 +59,25 @@ App({
   },
   loadMap: function () {
     var buildlData = this.school.map
-    if (this.debug){
-      return buildlData;
-    }
-    try {
-      var value = wx.getStorageSync('map')
-      if (value) {
-        //校验格式用
-        value[0].name;
-        return value;
+    if (!this.debug){
+      try {
+        var value = wx.getStorageSync('map')
+        if (value) {
+          //校验格式用
+          value[0].name;
+          buildlData = value;
+        }
+
+      } catch (e) {
+        console.log(e);
+        // Do something when catch error
       }
-    } catch (e) {
-      console.log(e);
-      // Do something when catch error
+    }
+    //渲染id
+    for (let i = 0; i < buildlData.length; i++) {
+      for (let b = 0; b < buildlData[i].data.length; b++) {
+        buildlData[i].data[b].id = b + 1;
+      }
     }
     return buildlData;
   },
