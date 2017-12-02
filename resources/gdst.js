@@ -753,7 +753,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/艺术系学工办公室3-307.jpg"
         ],
         "description": ""
       }
