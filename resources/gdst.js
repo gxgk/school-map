@@ -18,20 +18,6 @@ module.exports.map = [
     "scale": 16,
     "data": [
       {
-        "name": "东莞植物园",
-        "latitude": "22.96642",
-        "longitude": "113.74962",
-        "iconPath": "/img/ico/jd.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园1.jpg",
-          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园2.jpg",
-          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园3.jpg"
-        ],
-        "description": "东莞植物园"
-      },
-      {
         "name": "图书馆",
         "latitude": "22.97128",
         "longitude": "113.75467",
@@ -44,6 +30,20 @@ module.exports.map = [
           "http://qn.gxgk.cc/校园导览/景点/图书馆/图书馆3.jpg"
         ],
         "description": "广东科技学院图书馆建筑面积23720平方米，拥有各类图书236万册，教学仪器设备总值10602万元。位于校园中心至高点，依山傍水，气势宏伟，是学院标志性建筑。另外，馆内藏书丰富，形式多样。有功能各异的阅览室，更有技术先进的网络系统，更好地实现了开放式管理以及现代化管理。在纸质书上，本馆构成了以学院教学为主体的藏书体系，初步实现了文献信息资源的有机整合。在技术上，学院早年引进国内唯一通过ISO9100标准，北京邮电大学开发的“现代电子化图书馆信息网络系统”,并更新了计算机硬件设备，升级了Linux二版管理系统，使得图书馆现代化程度更上一层楼。近日，学校图书馆更是增添各类自习室，自主学习区，实现了全馆的WIFI全覆盖，方便师生更好查阅学习资料。"
+      },
+      {
+        "name": "东莞植物园",
+        "latitude": "22.96642",
+        "longitude": "113.74962",
+        "iconPath": "/img/ico/jd.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园1.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园2.jpg",
+          "http://qn.gxgk.cc/校园导览/景点/植物园/植物园3.jpg"
+        ],
+        "description": "东莞植物园"
       },
       {
         "name": "体育馆",
@@ -216,7 +216,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/实训楼/服装实训中心.jpg"
+          "http://qn.gxgk.cc/校园导览/教学楼/工1.jpg"
         ],
         "description": "工程技术中心位于广东科技学院南门，临近高山，风景优美。是理工科专业的聚集地，学术氛围浓郁。工程技术中心123栋面对而立，中间有长廊相连。广东科技学院以工学为主，在此基础上，工程技术中心在各方面科技创新，专利发明方面功不可没。"
       },
@@ -228,7 +228,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/实训楼/服装实训中心.jpg"
+          "http://qn.gxgk.cc/校园导览/教学楼/工2.jpg"
         ],
         "description": "工程技术中心位于广东科技学院南门，临近高山，风景优美。是理工科专业的聚集地，学术氛围浓郁。工程技术中心123栋面对而立，中间有长廊相连。广东科技学院以工学为主，在此基础上，工程技术中心在各方面科技创新，专利发明方面功不可没。"
       },
@@ -240,7 +240,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/实训楼/服装实训中心.jpg"
+          "http://qn.gxgk.cc/校园导览/教学楼/工3.jpg"
         ],
         "description": "工程技术中心位于广东科技学院南门，临近高山，风景优美。是理工科专业的聚集地，学术氛围浓郁。工程技术中心123栋面对而立，中间有长廊相连。广东科技学院以工学为主，在此基础上，工程技术中心在各方面科技创新，专利发明方面功不可没。"
       },
@@ -364,11 +364,24 @@ module.exports.map = [
   },
   {
     "scale": 16,
-    "name": "行政楼",
+    "name": "行政部门",
     "data": [
       {
+        "name": "心理辅导中心",
+        "floor": "图书馆F6",
+        "latitude": "22.97128",
+        "longitude": "113.75467",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼/心理辅导中心 图书馆F6.jpg"
+        ],
+        "description": " 图书馆F6 心理辅导中心"
+      },
+      {
         "name": "团委办公室",
-        "floor": "201",
+        "floor": "行政楼203",
         "latitude": "22.969610",
         "longitude": "113.754120",
         "iconPath": "/img/ico/xyfu.png",
@@ -377,11 +390,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/行政楼/团委办公室203.jpg"
         ],
-        "description": "201团委办公室 League Committee Office"
+        "description": "行政楼203 团委办公室 League Committee Office"
       },
       {
         "name": "学生处处长办公室",
-        "floor": "203",
+        "floor": "行政楼201",
         "latitude": "22.969610",
         "longitude": "113.754120",
         "iconPath": "/img/ico/xyfu.png",
@@ -390,11 +403,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/行政楼/学生处处长办公室201.jpg"
         ],
-        "description": "203学生处处长办公室 Director of Teaching Management Department"
+        "description": "行政楼201 学生处处长办公室 Director of Teaching Management Department"
       },
       {
         "name": "教务处",
-        "floor": "205",
+        "floor": "行政楼205",
         "latitude": "22.969610",
         "longitude": "113.754120",
         "iconPath": "/img/ico/xyfu.png",
@@ -403,24 +416,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/行政楼/教务处205.jpg"
         ],
-        "description": "205 教务处 Teaching Management Department"
-      },
-      {
-        "name": "国际教育学院",
-        "floor": "302",
-        "latitude": "22.969610",
-        "longitude": "113.754120",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/行政楼/国际教育学院303.jpg"
-        ],
-        "description": "302 国际教育学院 International Education Institute"
+        "description": "行政楼205 教务处 Teaching Management Department"
       },
       {
         "name": "党群工作部",
-        "floor": "513",
+        "floor": "行政楼502",
         "latitude": "22.969610",
         "longitude": "113.754120",
         "iconPath": "/img/ico/xyfu.png",
@@ -429,17 +429,50 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/行政楼/党群工作部502.jpg"
         ],
-        "description": "513 党群工作部 Party Work Department"
-      }
-    ]
-  },
-  {
-    "scale": 16,
-    "name": "创业楼",
-    "data": [
+        "description": "行政楼502 党群工作部 Party Work Department"
+      },
+      {
+        "name": "学院办公室",
+        "floor": "行政楼513",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼/学院办公室 行政楼513.jpg"
+        ],
+        "description": "行政楼513 学院办公室"
+      },
+      {
+        "name": "人事处",
+        "floor": "行政楼407",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼/人事处 行政楼407.jpg"
+        ],
+        "description": "行政楼407 人事处 "
+      },
+      {
+        "name": "科研处",
+        "floor": "行政楼409",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼/科研处 行政楼409.jpg"
+        ],
+        "description": "行政楼409 科研处"
+      },
       {
         "name": "广科招生办",
-        "floor": "301",
+        "floor": "创业楼301",
         "latitude": "22.974130",
         "longitude": "113.754335",
         "iconPath": "/img/ico/xyfu.png",
@@ -448,11 +481,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/创业楼/广科招生办301.jpg"
         ],
-        "description": "301 广科招生办 Admissions Office"
+        "description": "创业楼301 广科招生办 Admissions Office"
       },
       {
         "name": "财务处",
-        "floor": "302",
+        "floor": "创业楼302",
         "latitude": "22.974130",
         "longitude": "113.754335",
         "iconPath": "/img/ico/xyfu.png",
@@ -461,11 +494,24 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/创业楼/财务室302.jpg"
         ],
-        "description": "302 财务处"
+        "description": "创业楼302 财务处"
+      },
+      {
+        "name": "保卫室（武装部）",
+        "floor": "教学楼3栋",
+        "latitude": "22.97379",
+        "longitude": "113.75627",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "https://qn.gxgk.cc/校园导览/保卫室.jpg"
+        ],
+        "description": "教学楼3栋楼下 保卫室"
       },
       {
         "name": "南博职业技术学校办公室",
-        "floor": "405",
+        "floor": "创业楼405",
         "latitude": "22.974130",
         "longitude": "113.754335",
         "iconPath": "/img/ico/xyfu.png",
@@ -474,50 +520,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/创业楼/南博职校办公室405.jpg"
         ],
-        "description": "405 南博职业技术学校办公室"
-      },
-      {
-        "name": "南博招生办",
-        "floor": "408",
-        "latitude": "22.974130",
-        "longitude": "113.754335",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
-        ],
-        "description": "408 南博招生办 Admissions Office"
-      },
-      {
-        "name": "党支部",
-        "floor": "406",
-        "latitude": "22.974130",
-        "longitude": "113.754335",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼.jpg"
-        ],
-        "description": "406 党支部 Communist Party Office"
-      },
-      {
-        "name": "继续教育学院",
-        "floor": "501",
-        "latitude": "22.974130",
-        "longitude": "113.754335",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼/继续教育学院501.jpg"
-        ],
-        "description": ""
+        "description": "创业楼405 南博职业技术学校办公室"
       },
       {
         "name": "职业技能鉴定所",
-        "floor": "503",
+        "floor": "创业楼503",
         "latitude": "22.974130",
         "longitude": "113.754335",
         "iconPath": "/img/ico/xyfu.png",
@@ -526,11 +533,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/创业楼/职业技能鉴定所 503.jpg"
         ],
-        "description": "503 职业技能鉴定所 Occupation Skill Appraisal Institute"
+        "description": "创业楼503 职业技能鉴定所 Occupation Skill Appraisal Institute"
       },
       {
         "name": "就业指导中心",
-        "floor": "1202",
+        "floor": "创业楼1202",
         "latitude": "22.974130",
         "longitude": "113.754335",
         "iconPath": "/img/ico/xyfu.png",
@@ -539,17 +546,17 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/创业楼/就业指导中心 1202.jpg"
         ],
-        "description": "1202 就业指导中心 Employment Guidance Center"
+        "description": "创业楼1202 就业指导中心 Employment Guidance Center"
       }
     ]
   },
   {
     "scale": 16,
-    "name": "各系办公室",
+    "name": "系部院",
     "data": [
       {
         "name": "管理系办公室",
-        "floor": "2-508 2-506",
+        "floor": "教学楼2-508 2-506",
         "latitude": "22.97331",
         "longitude": "113.75464",
         "iconPath": "/img/ico/xyfu.png",
@@ -558,11 +565,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/管理系办公室2-508.jpg"
         ],
-        "description": "管理系办公室 2-508 2-506"
+        "description": "教学楼2-508 2-506 管理系办公室 "
       },
       {
         "name": "管理系主任办公室",
-        "floor": "2-505",
+        "floor": "教学楼2-505",
         "latitude": "22.97331",
         "longitude": "113.75464",
         "iconPath": "/img/ico/xyfu.png",
@@ -571,11 +578,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/管理系主任办公室2-505.jpg"
         ],
-        "description": "管理系主任办公室 2-505"
+        "description": "教学楼2-505 管理系主任办公室 "
       },
       {
         "name": "管理系学工办公室",
-        "floor": "2-607",
+        "floor": "教学楼2-607",
         "latitude": "22.97331",
         "longitude": "113.75464",
         "iconPath": "/img/ico/xyfu.png",
@@ -584,11 +591,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/管理系学工主任办公室2-607.jpg"
         ],
-        "description": "管理系学工主任办公室 2-607"
+        "description": "教学楼2-607 管理系学工主任办公室 "
       },
       {
         "name": "财经系主任办公室",
-        "floor": "2-406",
+        "floor": "教学楼2-406",
         "latitude": "22.97331",
         "longitude": "113.75464",
         "iconPath": "/img/ico/xyfu.png",
@@ -597,11 +604,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/财经系主任办公室2-406.jpg"
         ],
-        "description": ""
+        "description": "教学楼2-406 财经系主任办公室"
       },
       {
         "name": "财经系学工办公室",
-        "floor": "2-306 2-304 2-307",
+        "floor": "教学楼2-306 2-304 2-307",
         "latitude": "22.97331",
         "longitude": "113.75464",
         "iconPath": "/img/ico/xyfu.png",
@@ -612,11 +619,11 @@ module.exports.map = [
           "http://qn.gxgk.cc/校园导览/各系办公室/财经系学工办公室（一）2-304.jpg",
           "http://qn.gxgk.cc/校园导览/各系办公室/财经系学工办公室（二）2-307.jpg"
         ],
-        "description": ""
+        "description": "教学楼2 - 306 2-304 2-307 财经系学工办公室"
       },
       {
         "name": "计算机系办公室",
-        "floor": "9-301",
+        "floor": "教学楼9-301",
         "latitude": "22.96945",
         "longitude": "113.75461",
         "iconPath": "/img/ico/xyfu.png",
@@ -625,11 +632,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/计算机系办公室9-301.jpg"
         ],
-        "description": ""
+        "description": "教学楼9-301 计算机系办公室"
       },
       {
         "name": "计算机系主任办公室",
-        "floor": "9-201",
+        "floor": "教学楼9-201",
         "latitude": "22.96945",
         "longitude": "113.75461",
         "iconPath": "/img/ico/xyfu.png",
@@ -638,11 +645,37 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/计算机系主任办公室9-201.jpg"
         ],
-        "description": ""
+        "description": "教学楼9-201 计算机系主任办公室"
+      },
+      {
+        "name": "计算机系学工办公室",
+        "floor": "教学楼9-207",
+        "latitude": "22.96945",
+        "longitude": "113.75461",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/计算机系学工办公室 9-207.jpg"
+        ],
+        "description": "教学楼9-207 计算机系学工办公室"
+      },
+      {
+        "name": "机电工程系办公室",
+        "floor": "工2-305",
+        "latitude": "22.96993",
+        "longitude": "113.75418",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系办公室 工2-305.jpg"
+        ],
+        "description": "工2-305 机电工程系办公室"
       },
       {
         "name": "机电工程系系主任办公室",
-        "floor": "8-301",
+        "floor": "工2-301",
         "latitude": "22.96993",
         "longitude": "113.75418",
         "iconPath": "/img/ico/xyfu.png",
@@ -651,11 +684,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系系主任办公室 工2-301.jpg"
         ],
-        "description": ""
+        "description": "工2-301 机电工程系系主任办公室"
       },
       {
         "name": "机电工程系学工办公室",
-        "floor": "8-304",
+        "floor": "工2-304",
         "latitude": "22.96993",
         "longitude": "113.75418",
         "iconPath": "/img/ico/xyfu.png",
@@ -664,11 +697,11 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系学工办公室 工2-304.jpg"
         ],
-        "description": ""
+        "description": "工2-304 机电工程系学工办公室"
       },
       {
         "name": "艺术设计系办公室",
-        "floor": "3-306 3-308",
+        "floor": "教学楼3-306 3-308",
         "latitude": "22.97379",
         "longitude": "113.75627",
         "iconPath": "/img/ico/xyfu.png",
@@ -678,11 +711,11 @@ module.exports.map = [
           "http://qn.gxgk.cc/校园导览/各系办公室/艺术系办公室3-306.jpg",
           "http://qn.gxgk.cc/校园导览/各系办公室/艺术系系办公室3-308.jpg"
         ],
-        "description": ""
+        "description": "教学楼3-306 3-308 艺术设计系办公室"
       },
       {
         "name": "艺术设计系学工办公室",
-        "floor": "3-307",
+        "floor": "教学楼3-307",
         "latitude": "22.97379",
         "longitude": "113.75627",
         "iconPath": "/img/ico/xyfu.png",
@@ -691,21 +724,112 @@ module.exports.map = [
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/艺术系学工办公室3-307.jpg"
         ],
-        "description": ""
+        "description": "教学楼3-307 艺术设计系学工办公室，艺术系主任在此办公。"
       },
       {
         "name": "外语系办公室",
-        "floor": "3-505",
+        "floor": "教学楼3-505",
         "latitude": "22.97379",
         "longitude": "113.75627",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/艺术系学工办公室3-307.jpg"
+          "http://qn.gxgk.cc/校园导览/各系办公室/外语系办公室 3-505.jpg"
         ],
-        "description": ""
-      }
+        "description": "教学楼3-505 外语系办公室"
+      },
+      {
+        "name": "外语系学工办公室",
+        "floor": "教学楼3-605",
+        "latitude": "22.97379",
+        "longitude": "113.75627",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/外语系学工办公室 3-605.jpg"
+        ],
+        "description": "教学楼3-605 外语系学工办公室 "
+      },
+      {
+        "name": "外语系系主任办公室",
+        "floor": "教学楼3-504",
+        "latitude": "22.97379",
+        "longitude": "113.75627",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "https://qn.gxgk.cc/校园导览/各系办公室/外语系系主任办公室3-504.jpg"
+        ],
+        "description": "教学楼3-504 外语系系主任办公室"
+      },
+      {
+        "name": "思想政治理论课教学部",
+        "floor": "教学楼3-205",
+        "latitude": "22.97379",
+        "longitude": "113.75627",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/思政部 3-205.jpg"
+        ],
+        "description": "教学楼3-205 思想政治理论课教学部"
+      },
+      {
+        "name": "基础部博雅教育教研室",
+        "floor": "教学楼3-407",
+        "latitude": "22.97379",
+        "longitude": "113.75627",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/基础部博雅教育教研室 3-407.jpg"
+        ],
+        "description": "教学楼3-407 基础部博雅教育教研室;<br>教学楼3-406 基础部主任办公室;<br>教学楼                           3-404 基础部创业基础教研室 "
+      },
+      {
+        "name": "继续教育学院",
+        "floor": "创业楼501",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/创业楼/继续教育学院501.jpg"
+        ],
+        "description": "创业楼501 继续教育学院"
+      },
+      {
+        "name": "国际教育学院",
+        "floor": "行政楼303",
+        "latitude": "22.969610",
+        "longitude": "113.754120",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/行政楼/国际教育学院303.jpg"
+        ],
+        "description": "行政楼303 国际教育学院 International Education Institute"
+      },
+      {
+        "name": "创新创业学院",
+        "floor": "创业楼1201",
+        "latitude": "22.974130",
+        "longitude": "113.754335",
+        "iconPath": "/img/ico/xyfu.png",
+        "width": "30",
+        "height": "30",
+        "img": [
+          "http://qn.gxgk.cc/校园导览/创业楼/创新创业学院办公室 1201.jpg"
+        ],
+        "description": "创业楼1201 创新创业学院 Administrative Office"
+      },
     ]
   },
   {
