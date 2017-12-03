@@ -829,7 +829,7 @@ module.exports.map = [
           "http://qn.gxgk.cc/校园导览/创业楼/创新创业学院办公室 1201.jpg"
         ],
         "description": "创业楼1201 创新创业学院 Administrative Office"
-      },
+      }
     ]
   },
   {
