@@ -556,152 +556,68 @@ module.exports.map = [
     "data": [
       {
         "name": "管理系办公室",
-        "floor": "教学楼2-508 2-506",
+        "floor": "教学楼2-508 2-506 2-505 2-607",
         "latitude": "22.97331",
         "longitude": "113.75464",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/管理系办公室2-508.jpg"
-        ],
-        "description": "教学楼2-508 2-506 管理系办公室 "
-      },
-      {
-        "name": "管理系主任办公室",
-        "floor": "教学楼2-505",
-        "latitude": "22.97331",
-        "longitude": "113.75464",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/管理系主任办公室2-505.jpg"
-        ],
-        "description": "教学楼2-505 管理系主任办公室 "
-      },
-      {
-        "name": "管理系学工办公室",
-        "floor": "教学楼2-607",
-        "latitude": "22.97331",
-        "longitude": "113.75464",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/管理系办公室2-508.jpg",
+          "http://qn.gxgk.cc/校园导览/各系办公室/管理系主任办公室2-505.jpg",
           "http://qn.gxgk.cc/校园导览/各系办公室/管理系学工主任办公室2-607.jpg"
         ],
-        "description": "教学楼2-607 管理系学工主任办公室 "
+        "description": "<p>教学楼2-508 2-506 管理系办公室</p><p>教学楼2-505 管理系主任办公室</p><p>教学楼2-607 管理系学工主任办公室</p>"
       },
       {
         "name": "财经系主任办公室",
-        "floor": "教学楼2-406",
+        "floor": "教学楼2-406 2-306 2-304 2-307",
         "latitude": "22.97331",
         "longitude": "113.75464",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/财经系主任办公室2-406.jpg"
-        ],
-        "description": "教学楼2-406 财经系主任办公室"
-      },
-      {
-        "name": "财经系学工办公室",
-        "floor": "教学楼2-306 2-304 2-307",
-        "latitude": "22.97331",
-        "longitude": "113.75464",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/财经系主任办公室2-406.jpg",
           "http://qn.gxgk.cc/校园导览/各系办公室/财经系学工主任办公室2-306.jpg",
           "http://qn.gxgk.cc/校园导览/各系办公室/财经系学工办公室（一）2-304.jpg",
           "http://qn.gxgk.cc/校园导览/各系办公室/财经系学工办公室（二）2-307.jpg"
         ],
-        "description": "教学楼2 - 306 2-304 2-307 财经系学工办公室"
+        "description": "<p>教学楼2-406 财经系主任办公室</p><p>教学楼2-306 2-304 2-307 财经系学工办公室</p>"
       },
       {
         "name": "计算机系办公室",
-        "floor": "教学楼9-301",
+        "floor": "教学楼9-301 9-201 9-207",
         "latitude": "22.96945",
         "longitude": "113.75461",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/计算机系办公室9-301.jpg"
-        ],
-        "description": "教学楼9-301 计算机系办公室"
-      },
-      {
-        "name": "计算机系主任办公室",
-        "floor": "教学楼9-201",
-        "latitude": "22.96945",
-        "longitude": "113.75461",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/计算机系主任办公室9-201.jpg"
-        ],
-        "description": "教学楼9-201 计算机系主任办公室"
-      },
-      {
-        "name": "计算机系学工办公室",
-        "floor": "教学楼9-207",
-        "latitude": "22.96945",
-        "longitude": "113.75461",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/计算机系办公室9-301.jpg",
+          "http://qn.gxgk.cc/校园导览/各系办公室/计算机系主任办公室9-201.jpg",
           "http://qn.gxgk.cc/校园导览/各系办公室/计算机系学工办公室 9-207.jpg"
         ],
-        "description": "教学楼9-207 计算机系学工办公室"
+        "description": "<p>教学楼9-301 计算机系办公室</p><p>教学楼9-201 计算机系主任办公室</p><p>教学楼9-207 计算机系学工办公室</p>"
       },
       {
         "name": "机电工程系办公室",
-        "floor": "工2-305",
+        "floor": "工2-305 工2-301 工2-304",
         "latitude": "22.96993",
         "longitude": "113.75418",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系办公室 工2-305.jpg"
-        ],
-        "description": "工2-305 机电工程系办公室"
-      },
-      {
-        "name": "机电工程系系主任办公室",
-        "floor": "工2-301",
-        "latitude": "22.96993",
-        "longitude": "113.75418",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系系主任办公室 工2-301.jpg"
-        ],
-        "description": "工2-301 机电工程系系主任办公室"
-      },
-      {
-        "name": "机电工程系学工办公室",
-        "floor": "工2-304",
-        "latitude": "22.96993",
-        "longitude": "113.75418",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系办公室 工2-305.jpg",
+          "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系系主任办公室 工2-301.jpg",
           "http://qn.gxgk.cc/校园导览/各系办公室/机电工程系学工办公室 工2-304.jpg"
         ],
-        "description": "工2-304 机电工程系学工办公室"
+        "description": "<p>工2-305 机电工程系办公室</p><p>工2-301 机电工程系系主任办公室</p><p>工2-304 机电工程系学工办公室</p>"
       },
       {
         "name": "艺术设计系办公室",
-        "floor": "教学楼3-306 3-308",
+        "floor": "教学楼3-306 3-307 3-308",
         "latitude": "22.97379",
         "longitude": "113.75627",
         "iconPath": "/img/ico/xyfu.png",
@@ -709,61 +625,25 @@ module.exports.map = [
         "height": "30",
         "img": [
           "http://qn.gxgk.cc/校园导览/各系办公室/艺术系办公室3-306.jpg",
-          "http://qn.gxgk.cc/校园导览/各系办公室/艺术系系办公室3-308.jpg"
-        ],
-        "description": "教学楼3-306 3-308 艺术设计系办公室"
-      },
-      {
-        "name": "艺术设计系学工办公室",
-        "floor": "教学楼3-307",
-        "latitude": "22.97379",
-        "longitude": "113.75627",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/艺术系系办公室3-308.jpg",
           "http://qn.gxgk.cc/校园导览/各系办公室/艺术系学工办公室3-307.jpg"
         ],
-        "description": "教学楼3-307 艺术设计系学工办公室，艺术系主任在此办公。"
+        "description": "<p>教学楼3-306 3-308 艺术设计系办公室</p><p>教学楼3-307 艺术设计系学工办公室，艺术系主任在此办公。</p>"
       },
       {
         "name": "外语系办公室",
-        "floor": "教学楼3-505",
+        "floor": "教学楼3-504 3-505 3-605",
         "latitude": "22.97379",
         "longitude": "113.75627",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/外语系办公室 3-505.jpg"
-        ],
-        "description": "教学楼3-505 外语系办公室"
-      },
-      {
-        "name": "外语系学工办公室",
-        "floor": "教学楼3-605",
-        "latitude": "22.97379",
-        "longitude": "113.75627",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "http://qn.gxgk.cc/校园导览/各系办公室/外语系学工办公室 3-605.jpg"
-        ],
-        "description": "教学楼3-605 外语系学工办公室 "
-      },
-      {
-        "name": "外语系系主任办公室",
-        "floor": "教学楼3-504",
-        "latitude": "22.97379",
-        "longitude": "113.75627",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
-        "img": [
+          "http://qn.gxgk.cc/校园导览/各系办公室/外语系办公室 3-505.jpg",
+          "http://qn.gxgk.cc/校园导览/各系办公室/外语系学工办公室 3-605.jpg",
           "https://qn.gxgk.cc/校园导览/各系办公室/外语系系主任办公室3-504.jpg"
         ],
-        "description": "教学楼3-504 外语系系主任办公室"
+        "description": "<p>教学楼3-505 外语系办公室</p><p>教学楼3-605 外语系学工办公室</p><p>教学楼3-504 外语系系主任办公室</p>"
       },
       {
         "name": "思想政治理论课教学部",
@@ -819,16 +699,16 @@ module.exports.map = [
       },
       {
         "name": "创新创业学院",
-        "floor": "创业楼1201",
+        "floor": "创业楼1101",
         "latitude": "22.974130",
         "longitude": "113.754335",
         "iconPath": "/img/ico/xyfu.png",
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/创业楼/创新创业学院办公室 1201.jpg"
+          "http://qn.gxgk.cc/校园导览/创业楼/创新创业学院办公室1101.jpg"
         ],
-        "description": "创业楼1201 创新创业学院 Administrative Office"
+        "description": "创业楼1101 创新创业学院 Administrative Office"
       }
     ]
   },
