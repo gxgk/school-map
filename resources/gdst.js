@@ -2,7 +2,7 @@
 module.exports.introduce = {
   "shortName": "广科", //学校名字两个字缩写
   "name": "广东科技学院", //学校名称
-  "images": "https://qn.gxgk.cc/校园导览/gdst.jpg?20171120", // 首页图片地址
+  "images": "https://qn.gxgk.cc/校园导览/gdst.jpg?20180328", // 首页图片地址
   "share": "https://qn.gxgk.cc/校园导览/share.jpg", //分享时展示图片的地址
   "latitude": "22.972816",
   "longitude": "113.756003",
@@ -344,7 +344,9 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "http://qn.gxgk.cc/校园导览/校门/南门.jpg"
+          "http://qn.gxgk.cc/校园导览/校门/南门1.jpg",
+          "http://qn.gxgk.cc/校园导览/校门/南门2.jpg",
+          "http://qn.gxgk.cc/校园导览/校门/南门3.jpg"
         ],
         "description": "南门"
       },
