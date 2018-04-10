@@ -10,15 +10,16 @@
   width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  margin-top: 20px;
+  flex-direction: row;
+  margin-top: 120px;
+  justify-content: center;
 }
 
 .button {
   width: 145rpx;
   height: 145rpx;
   margin: 20px;
-  background-color: rgba(7, 157, 242, 0.7);
+  background-color: rgba(255, 224, 115, 0.9);
   border-radius: 80rpx;
   display: flex;
   justify-content: center;
