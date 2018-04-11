@@ -125,6 +125,7 @@ App({
     })
   },
   debug: config.debug, //开启后只调用本地数据
+  imgCDN: config.imgCDN,
   school: require('/resources/' + config.school + '.js'),
   globalData: {
     userInfo: null,

@@ -16,7 +16,7 @@
     <view wx:for="{{buildlData[isSelectedBuildType].data}}" wx:key="id" class="building-item" style="{{isSelectedBuild -1 == index ? 'background-color: #d5d5d5;' : ''}}">
       <view class="img-view">
         <navigator class="img" url='details?tid={{isSelectedBuildType}}&bid={{index}}'>
-          <image src="{{item.img[0] + '?imageView2/1/w/240/h/180/q/100|imageslim'}}" mode="aspectFill"> </image>
+          <image src="{{imgCDN}}{{item.img[0] + '?imageView2/1/w/240/h/180/q/100|imageslim'}}" mode="aspectFill"> </image>
           <view class="item">
             <view class="itemName">
               {{item.name}}

@@ -11,6 +11,7 @@ Page({
     building: {
       img: ['/img/loading.svg']//加载中图片地址
     },
+    imgCDN: app.imgCDN
   },
 
   /**

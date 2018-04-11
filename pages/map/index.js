@@ -11,6 +11,7 @@ Page({
     isSelectedBuild: 0,
     isSelectedBuildType: 0,
     controls: [],
+    imgCDN: app.imgCDN,
     islocation: true
   },
   onLoad: function () {
