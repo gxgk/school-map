@@ -3,7 +3,7 @@ module.exports.introduce = {
   "shortName": "广科", //学校名字两个字缩写
   "name": "广东科技学院", //学校名称
   "images": "校园导览/gdst.jpg?20180328", // 首页图片地址
-  "share": "https://qn.gxgk.cc/校园导览/share.jpg?201803", //分享时展示图片的地址
+  "share": "校园导览/share.jpg?201803", //分享时展示图片的地址
   "latitude": "22.972816",
   "longitude": "113.756003",
   "img": ["校园导览/校门/北门.jpg", "校园导览/教学楼/全景.jpg"],  //简介图片

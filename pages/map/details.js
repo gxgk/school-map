@@ -96,7 +96,7 @@ Page({
     return {
       title: title,
       path: path,
-      imageUrl: this.data.building.img[0],
+      imageUrl: app.imgCDN + this.data.building.img[0],
       success: function (res) {
         // 转发成功
       },

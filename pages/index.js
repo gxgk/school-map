@@ -20,7 +20,7 @@ Page({
     return {
       title: app.globalData.introduce.name + ' - 校园导览',
       path: '/pages/index',
-      imageUrl: app.globalData.introduce.share,
+      imageUrl: app.imgCDN + app.globalData.introduce.share,
       success: function (res) {
         // 转发成功
       },
