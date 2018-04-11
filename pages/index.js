@@ -4,7 +4,8 @@ Page({
   data: {
     images: app.globalData.introduce.images,
     shortName: app.globalData.introduce.shortName,
-    mapCopyright: app.globalData.introduce.mapCopyright
+    mapCopyright: app.globalData.introduce.mapCopyright,
+    imgCDN: app.imgCDN
   },
   onLoad: function (options) {
     wx.setNavigationBarTitle({
