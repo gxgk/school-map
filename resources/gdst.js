@@ -72,19 +72,6 @@ module.exports.map = [
           "校园导览/景点/西湖乐园/西湖乐园1.jpg"
         ],
         "description": "西湖乐园"
-      },
-      {
-        "name": "雅园综合市场",
-        "latitude": "22.972680",
-        "longitude": "113.758130",
-        "iconPath": "/img/ico/jd.png",
-        "width": "30",
-        "height": "30",
-        "img": [
-          "校园导览/食堂/东门二楼/东门食肆1.jpg",
-          "校园导览/食堂/东门二楼/东门食肆2.jpg"
-        ],
-        "description": "雅园综合市场"
       }
     ]
   },
