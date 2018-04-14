@@ -3,7 +3,7 @@
   <swiper class="swiper" indicator-dots="{{building.img.length == 1 ? false : true}}" indicator-active-color="#fff" autoplay="1" interval="3000" duration="500">
     <block wx:for="{{building.img}}" wx:key="*this">
       <swiper-item>
-        <image class="swiper-image" src="{{imgCDN}}{{item  + '?imageView2/1/w/1024/h/576/q/100|imageslim'}}"> </image>
+        <image class="swiper-image" src="{{imgCDN}}{{item  + '?imageMogr2/thumbnail/1500x/format/webp/interlace/1/blur/1x0/quality/100|imageslim'}}"> </image>
       </swiper-item>
     </block>
   </swiper>
