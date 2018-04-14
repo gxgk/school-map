@@ -9,7 +9,7 @@ Page({
     tid: 0,
     bid: 0,
     building: {
-      img: ['/img/loading.svg']//加载中图片地址
+      img: []//加载中图片地址
     },
     imgCDN: app.imgCDN
   },
