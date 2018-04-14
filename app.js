@@ -110,6 +110,7 @@ App({
       success: function (res) {
         if (res.data.map && res.data.map.length > 0) {
           //存储数据，用于下次打开使用
+          console.log("updated network data")
           wx.setStorage({
             key: "map",
             data: res.data.map
