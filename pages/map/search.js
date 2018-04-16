@@ -10,7 +10,8 @@ Page({
     keyword: null,
     buildlData: app.globalData.map,
     showData: null,
-    cursor: 0
+    cursor: 0,
+    imgCDN: app.imgCDN
   },
 
   bindSearchInput: function (e) {

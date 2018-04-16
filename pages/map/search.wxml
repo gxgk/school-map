@@ -18,7 +18,7 @@
 
   <view style="height:100%; display: flex;">
     <navigator class="img" url='details?tid={{item.tid}}&bid={{item.bid}}'>
-      <image src="{{item.img[0]}}" mode="aspectFill"> </image>
+      <image src="{{imgCDN}}{{item.img[0]}}" mode="aspectFill"> </image>
       <view class="item">
         <view class="itemName">
           {{item.name}}
