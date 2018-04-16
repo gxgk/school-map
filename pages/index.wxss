@@ -26,7 +26,7 @@
 }
 
 .button text {
-  width: 60%;
+  width: 55%;
   align-self: center;
   text-align: center;
 }
