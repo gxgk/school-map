@@ -8,6 +8,11 @@
     </navigator>
   </view>
   <view class="copyright">
-    <text>©莞香广科\n{{mapCopyright?"数据版权："+mapCopyright:""}}</text>
+    <navigator url="web-views/web-views?url=www.gxgk.cc">
+      <text>©莞香广科</text>
+    </navigator>
+    <navigator url="web-views/web-views?url={{mapCopyright.url}}">
+      <text>{{mapCopyright?"数据版权："+mapCopyright.name:""}}</text>
+    </navigator>
   </view>
 </view>

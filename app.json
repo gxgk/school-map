@@ -4,7 +4,8 @@
     "pages/map/index",
     "pages/map/details",
     "pages/map/polyline",
-    "pages/map/search"
+    "pages/map/search",
+    "pages/web-views/web-views"
   ],
   "window": {
     "backgroundTextStyle": "light",
