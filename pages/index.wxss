@@ -19,7 +19,7 @@
   width: 145rpx;
   height: 145rpx;
   margin: 20px;
-  background-color: rgba(255, 224, 115, 0.9);
+  background-color: rgba(255, 69, 0, 0.9);
   border-radius: 80rpx;
   display: flex;
   justify-content: center;

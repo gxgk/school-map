@@ -5,7 +5,7 @@
   padding: 10px;
 }
 .top-swich {
-  background-color: #079df2;
+  background-color: #1296db;
   height:6vh;
   color: white;
   display: flex;
