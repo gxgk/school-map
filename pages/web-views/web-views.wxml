@@ -1,2 +1,2 @@
 <!--pages/web-views/web-views.wxml-->
-<web-view src="https://{{url}}"></web-view>
+<web-view src="http://www.hunaneu.com/">湖南涉外经济学院</web-view>

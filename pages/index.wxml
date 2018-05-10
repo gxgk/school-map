@@ -9,7 +9,7 @@
   </view>
   <view class="copyright">
     <navigator url="web-views/web-views?url=www.gxgk.cc">
-      <text>©莞香广科</text>
+      <text>©青春微澜</text>
     </navigator>
     <navigator url="web-views/web-views?url={{mapCopyright.url}}">
       <text>{{mapCopyright?"数据版权："+mapCopyright.name:""}}</text>
