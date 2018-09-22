@@ -11,7 +11,7 @@
 
 ---
 
-## 开源许可证 License AGPLv3
+## 开源许可证
  
 请认真阅读并遵守以下开源协议
 
@@ -73,7 +73,7 @@ module.exports.map = [{}]
 
 涵盖内容：广科小喵公众号，广科情报局，广科校园导览，莞香小喵，莞香客户端，校喵APP等等一系列莞香广科作品
 
-![二维码](https://user-images.githubusercontent.com/10618381/40058111-c0983958-5882-11e8-9b21-1eb1dc565cda.png =200x)
+<img src="https://user-images.githubusercontent.com/10618381/40058111-c0983958-5882-11e8-9b21-1eb1dc565cda.png" width="300" hegiht="300" align=center />
 
 ---
 
