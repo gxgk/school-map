@@ -15,15 +15,15 @@
  
 请认真阅读并遵守以下开源协议
 
-`AGPLv3` [GNU Affero General Public License v3.0](https://github.com/gxgk/map/blob/master/LICENSE)
+`MIT License` [License](https://github.com/gxgk/map/blob/master/LICENSE)
 
 欢迎 pull request and star
 
-该项目所有图片均有版权，禁止盗用，包含首页背景
+允许任何人对该项目进行变动
 
-请勿擅自修改首页底部版权信息
+同时欢迎各位校友参与到该项目(可新增关于界面加入参与贡献者名称)
 
-此外，代码仅作学习微信小程序所用，禁止私用，违者必究
+不过，该项目所有图片均有版权(学院宣传服务中心所有)，禁止盗用，包含首页背景
 
 ---
 
@@ -73,7 +73,7 @@ module.exports.map = [{}]
 
 涵盖内容：广科小喵公众号，广科情报局，广科校园导览，莞香小喵，莞香客户端，校喵APP等等一系列莞香广科作品
 
-![二维码](https://user-images.githubusercontent.com/10618381/40058111-c0983958-5882-11e8-9b21-1eb1dc565cda.png)
+![二维码](https://user-images.githubusercontent.com/10618381/40058111-c0983958-5882-11e8-9b21-1eb1dc565cda.png =200x)
 
 ---
 
