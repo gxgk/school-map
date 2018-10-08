@@ -1,6 +1,6 @@
 <map id="navi_map" longitude="{{longitude}}" latitude="{{latitude}}" 
 scale="14" markers="{{markers}}" polyline="{{polyline}}" include-points="{{markers}}"
-class="navi_map" show-location>
+class="navi_map" show-location enable-overlooking="true" enable-3D="true">
 
 <cover-view class="distance">{{distance}}</cover-view>
 </map>
