@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    url: 'www.gxgk.cc'
+    url: 'www.gxgk.cc' //给予默认值，防止ios初次加载报错
   },
 
   /**
