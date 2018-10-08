@@ -25,9 +25,18 @@ App({
 
   loadSchoolConf: function() {
     var _this = this
-    // 载入本地数据
-    _this.globalData.map = _this.school.map;
-    _this.globalData.introduce = _this.school.introduce;
+    var map = wx.getStorageSync('map')
+    var introduce = wx.getStorageSync('introduce')
+    if (map && introduce) {
+      _this.globalData.map = map;
+      _this.globalData.introduce = introduce;
+    }
+    else{
+      // 载入本地数据
+      _this.globalData.map = _this.school.map;
+      _this.globalData.introduce = _this.school.introduce;
+    }
+
 
     if (!this.debug) {
       // 加载网络数据
@@ -52,15 +61,6 @@ App({
               key: "introduce",
               data: res.data.introduce
             })
-          }
-        },
-        fail: function(info) {
-          // 请求失败从缓存加载数据
-          var map = wx.getStorageSync('map')
-          var introduce = wx.getStorageSync('introduce')
-          if (map && introduce) {
-            _this.globalData.map = map;
-            _this.globalData.introduce = introduce;
           }
         }
       })
