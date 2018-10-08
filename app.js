@@ -65,6 +65,12 @@ App({
         })
       }
     }
+    //渲染id
+    for (let i = 0; i < _this.globalData.map.length; i++) {
+      for (let b = 0; b < _this.globalData.map[i].data.length; b++) {
+        _this.globalData.map[i].data[b].id = b + 1;
+      }
+    }
   },
   debug: config.debug, //开启后只调用本地数据
   imgCDN: config.imgCDN,

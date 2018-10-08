@@ -6,8 +6,16 @@
       </label>
     </view>
   </scroll-view>
-  <map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{buildlData[isSelectedBuildType].scale}}" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" include-points="{{buildlData[isSelectedBuildType].data}}"
-    show-location="{{islocation? 'true': 'false'}}" controls="{{controls}}" enable-overlooking="true" enable-3D="true" style="width: auto; height:{{fullscreen ? 94 : 48}}vh;">
+  <map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{buildlData[isSelectedBuildType].scale}}" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" include-points="{{buildlData[isSelectedBuildType].data}}"
+    show-location="{{islocation? 'true': 'false'}}" subkey="VZKBZ-4CZWU-FOLVJ-2GQDF-AALEE-ASBR4" enable-overlooking="true" enable-3D="true" style="width: auto; height:{{fullscreen ? 94 : 48}}vh;">
+    <cover-view class="controls">
+      <cover-view bindtap="navigateSearch">
+        <cover-image class="img" src="/img/search.png" />
+      </cover-view>
+      <cover-view bindtap="location">
+        <cover-image class="img" src="/img/location.png" />
+      </cover-view>
+    </cover-view>
   </map>
   <button bindtap="clickButton">
     共有{{buildlData[isSelectedBuildType].data.length}}个景观 ◕‿◕

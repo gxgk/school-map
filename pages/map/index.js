@@ -10,7 +10,6 @@ Page({
     windowWidth: "",
     isSelectedBuild: 0,
     isSelectedBuildType: 0,
-    controls: [],
     imgCDN: app.imgCDN,
     islocation: true
   },
@@ -26,7 +25,6 @@ Page({
           windowHeight: res.windowHeight,
           windowWidth: res.windowWidth,
         })
-        _this.setControls(res.windowWidth, res.windowHeight / 2)
         console.log(res.windowWidth)
       }
     })
@@ -52,26 +50,20 @@ Page({
     }
   },
   regionchange(e) {
-    console.log(e.type)
+    // 视野变化
+    // console.log(e.type)
   },
   markertap(e) {
     // 选中 其对应的框
     this.setData({
       isSelectedBuild: e.markerId
     })
-
-    console.log("e.markerId", e.markerId)
+    // console.log("e.markerId", e.markerId)
   },
-  controltap(e) {
-    if (e.controlId == -1) {
-      wx.navigateTo({
-        url: 'search'
-      })
-    } else if (e.controlId == -2) {
-      this.location()
-    } else {
-      console.log("e.controlId", e.controlId)
-    }
+  navigateSearch() {
+    wx.navigateTo({
+      url: 'search'
+    })
   },
   location: function () {
     var _this = this
@@ -91,44 +83,11 @@ Page({
     //console.log(this.data.fullscreen)
     //打印所有关于点击对象的信息
     this.setData({ fullscreen: !this.data.fullscreen })
-    if (this.data.fullscreen) {
-      this.setControls(this.data.windowWidth, this.data.windowHeight - 25)
-    } else {
-      this.setControls(this.data.windowWidth, this.data.windowHeight / 2)
-    }
   },
   changePage: function (event) {
     this.setData({
       isSelectedBuildType: event.currentTarget.id,
       isSelectedBuild: 0
     });
-
-  },
-  // 修改控键位置
-  setControls: function (width, height) {
-    this.setData({
-      controls: [{
-        id: -1,
-        iconPath: '/img/search.png',
-        position: {
-          left: width - 50,
-          top: height - 110,
-          width: 40,
-          height: 40
-        },
-        clickable: true
-      }, {
-        id: -2,
-        iconPath: '/img/location.png',
-        position: {
-          left: width - 50,
-          top: height - 65,
-          width: 40,
-          height: 40
-        },
-        clickable: true
-      }]
-    })
-
   }
 })
