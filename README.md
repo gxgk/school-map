@@ -67,15 +67,6 @@ module.exports.map = [{}]
 地图经纬度获取：http://lbs.qq.com/tool/getpoint/index.html
 ``` 
 ---
-## 寻求帮助
-
-欢迎加入莞香广科的知识星球，我们将尽所能回答各位的问题：
-
-涵盖内容：广科小喵公众号，广科情报局，广科校园导览，莞香小喵，莞香客户端，校喵APP等等一系列莞香广科作品
-
-<img src="https://user-images.githubusercontent.com/10618381/40058111-c0983958-5882-11e8-9b21-1eb1dc565cda.png" width="300" hegiht="300" align=center />
-
----
 
 
 > @ 广东科技学院 - 莞香广科团队 http://www.gxgk.cc
