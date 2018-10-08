@@ -30,40 +30,41 @@ App({
     _this.globalData.introduce = _this.school.introduce;
 
     if (!this.debug) {
-      var map = wx.getStorageSync('map')
-      var introduce = wx.getStorageSync('introduce')
-      if (map && introduce) {
-        // 从缓存加载数据
-        _this.globalData.map = map;
-        _this.globalData.introduce = introduce;
-      } 
-      else {
-        // 加载网络数据
-        wx.request({
-          url: config.updateUrl,
-          header: {
-            'content-type': 'application/json'
-          },
-          success: function(res) {
-            console.log("加载远程数据")
-            if (res.data.map && res.data.map.length > 0) {
-              //刷新数据
-              _this.globalData.map = res.data.map;
-              _this.globalData.introduce = res.data.introduce;
+      // 加载网络数据
+      wx.request({
+        url: config.updateUrl,
+        header: {
+          'content-type': 'application/json'
+        },
+        success: function(res) {
+          console.log("加载远程数据")
+          if (res.data.map && res.data.map.length > 0) {
+            //刷新数据
+            _this.globalData.map = res.data.map;
+            _this.globalData.introduce = res.data.introduce;
 
-              // 存储学校位置数据于缓存中
-              wx.setStorage({
-                key: "map",
-                data: res.data.map
-              })
-              wx.setStorage({
-                key: "introduce",
-                data: res.data.introduce
-              })
-            }
+            // 存储学校位置数据于缓存中
+            wx.setStorage({
+              key: "map",
+              data: res.data.map
+            })
+            wx.setStorage({
+              key: "introduce",
+              data: res.data.introduce
+            })
           }
-        })
-      }
+        },
+        fail: function(info) {
+          // 请求失败从缓存加载数据
+          var map = wx.getStorageSync('map')
+          var introduce = wx.getStorageSync('introduce')
+          if (map && introduce) {
+            _this.globalData.map = map;
+            _this.globalData.introduce = introduce;
+          }
+        }
+      })
+
     }
     //渲染id
     for (let i = 0; i < _this.globalData.map.length; i++) {
