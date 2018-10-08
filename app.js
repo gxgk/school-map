@@ -51,7 +51,7 @@ App({
               _this.globalData.map = res.data.map;
               _this.globalData.introduce = res.data.introduce;
 
-              // 存储学校位置数据与缓存中
+              // 存储学校位置数据于缓存中
               wx.setStorage({
                 key: "map",
                 data: res.data.map
