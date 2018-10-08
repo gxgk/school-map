@@ -8,7 +8,7 @@
   </scroll-view>
   <map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{buildlData[isSelectedBuildType].scale}}" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" include-points="{{buildlData[isSelectedBuildType].data}}"
     show-location="{{islocation? 'true': 'false'}}" enable-overlooking="true" enable-3D="true" style="width: auto; height:{{fullscreen ? 94 : 48}}vh;">
-    <cover-view class="controls">
+    <cover-view class="controls {{fullscreen ? 'full' : ''}}">
       <cover-view bindtap="navigateSearch">
         <cover-image class="img" src="/img/search.png" />
       </cover-view>

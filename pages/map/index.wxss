@@ -90,6 +90,10 @@ button {
   /* display: flex; */
 }
 
+.full {
+  top: 82%;
+}
+
 .controls .img {
   margin-top: 5px;
   width: 80rpx;
