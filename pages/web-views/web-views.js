@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    url: ''
+    url: 'www.gxgk.cc'
   },
 
   /**
@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      url: options.url
+      url: encodeURI(options.url)
     })
   },
 
