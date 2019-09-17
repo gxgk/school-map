@@ -8,7 +8,7 @@
     </navigator>
   </view>
   <view class="copyright">
-    <navigator url="web-views/web-views?url=www.gxgk.cc">
+    <navigator target="miniProgram" app-id="wx8afedfde046e5916">
       <text>© 莞香广科</text>
     </navigator>
     <navigator url="web-views/web-views?url={{mapCopyright.url}}">

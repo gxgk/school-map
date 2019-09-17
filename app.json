@@ -12,5 +12,9 @@
     "navigationBarBackgroundColor": "#079df2",
     "navigationBarTitleText": "校园导览",
     "navigationBarTextStyle": "white"
-  }
+  },
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": [
+    "wx8afedfde046e5916"
+  ]
 }
