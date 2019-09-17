@@ -55,18 +55,6 @@ module.exports.map = [{}]
 地图经纬度获取：http://lbs.qq.com/tool/getpoint/index.html
 ``` 
 
-4、在`app.json`中添加定位权限   [微信要求在app.json中添加位置相关权限声明](https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/app.html#permission)
-
-```
-{
-  "permission": {
-    "scope.userLocation": {
-      "desc": "位置信息用于路线规划"
-    }
-  }
-}
-```
-
 ---
 
 ## 📒开源许可证
