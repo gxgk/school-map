@@ -7,6 +7,11 @@
     "pages/map/search",
     "pages/web-views/web-views"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于辅助规划路线"
+    }
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#079df2",
